@@ -140,7 +140,13 @@
         <div class="update-sub">6:00 AM CST</div>
       </div>
     </div>
-    <div class="countdown" id="countdown">—</div>
+    <div style="display:flex;align-items:center;gap:2rem;">
+      <div style="text-align:right;">
+        <div class="update-label" style="font-size:0.78rem;color:var(--muted)">Last successful run</div>
+        <div class="update-sub" id="lastRun">—</div>
+      </div>
+      <div class="countdown" id="countdown">—</div>
+    </div>
   </div>
 </div>
 
@@ -286,6 +292,29 @@
 
       const { today, yesterday, indices = {} } = data;
       _data = data;
+
+      // Populate last successful run timestamp
+      if (data.generated_at) {
+        const runDate = new Date(data.generated_at);
+        const runStr = runDate.toLocaleString('en-US', {
+          timeZone: 'America/Chicago',
+          month: 'short', day: 'numeric',
+          hour: '2-digit', minute: '2-digit',
+          timeZoneName: 'short'
+        });
+        document.getElementById('lastRun').textContent = runStr;
+      }
+
+      // Show last successful run time
+      if (data.generated_at) {
+        const runDate = new Date(data.generated_at);
+        const runStr = runDate.toLocaleString('en-US', {
+          month: 'short', day: 'numeric', year: 'numeric',
+          hour: '2-digit', minute: '2-digit',
+          timeZone: 'America/Chicago', timeZoneName: 'short'
+        });
+        document.getElementById('lastRun').textContent = runStr;
+      }
 
       // Update hero summary with AI market insight
       if (today.market_summary) {
