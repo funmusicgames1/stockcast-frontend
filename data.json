@@ -2,7 +2,7 @@
   "generated_at": "2026-02-25T06:00:00-06:00",
   "today": {
     "date": "2026-02-25",
-    "market_summary": "Markets face heavy selling pressure from Trump tariff escalation and AI sector rotation fears.",
+    "market_summary": "Markets face heavy selling pressure from Trump tariff escalation and AI valuation concerns hitting tech hardest.",
     "winners": [
       {
         "rank": 1,
@@ -10,63 +10,63 @@
         "company": "Advanced Micro Devices",
         "sector": "Technology",
         "predicted_change_pct": 3.5,
-        "reason": "Strong momentum continuation, massive volume spike"
+        "reason": "Momentum continuation from 8.8% surge"
       },
       {
         "rank": 2,
-        "ticker": "XOM",
-        "company": "Exxon Mobil Corporation",
-        "sector": "Energy",
-        "predicted_change_pct": 2.1,
-        "reason": "Goldman hikes oil price forecast"
-      },
-      {
-        "rank": 3,
-        "ticker": "CVX",
-        "company": "Chevron Corporation",
-        "sector": "Energy",
-        "predicted_change_pct": 1.8,
-        "reason": "Oil price upgrade, strong monthly trend"
-      },
-      {
-        "rank": 4,
-        "ticker": "OXY",
-        "company": "Occidental Petroleum",
-        "sector": "Energy",
-        "predicted_change_pct": 1.7,
-        "reason": "Oil rally, strong weekly momentum"
-      },
-      {
-        "rank": 5,
-        "ticker": "JNJ",
-        "company": "Johnson & Johnson",
-        "sector": "Healthcare",
-        "predicted_change_pct": 1.2,
-        "reason": "Defensive safe haven, low volatility"
-      },
-      {
-        "rank": 6,
-        "ticker": "O",
-        "company": "Realty Income Corporation",
-        "sector": "Real Estate",
-        "predicted_change_pct": 1.0,
-        "reason": "High momentum defensive REIT play"
-      },
-      {
-        "rank": 7,
         "ticker": "MRNA",
         "company": "Moderna Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": 0.9,
-        "reason": "Strong weekly surge, top momentum score"
+        "predicted_change_pct": 2.8,
+        "reason": "Strong momentum, defensive rotation play"
       },
       {
-        "rank": 8,
+        "rank": 3,
+        "ticker": "JNJ",
+        "company": "Johnson & Johnson",
+        "sector": "Healthcare",
+        "predicted_change_pct": 1.5,
+        "reason": "Safe haven defensive with low volatility"
+      },
+      {
+        "rank": 4,
+        "ticker": "O",
+        "company": "Realty Income Corporation",
+        "sector": "Real Estate",
+        "predicted_change_pct": 1.2,
+        "reason": "High momentum defensive REIT haven"
+      },
+      {
+        "rank": 5,
         "ticker": "VZ",
         "company": "Verizon Communications",
         "sector": "Telecommunications",
+        "predicted_change_pct": 1.1,
+        "reason": "Strong monthly momentum, tariff immune"
+      },
+      {
+        "rank": 6,
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corporation",
+        "sector": "Energy",
+        "predicted_change_pct": 1.0,
+        "reason": "Goldman hikes oil price forecast"
+      },
+      {
+        "rank": 7,
+        "ticker": "CVX",
+        "company": "Chevron Corporation",
+        "sector": "Energy",
+        "predicted_change_pct": 0.9,
+        "reason": "Oil price catalyst, strong monthly trend"
+      },
+      {
+        "rank": 8,
+        "ticker": "AMT",
+        "company": "American Tower Corporation",
+        "sector": "Real Estate",
         "predicted_change_pct": 0.8,
-        "reason": "Defensive telecom, strong monthly momentum"
+        "reason": "High momentum score, defensive sector"
       },
       {
         "rank": 9,
@@ -74,15 +74,15 @@
         "company": "McDonald's Corporation",
         "sector": "Consumer Defensive",
         "predicted_change_pct": 0.7,
-        "reason": "Defensive consumer staple, low volatility"
+        "reason": "Low volatility consumer defensive play"
       },
       {
         "rank": 10,
-        "ticker": "SLB",
-        "company": "Schlumberger Limited",
+        "ticker": "OXY",
+        "company": "Occidental Petroleum",
         "sector": "Energy",
         "predicted_change_pct": 0.6,
-        "reason": "Energy sector tailwind, oil upgrade"
+        "reason": "Oil price boost, strong weekly gain"
       }
     ],
     "losers": [
@@ -92,7 +92,7 @@
         "company": "Datadog Inc",
         "sector": "Technology",
         "predicted_change_pct": -4.2,
-        "reason": "AI loser fears, severe weekly selloff"
+        "reason": "AI loser selloff, heavy weekly losses"
       },
       {
         "rank": 2,
@@ -100,7 +100,7 @@
         "company": "Cloudflare Inc",
         "sector": "Technology",
         "predicted_change_pct": -3.8,
-        "reason": "Tech selloff, sharp weekly decline continues"
+        "reason": "Tech dumping continues, high volatility"
       },
       {
         "rank": 3,
@@ -108,7 +108,7 @@
         "company": "Snowflake Inc",
         "sector": "Technology",
         "predicted_change_pct": -3.5,
-        "reason": "AI anxiety punishes cloud software stocks"
+        "reason": "AI anxiety selloff, elevated volume"
       },
       {
         "rank": 4,
@@ -116,7 +116,7 @@
         "company": "Palantir Technologies",
         "sector": "Technology",
         "predicted_change_pct": -3.2,
-        "reason": "AI valuation fears, weak monthly trend"
+        "reason": "AI valuation concern, steep monthly decline"
       },
       {
         "rank": 5,
@@ -124,7 +124,7 @@
         "company": "UnitedHealth Group",
         "sector": "Healthcare",
         "predicted_change_pct": -2.8,
-        "reason": "Continued steep decline, heavy selling pressure"
+        "reason": "Severe downtrend accelerating, high volatility"
       },
       {
         "rank": 6,
@@ -132,7 +132,7 @@
         "company": "Microsoft Corporation",
         "sector": "Technology",
         "predicted_change_pct": -2.5,
-        "reason": "AI loser rotation, weak momentum score"
+        "reason": "AI loser fears, tariff pressure"
       },
       {
         "rank": 7,
@@ -140,7 +140,7 @@
         "company": "CVS Health Corporation",
         "sector": "Healthcare",
         "predicted_change_pct": -2.3,
-        "reason": "Bearish momentum, elevated volume selling"
+        "reason": "Downtrend momentum, elevated selling volume"
       },
       {
         "rank": 8,
@@ -148,7 +148,7 @@
         "company": "Salesforce Inc",
         "sector": "Technology",
         "predicted_change_pct": -2.1,
-        "reason": "AI anxiety hits enterprise software hard"
+        "reason": "AI anxiety hitting enterprise tech"
       },
       {
         "rank": 9,
@@ -164,7 +164,7 @@
         "company": "American Express Company",
         "sector": "Finance",
         "predicted_change_pct": -1.8,
-        "reason": "High volume selloff, tariff consumer fears"
+        "reason": "Consumer weakness, extreme volume spike"
       }
     ]
   },
