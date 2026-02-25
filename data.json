@@ -10,7 +10,7 @@
         "company": "Cassava Sciences Inc",
         "sector": "Healthcare",
         "predicted_change_pct": 8.5,
-        "reason": "Massive momentum and volume surge"
+        "reason": "Extreme momentum and volume surge"
       },
       {
         "rank": 2,
@@ -18,23 +18,23 @@
         "company": "Beam Therapeutics Inc",
         "sector": "Healthcare",
         "predicted_change_pct": 6.2,
-        "reason": "Strong biotech rally momentum continuing"
+        "reason": "Biotech rally with high volume"
       },
       {
         "rank": 3,
         "ticker": "EDIT",
         "company": "Editas Medicine Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": 5.5,
-        "reason": "Gene editing sector sympathy rally"
+        "predicted_change_pct": 5.8,
+        "reason": "Gene editing sector momentum continues"
       },
       {
         "rank": 4,
         "ticker": "BBBY",
         "company": "Bed Bath & Beyond Inc",
         "sector": "Consumer Discretionary",
-        "predicted_change_pct": 5.0,
-        "reason": "Meme stock volume spike breakout"
+        "predicted_change_pct": 5.1,
+        "reason": "Meme stock volume spike continuing"
       },
       {
         "rank": 5,
@@ -42,23 +42,23 @@
         "company": "Cipher Mining Inc",
         "sector": "Crypto Mining",
         "predicted_change_pct": 4.8,
-        "reason": "Bitcoin rally catalyst strong momentum"
+        "reason": "Bitcoin recovery rally catalyst strong"
       },
       {
         "rank": 6,
-        "ticker": "HUT",
-        "company": "Hut 8 Corp",
-        "sector": "Crypto Mining",
-        "predicted_change_pct": 4.5,
-        "reason": "Bitcoin rebound and volume surge"
-      },
-      {
-        "rank": 7,
         "ticker": "PYPL",
         "company": "PayPal Holdings Inc",
         "sector": "Fintech",
-        "predicted_change_pct": 3.8,
-        "reason": "Strong weekly momentum high volume"
+        "predicted_change_pct": 3.9,
+        "reason": "Strong weekly momentum volume surge"
+      },
+      {
+        "rank": 7,
+        "ticker": "HUT",
+        "company": "Hut 8 Corp",
+        "sector": "Crypto Mining",
+        "predicted_change_pct": 3.7,
+        "reason": "Bitcoin bounce with elevated volume"
       },
       {
         "rank": 8,
@@ -66,23 +66,23 @@
         "company": "Advanced Micro Devices Inc",
         "sector": "Semiconductors",
         "predicted_change_pct": 3.5,
-        "reason": "Semis rebound elevated volume continues"
+        "reason": "Chip bounce high volume continuation"
       },
       {
         "rank": 9,
-        "ticker": "ETSY",
-        "company": "Etsy Inc",
-        "sector": "E-Commerce",
-        "predicted_change_pct": 3.2,
-        "reason": "Strong weekly breakout trend continuation"
-      },
-      {
-        "rank": 10,
         "ticker": "DOCN",
         "company": "DigitalOcean Holdings Inc",
         "sector": "Technology",
-        "predicted_change_pct": 3.0,
-        "reason": "Volume spike technical bounce pattern"
+        "predicted_change_pct": 3.2,
+        "reason": "Volume spike with oversold bounce"
+      },
+      {
+        "rank": 10,
+        "ticker": "ETSY",
+        "company": "Etsy Inc",
+        "sector": "Consumer Discretionary",
+        "predicted_change_pct": 2.9,
+        "reason": "Strong weekly momentum breakout continuing"
       }
     ],
     "losers": [
@@ -91,15 +91,15 @@
         "ticker": "PANW",
         "company": "Palo Alto Networks Inc",
         "sector": "Cybersecurity",
-        "predicted_change_pct": -3.5,
-        "reason": "Weakest momentum heavy selling pressure"
+        "predicted_change_pct": -3.8,
+        "reason": "Lowest momentum heavy selling pressure"
       },
       {
         "rank": 2,
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings Inc",
         "sector": "Cybersecurity",
-        "predicted_change_pct": -3.2,
+        "predicted_change_pct": -3.5,
         "reason": "Cybersecurity selloff high volume continues"
       },
       {
@@ -107,64 +107,64 @@
         "ticker": "HUM",
         "company": "Humana Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": -2.8,
-        "reason": "Severe downtrend healthcare sector weakness"
+        "predicted_change_pct": -3.2,
+        "reason": "Steep downtrend healthcare weakness persists"
       },
       {
         "rank": 4,
+        "ticker": "UNH",
+        "company": "UnitedHealth Group Inc",
+        "sector": "Healthcare",
+        "predicted_change_pct": -2.8,
+        "reason": "Health insurer selloff tariff concerns"
+      },
+      {
+        "rank": 5,
         "ticker": "DDOG",
         "company": "Datadog Inc",
         "sector": "Technology",
         "predicted_change_pct": -2.6,
-        "reason": "Cloud software selloff AI concerns"
-      },
-      {
-        "rank": 5,
-        "ticker": "UNH",
-        "company": "UnitedHealth Group Inc",
-        "sector": "Healthcare",
-        "predicted_change_pct": -2.4,
-        "reason": "Continued healthcare managed care decline"
+        "reason": "SaaS weakness AI anxiety continues"
       },
       {
         "rank": 6,
         "ticker": "WDAY",
         "company": "Workday Inc",
-        "sector": "Enterprise Software",
-        "predicted_change_pct": -2.3,
-        "reason": "Heavy volume breakdown enterprise software"
+        "sector": "Technology",
+        "predicted_change_pct": -2.5,
+        "reason": "Enterprise software selloff elevated volume"
       },
       {
         "rank": 7,
         "ticker": "CVS",
         "company": "CVS Health Corp",
         "sector": "Healthcare",
-        "predicted_change_pct": -2.1,
-        "reason": "Negative momentum healthcare selling pressure"
+        "predicted_change_pct": -2.3,
+        "reason": "Healthcare sector broad negative momentum"
       },
       {
         "rank": 8,
         "ticker": "MSFT",
-        "company": "Microsoft Corp",
+        "company": "Microsoft Corporation",
         "sector": "Technology",
-        "predicted_change_pct": -1.8,
-        "reason": "AI anxiety tariff pressure continues"
+        "predicted_change_pct": -2.0,
+        "reason": "AI anxiety tariff overhang pressures"
       },
       {
         "rank": 9,
         "ticker": "TEAM",
-        "company": "Atlassian Corp",
+        "company": "Atlassian Corporation",
         "sector": "Technology",
-        "predicted_change_pct": -1.7,
-        "reason": "Severe monthly decline still selling"
+        "predicted_change_pct": -1.9,
+        "reason": "Severe downtrend enterprise software weakness"
       },
       {
         "rank": 10,
         "ticker": "PLTR",
         "company": "Palantir Technologies Inc",
         "sector": "Technology",
-        "predicted_change_pct": -1.6,
-        "reason": "AI valuation concerns tariff headwinds"
+        "predicted_change_pct": -1.8,
+        "reason": "AI valuation concern selling continues"
       }
     ]
   },
@@ -179,9 +179,9 @@
         "company": "Moderna Inc",
         "predicted_change_pct": 3.8,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 31,
-        "outcome": "miss"
+        "actual_change_pct": 4.91,
+        "accuracy_score": 89,
+        "outcome": "beat"
       },
       {
         "rank": 2,
@@ -191,8 +191,8 @@
         "company": "Occidental Petroleum",
         "predicted_change_pct": 2.5,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 38,
+        "actual_change_pct": -1.06,
+        "accuracy_score": 32,
         "outcome": "miss"
       },
       {
@@ -203,9 +203,9 @@
         "company": "Exxon Mobil Corporation",
         "predicted_change_pct": 1.8,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 41,
-        "outcome": "miss"
+        "actual_change_pct": 0.44,
+        "accuracy_score": 86,
+        "outcome": "close"
       },
       {
         "rank": 4,
@@ -215,9 +215,9 @@
         "company": "Johnson & Johnson",
         "predicted_change_pct": 1.5,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 42,
-        "outcome": "miss"
+        "actual_change_pct": 0.22,
+        "accuracy_score": 87,
+        "outcome": "close"
       },
       {
         "rank": 5,
@@ -227,8 +227,8 @@
         "company": "Verizon Communications",
         "predicted_change_pct": 1.3,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 44,
+        "actual_change_pct": -0.24,
+        "accuracy_score": 42,
         "outcome": "miss"
       },
       {
@@ -239,8 +239,8 @@
         "company": "Chevron Corporation",
         "predicted_change_pct": 1.2,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 44,
+        "actual_change_pct": -0.16,
+        "accuracy_score": 43,
         "outcome": "miss"
       },
       {
@@ -251,9 +251,9 @@
         "company": "Abbott Laboratories",
         "predicted_change_pct": 1.1,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 44,
-        "outcome": "miss"
+        "actual_change_pct": 0.73,
+        "accuracy_score": 96,
+        "outcome": "close"
       },
       {
         "rank": 8,
@@ -263,8 +263,8 @@
         "company": "AT&T Inc",
         "predicted_change_pct": 1.0,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 45,
+        "actual_change_pct": -0.53,
+        "accuracy_score": 42,
         "outcome": "miss"
       },
       {
@@ -275,8 +275,8 @@
         "company": "Realty Income Corporation",
         "predicted_change_pct": 0.8,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 46,
+        "actual_change_pct": -1.1,
+        "accuracy_score": 40,
         "outcome": "miss"
       },
       {
@@ -287,8 +287,8 @@
         "company": "McDonald's Corporation",
         "predicted_change_pct": 0.7,
         "prediction_type": "winner",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 46,
+        "actual_change_pct": -0.32,
+        "accuracy_score": 45,
         "outcome": "miss"
       }
     ],
@@ -301,8 +301,8 @@
         "company": "Datadog Inc",
         "predicted_change_pct": -7.5,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 12,
+        "actual_change_pct": 0.92,
+        "accuracy_score": 8,
         "outcome": "miss"
       },
       {
@@ -313,9 +313,9 @@
         "company": "Cloudflare Inc",
         "predicted_change_pct": -6.2,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 19,
-        "outcome": "miss"
+        "actual_change_pct": -0.35,
+        "accuracy_score": 50,
+        "outcome": "close"
       },
       {
         "rank": 3,
@@ -325,8 +325,8 @@
         "company": "Snowflake Inc",
         "predicted_change_pct": -5.8,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 21,
+        "actual_change_pct": 0.56,
+        "accuracy_score": 18,
         "outcome": "miss"
       },
       {
@@ -337,8 +337,8 @@
         "company": "Mastercard Inc",
         "predicted_change_pct": -3.5,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 32,
+        "actual_change_pct": 2.17,
+        "accuracy_score": 22,
         "outcome": "miss"
       },
       {
@@ -349,8 +349,8 @@
         "company": "American Express Company",
         "predicted_change_pct": -3.2,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 34,
+        "actual_change_pct": 1.25,
+        "accuracy_score": 28,
         "outcome": "miss"
       },
       {
@@ -361,9 +361,9 @@
         "company": "Salesforce Inc",
         "predicted_change_pct": -3.0,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 35,
-        "outcome": "miss"
+        "actual_change_pct": -0.35,
+        "accuracy_score": 74,
+        "outcome": "close"
       },
       {
         "rank": 7,
@@ -373,8 +373,8 @@
         "company": "Palantir Technologies",
         "predicted_change_pct": -2.8,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 36,
+        "actual_change_pct": 0.64,
+        "accuracy_score": 33,
         "outcome": "miss"
       },
       {
@@ -385,8 +385,8 @@
         "company": "Microsoft Corporation",
         "predicted_change_pct": -2.5,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 38,
+        "actual_change_pct": 1.0,
+        "accuracy_score": 32,
         "outcome": "miss"
       },
       {
@@ -397,8 +397,8 @@
         "company": "Morgan Stanley",
         "predicted_change_pct": -2.4,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 38,
+        "actual_change_pct": 1.17,
+        "accuracy_score": 32,
         "outcome": "miss"
       },
       {
@@ -409,8 +409,8 @@
         "company": "Visa Inc",
         "predicted_change_pct": -2.2,
         "prediction_type": "loser",
-        "actual_change_pct": 0.0,
-        "accuracy_score": 39,
+        "actual_change_pct": 1.98,
+        "accuracy_score": 29,
         "outcome": "miss"
       }
     ],
@@ -418,18 +418,18 @@
   },
   "indices": {
     "sp500": {
-      "value": 6890.07,
-      "change_pct": 0.77,
+      "value": 6927.17,
+      "change_pct": 0.54,
       "direction": "up"
     },
     "nasdaq": {
-      "value": 22863.68,
-      "change_pct": 1.04,
+      "value": 23025.53,
+      "change_pct": 0.71,
       "direction": "up"
     },
     "dow": {
-      "value": 49174.5,
-      "change_pct": 0.76,
+      "value": 49388.14,
+      "change_pct": 0.43,
       "direction": "up"
     }
   },
