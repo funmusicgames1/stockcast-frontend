@@ -2,7 +2,7 @@
   "generated_at": "2026-02-25T06:00:00-06:00",
   "today": {
     "date": "2026-02-25",
-    "market_summary": "Markets face heavy selling pressure from Trump tariff escalation and AI sector rotation fears.",
+    "market_summary": "Markets attempt recovery after tariff-driven selloff with elevated volatility and sector rotation into defensives.",
     "winners": [
       {
         "rank": 1,
@@ -10,7 +10,7 @@
         "company": "Cassava Sciences Inc",
         "sector": "Healthcare",
         "predicted_change_pct": 8.5,
-        "reason": "Strong momentum and volume surge"
+        "reason": "Massive momentum and volume surge"
       },
       {
         "rank": 2,
@@ -18,71 +18,71 @@
         "company": "Beam Therapeutics Inc",
         "sector": "Healthcare",
         "predicted_change_pct": 6.2,
-        "reason": "Biotech momentum with heavy volume"
+        "reason": "Strong biotech rally momentum continuing"
       },
       {
         "rank": 3,
         "ticker": "EDIT",
         "company": "Editas Medicine Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": 5.1,
-        "reason": "Gene editing rally continuing strongly"
+        "predicted_change_pct": 5.5,
+        "reason": "Gene editing sector sympathy rally"
       },
       {
         "rank": 4,
         "ticker": "BBBY",
         "company": "Bed Bath & Beyond Inc",
         "sector": "Consumer Discretionary",
-        "predicted_change_pct": 4.8,
-        "reason": "Meme stock volume spike continuing"
+        "predicted_change_pct": 5.0,
+        "reason": "Meme stock volume spike breakout"
       },
       {
         "rank": 5,
-        "ticker": "PYPL",
-        "company": "PayPal Holdings Inc",
-        "sector": "Finance",
-        "predicted_change_pct": 3.5,
-        "reason": "Strong weekly momentum high volume"
-      },
-      {
-        "rank": 6,
-        "ticker": "MRNA",
-        "company": "Moderna Inc",
-        "sector": "Healthcare",
-        "predicted_change_pct": 3.2,
-        "reason": "Defensive biotech with strong momentum"
-      },
-      {
-        "rank": 7,
         "ticker": "CIFR",
         "company": "Cipher Mining Inc",
         "sector": "Crypto Mining",
-        "predicted_change_pct": 3.0,
-        "reason": "Bitcoin rally catalyst high volume"
+        "predicted_change_pct": 4.8,
+        "reason": "Bitcoin rally catalyst strong momentum"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "ticker": "HUT",
         "company": "Hut 8 Corp",
         "sector": "Crypto Mining",
-        "predicted_change_pct": 2.8,
-        "reason": "Crypto mining momentum volume surge"
+        "predicted_change_pct": 4.5,
+        "reason": "Bitcoin rebound and volume surge"
+      },
+      {
+        "rank": 7,
+        "ticker": "PYPL",
+        "company": "PayPal Holdings Inc",
+        "sector": "Fintech",
+        "predicted_change_pct": 3.8,
+        "reason": "Strong weekly momentum high volume"
+      },
+      {
+        "rank": 8,
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices Inc",
+        "sector": "Semiconductors",
+        "predicted_change_pct": 3.5,
+        "reason": "Semis rebound elevated volume continues"
       },
       {
         "rank": 9,
-        "ticker": "PEP",
-        "company": "PepsiCo Inc",
-        "sector": "Consumer Staples",
-        "predicted_change_pct": 1.8,
-        "reason": "Defensive rotation amid tariff fears"
+        "ticker": "ETSY",
+        "company": "Etsy Inc",
+        "sector": "E-Commerce",
+        "predicted_change_pct": 3.2,
+        "reason": "Strong weekly breakout trend continuation"
       },
       {
         "rank": 10,
-        "ticker": "KO",
-        "company": "Coca-Cola Company",
-        "sector": "Consumer Staples",
-        "predicted_change_pct": 1.5,
-        "reason": "Safe haven consumer staples bid"
+        "ticker": "DOCN",
+        "company": "DigitalOcean Holdings Inc",
+        "sector": "Technology",
+        "predicted_change_pct": 3.0,
+        "reason": "Volume spike technical bounce pattern"
       }
     ],
     "losers": [
@@ -90,81 +90,81 @@
         "rank": 1,
         "ticker": "PANW",
         "company": "Palo Alto Networks Inc",
-        "sector": "Technology",
-        "predicted_change_pct": -4.5,
-        "reason": "Tech selloff lowest momentum score"
+        "sector": "Cybersecurity",
+        "predicted_change_pct": -3.5,
+        "reason": "Weakest momentum heavy selling pressure"
       },
       {
         "rank": 2,
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings Inc",
-        "sector": "Technology",
-        "predicted_change_pct": -4.2,
-        "reason": "Cybersecurity dumped high volume selling"
+        "sector": "Cybersecurity",
+        "predicted_change_pct": -3.2,
+        "reason": "Cybersecurity selloff high volume continues"
       },
       {
         "rank": 3,
-        "ticker": "DDOG",
-        "company": "Datadog Inc",
-        "sector": "Technology",
-        "predicted_change_pct": -3.8,
-        "reason": "AI loser fears accelerating selloff"
-      },
-      {
-        "rank": 4,
-        "ticker": "WDAY",
-        "company": "Workday Inc",
-        "sector": "Technology",
-        "predicted_change_pct": -3.5,
-        "reason": "Enterprise software rout high volume"
-      },
-      {
-        "rank": 5,
-        "ticker": "MSFT",
-        "company": "Microsoft Corporation",
-        "sector": "Technology",
-        "predicted_change_pct": -3.2,
-        "reason": "AI anxiety tariff pressure combined"
-      },
-      {
-        "rank": 6,
-        "ticker": "SNOW",
-        "company": "Snowflake Inc",
-        "sector": "Technology",
-        "predicted_change_pct": -3.0,
-        "reason": "Cloud selloff continuing heavy volume"
-      },
-      {
-        "rank": 7,
-        "ticker": "NET",
-        "company": "Cloudflare Inc",
-        "sector": "Technology",
-        "predicted_change_pct": -2.8,
-        "reason": "Tech sector dump sharp weekly decline"
-      },
-      {
-        "rank": 8,
         "ticker": "HUM",
         "company": "Humana Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": -2.7,
-        "reason": "Healthcare insurer freefall continues accelerating"
+        "predicted_change_pct": -2.8,
+        "reason": "Severe downtrend healthcare sector weakness"
       },
       {
-        "rank": 9,
+        "rank": 4,
+        "ticker": "DDOG",
+        "company": "Datadog Inc",
+        "sector": "Technology",
+        "predicted_change_pct": -2.6,
+        "reason": "Cloud software selloff AI concerns"
+      },
+      {
+        "rank": 5,
         "ticker": "UNH",
         "company": "UnitedHealth Group Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": -2.5,
-        "reason": "Managed care sector under pressure"
+        "predicted_change_pct": -2.4,
+        "reason": "Continued healthcare managed care decline"
+      },
+      {
+        "rank": 6,
+        "ticker": "WDAY",
+        "company": "Workday Inc",
+        "sector": "Enterprise Software",
+        "predicted_change_pct": -2.3,
+        "reason": "Heavy volume breakdown enterprise software"
+      },
+      {
+        "rank": 7,
+        "ticker": "CVS",
+        "company": "CVS Health Corp",
+        "sector": "Healthcare",
+        "predicted_change_pct": -2.1,
+        "reason": "Negative momentum healthcare selling pressure"
+      },
+      {
+        "rank": 8,
+        "ticker": "MSFT",
+        "company": "Microsoft Corp",
+        "sector": "Technology",
+        "predicted_change_pct": -1.8,
+        "reason": "AI anxiety tariff pressure continues"
+      },
+      {
+        "rank": 9,
+        "ticker": "TEAM",
+        "company": "Atlassian Corp",
+        "sector": "Technology",
+        "predicted_change_pct": -1.7,
+        "reason": "Severe monthly decline still selling"
       },
       {
         "rank": 10,
-        "ticker": "TEAM",
-        "company": "Atlassian Corporation",
+        "ticker": "PLTR",
+        "company": "Palantir Technologies Inc",
         "sector": "Technology",
-        "predicted_change_pct": -2.4,
-        "reason": "Severe monthly decline tariff fears"
+        "predicted_change_pct": -1.6,
+        "reason": "AI valuation concerns tariff headwinds"
       }
     ]
   },
