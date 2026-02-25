@@ -2,7 +2,7 @@
   "generated_at": "2026-02-25T06:00:00-06:00",
   "today": {
     "date": "2026-02-25",
-    "market_summary": "Markets face heavy selling pressure from Trump tariff escalation and AI sector rotation amid flight to safe havens.",
+    "market_summary": "Markets face heavy selling pressure from Trump tariff escalation and AI sector rotation fears.",
     "winners": [
       {
         "rank": 1,
@@ -10,7 +10,7 @@
         "company": "Cassava Sciences Inc",
         "sector": "Healthcare",
         "predicted_change_pct": 8.5,
-        "reason": "Massive momentum and volume surge"
+        "reason": "Strong momentum and volume surge"
       },
       {
         "rank": 2,
@@ -18,7 +18,7 @@
         "company": "Beam Therapeutics Inc",
         "sector": "Healthcare",
         "predicted_change_pct": 6.2,
-        "reason": "Strong biotech rally volume confirmation"
+        "reason": "Biotech momentum with heavy volume"
       },
       {
         "rank": 3,
@@ -26,7 +26,7 @@
         "company": "Editas Medicine Inc",
         "sector": "Healthcare",
         "predicted_change_pct": 5.1,
-        "reason": "Gene editing momentum high volume"
+        "reason": "Gene editing rally continuing strongly"
       },
       {
         "rank": 4,
@@ -38,35 +38,35 @@
       },
       {
         "rank": 5,
-        "ticker": "CIFR",
-        "company": "Cipher Mining Inc",
-        "sector": "Crypto Mining",
-        "predicted_change_pct": 4.5,
-        "reason": "Bitcoin rally crypto mining momentum"
-      },
-      {
-        "rank": 6,
-        "ticker": "HUT",
-        "company": "Hut 8 Corp",
-        "sector": "Crypto Mining",
-        "predicted_change_pct": 4.2,
-        "reason": "Bitcoin bullish sentiment volume rising"
-      },
-      {
-        "rank": 7,
         "ticker": "PYPL",
         "company": "PayPal Holdings Inc",
-        "sector": "Fintech",
+        "sector": "Finance",
         "predicted_change_pct": 3.5,
         "reason": "Strong weekly momentum high volume"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "ticker": "MRNA",
         "company": "Moderna Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": 3.3,
-        "reason": "Biotech momentum defensive sector rotation"
+        "predicted_change_pct": 3.2,
+        "reason": "Defensive biotech with strong momentum"
+      },
+      {
+        "rank": 7,
+        "ticker": "CIFR",
+        "company": "Cipher Mining Inc",
+        "sector": "Crypto Mining",
+        "predicted_change_pct": 3.0,
+        "reason": "Bitcoin rally catalyst high volume"
+      },
+      {
+        "rank": 8,
+        "ticker": "HUT",
+        "company": "Hut 8 Corp",
+        "sector": "Crypto Mining",
+        "predicted_change_pct": 2.8,
+        "reason": "Crypto mining momentum volume surge"
       },
       {
         "rank": 9,
@@ -74,15 +74,15 @@
         "company": "PepsiCo Inc",
         "sector": "Consumer Staples",
         "predicted_change_pct": 1.8,
-        "reason": "Defensive flight from tariff fears"
+        "reason": "Defensive rotation amid tariff fears"
       },
       {
         "rank": 10,
-        "ticker": "MRK",
-        "company": "Merck & Co Inc",
-        "sector": "Healthcare",
+        "ticker": "KO",
+        "company": "Coca-Cola Company",
+        "sector": "Consumer Staples",
         "predicted_change_pct": 1.5,
-        "reason": "Defensive healthcare strong monthly momentum"
+        "reason": "Safe haven consumer staples bid"
       }
     ],
     "losers": [
@@ -91,80 +91,80 @@
         "ticker": "PANW",
         "company": "Palo Alto Networks Inc",
         "sector": "Technology",
-        "predicted_change_pct": -4.8,
-        "reason": "Severe tech selloff lowest momentum"
+        "predicted_change_pct": -4.5,
+        "reason": "Tech selloff lowest momentum score"
       },
       {
         "rank": 2,
         "ticker": "CRWD",
         "company": "CrowdStrike Holdings Inc",
         "sector": "Technology",
-        "predicted_change_pct": -4.5,
-        "reason": "AI loser fears heavy selling volume"
+        "predicted_change_pct": -4.2,
+        "reason": "Cybersecurity dumped high volume selling"
       },
       {
         "rank": 3,
         "ticker": "DDOG",
         "company": "Datadog Inc",
         "sector": "Technology",
-        "predicted_change_pct": -4.2,
-        "reason": "Cloud SaaS selloff weak momentum"
+        "predicted_change_pct": -3.8,
+        "reason": "AI loser fears accelerating selloff"
       },
       {
         "rank": 4,
         "ticker": "WDAY",
         "company": "Workday Inc",
         "sector": "Technology",
-        "predicted_change_pct": -3.8,
-        "reason": "Enterprise SaaS dump high volume"
+        "predicted_change_pct": -3.5,
+        "reason": "Enterprise software rout high volume"
       },
       {
         "rank": 5,
         "ticker": "MSFT",
         "company": "Microsoft Corporation",
         "sector": "Technology",
-        "predicted_change_pct": -3.5,
-        "reason": "AI anxiety tariff toll mega-cap"
+        "predicted_change_pct": -3.2,
+        "reason": "AI anxiety tariff pressure combined"
       },
       {
         "rank": 6,
         "ticker": "SNOW",
         "company": "Snowflake Inc",
         "sector": "Technology",
-        "predicted_change_pct": -3.4,
-        "reason": "Cloud sector weakness elevated volume"
+        "predicted_change_pct": -3.0,
+        "reason": "Cloud selloff continuing heavy volume"
       },
       {
         "rank": 7,
-        "ticker": "TEAM",
-        "company": "Atlassian Corporation",
+        "ticker": "NET",
+        "company": "Cloudflare Inc",
         "sector": "Technology",
-        "predicted_change_pct": -3.2,
-        "reason": "Steep downtrend tariff tech fears"
+        "predicted_change_pct": -2.8,
+        "reason": "Tech sector dump sharp weekly decline"
       },
       {
         "rank": 8,
         "ticker": "HUM",
         "company": "Humana Inc",
         "sector": "Healthcare",
-        "predicted_change_pct": -3.0,
-        "reason": "Continued freefall negative monthly trend"
+        "predicted_change_pct": -2.7,
+        "reason": "Healthcare insurer freefall continues accelerating"
       },
       {
         "rank": 9,
-        "ticker": "NET",
-        "company": "Cloudflare Inc",
-        "sector": "Technology",
-        "predicted_change_pct": -2.8,
-        "reason": "Tech selloff sharp weekly decline"
+        "ticker": "UNH",
+        "company": "UnitedHealth Group Inc",
+        "sector": "Healthcare",
+        "predicted_change_pct": -2.5,
+        "reason": "Managed care sector under pressure"
       },
       {
         "rank": 10,
-        "ticker": "PLTR",
-        "company": "Palantir Technologies Inc",
+        "ticker": "TEAM",
+        "company": "Atlassian Corporation",
         "sector": "Technology",
-        "predicted_change_pct": -2.7,
-        "reason": "AI valuation fears tariff pressure"
+        "predicted_change_pct": -2.4,
+        "reason": "Severe monthly decline tariff fears"
       }
     ]
   },
@@ -432,5 +432,2027 @@
       "change_pct": 0.76,
       "direction": "up"
     }
-  }
+  },
+  "full_ranked_list": [
+    {
+      "ticker": "LIN",
+      "current_price": 504.0,
+      "daily_change_pct": 1.17,
+      "weekly_change_pct": 4.52,
+      "monthly_change_pct": 11.61,
+      "volume_ratio": 1.02,
+      "momentum_score": 100.0,
+      "composite_score": 45.77
+    },
+    {
+      "ticker": "PYPL",
+      "current_price": 47.02,
+      "daily_change_pct": 6.74,
+      "weekly_change_pct": 15.22,
+      "monthly_change_pct": -16.96,
+      "volume_ratio": 2.01,
+      "momentum_score": 70.0,
+      "composite_score": 43.16
+    },
+    {
+      "ticker": "SAVA",
+      "current_price": 2.45,
+      "daily_change_pct": 13.43,
+      "weekly_change_pct": 17.22,
+      "monthly_change_pct": 11.36,
+      "volume_ratio": 2.9,
+      "momentum_score": 60.0,
+      "composite_score": 43.03
+    },
+    {
+      "ticker": "MRNA",
+      "current_price": 50.52,
+      "daily_change_pct": 0.46,
+      "weekly_change_pct": 15.0,
+      "monthly_change_pct": 3.72,
+      "volume_ratio": 0.53,
+      "momentum_score": 80.0,
+      "composite_score": 42.59
+    },
+    {
+      "ticker": "BEAM",
+      "current_price": 32.29,
+      "daily_change_pct": 13.98,
+      "weekly_change_pct": 17.46,
+      "monthly_change_pct": 2.31,
+      "volume_ratio": 1.94,
+      "momentum_score": 60.0,
+      "composite_score": 40.3
+    },
+    {
+      "ticker": "ADI",
+      "current_price": 356.09,
+      "daily_change_pct": 0.26,
+      "weekly_change_pct": 5.51,
+      "monthly_change_pct": 16.52,
+      "volume_ratio": 1.07,
+      "momentum_score": 80.0,
+      "composite_score": 38.52
+    },
+    {
+      "ticker": "SBAC",
+      "current_price": 201.6,
+      "daily_change_pct": 0.98,
+      "weekly_change_pct": -0.75,
+      "monthly_change_pct": 7.72,
+      "volume_ratio": 0.8,
+      "momentum_score": 90.0,
+      "composite_score": 37.95
+    },
+    {
+      "ticker": "FCX",
+      "current_price": 67.88,
+      "daily_change_pct": 3.55,
+      "weekly_change_pct": 11.11,
+      "monthly_change_pct": 12.37,
+      "volume_ratio": 0.92,
+      "momentum_score": 70.0,
+      "composite_score": 37.43
+    },
+    {
+      "ticker": "WBD",
+      "current_price": 29.15,
+      "daily_change_pct": 0.8,
+      "weekly_change_pct": 1.39,
+      "monthly_change_pct": 1.99,
+      "volume_ratio": 1.17,
+      "momentum_score": 80.0,
+      "composite_score": 36.34
+    },
+    {
+      "ticker": "NTLA",
+      "current_price": 13.58,
+      "daily_change_pct": 3.19,
+      "weekly_change_pct": 11.13,
+      "monthly_change_pct": -7.18,
+      "volume_ratio": 0.53,
+      "momentum_score": 70.0,
+      "composite_score": 36.27
+    },
+    {
+      "ticker": "FDX",
+      "current_price": 386.56,
+      "daily_change_pct": 0.74,
+      "weekly_change_pct": 3.0,
+      "monthly_change_pct": 27.07,
+      "volume_ratio": 0.47,
+      "momentum_score": 80.0,
+      "composite_score": 35.21
+    },
+    {
+      "ticker": "MRK",
+      "current_price": 123.93,
+      "daily_change_pct": 0.09,
+      "weekly_change_pct": 1.94,
+      "monthly_change_pct": 14.56,
+      "volume_ratio": 0.66,
+      "momentum_score": 80.0,
+      "composite_score": 35.14
+    },
+    {
+      "ticker": "EDIT",
+      "current_price": 2.11,
+      "daily_change_pct": 11.64,
+      "weekly_change_pct": 21.26,
+      "monthly_change_pct": -2.31,
+      "volume_ratio": 2.11,
+      "momentum_score": 40.0,
+      "composite_score": 35.09
+    },
+    {
+      "ticker": "O",
+      "current_price": 66.52,
+      "daily_change_pct": -0.24,
+      "weekly_change_pct": 0.05,
+      "monthly_change_pct": 10.0,
+      "volume_ratio": 0.91,
+      "momentum_score": 80.0,
+      "composite_score": 34.76
+    },
+    {
+      "ticker": "LUNR",
+      "current_price": 18.9,
+      "daily_change_pct": 4.19,
+      "weekly_change_pct": 13.72,
+      "monthly_change_pct": -5.64,
+      "volume_ratio": 0.76,
+      "momentum_score": 60.0,
+      "composite_score": 34.51
+    },
+    {
+      "ticker": "AMT",
+      "current_price": 190.19,
+      "daily_change_pct": 0.07,
+      "weekly_change_pct": -1.5,
+      "monthly_change_pct": 6.4,
+      "volume_ratio": 1.06,
+      "momentum_score": 80.0,
+      "composite_score": 34.28
+    },
+    {
+      "ticker": "OXY",
+      "current_price": 51.95,
+      "daily_change_pct": -0.92,
+      "weekly_change_pct": 13.08,
+      "monthly_change_pct": 17.8,
+      "volume_ratio": 0.77,
+      "momentum_score": 60.0,
+      "composite_score": 34.16
+    },
+    {
+      "ticker": "SRPT",
+      "current_price": 18.84,
+      "daily_change_pct": 3.97,
+      "weekly_change_pct": 5.37,
+      "monthly_change_pct": -10.84,
+      "volume_ratio": 0.95,
+      "momentum_score": 70.0,
+      "composite_score": 34.07
+    },
+    {
+      "ticker": "AMAT",
+      "current_price": 377.93,
+      "daily_change_pct": 1.17,
+      "weekly_change_pct": 5.37,
+      "monthly_change_pct": 17.38,
+      "volume_ratio": 0.68,
+      "momentum_score": 70.0,
+      "composite_score": 33.26
+    },
+    {
+      "ticker": "BBBY",
+      "current_price": 5.5,
+      "daily_change_pct": 8.48,
+      "weekly_change_pct": 10.22,
+      "monthly_change_pct": -19.94,
+      "volume_ratio": 2.31,
+      "momentum_score": 50.0,
+      "composite_score": 33.06
+    },
+    {
+      "ticker": "PEP",
+      "current_price": 169.54,
+      "daily_change_pct": 0.72,
+      "weekly_change_pct": 4.71,
+      "monthly_change_pct": 17.26,
+      "volume_ratio": 0.69,
+      "momentum_score": 70.0,
+      "composite_score": 32.9
+    },
+    {
+      "ticker": "ETSY",
+      "current_price": 54.4,
+      "daily_change_pct": 3.88,
+      "weekly_change_pct": 22.63,
+      "monthly_change_pct": -9.59,
+      "volume_ratio": 1.05,
+      "momentum_score": 40.0,
+      "composite_score": 32.73
+    },
+    {
+      "ticker": "PG",
+      "current_price": 165.28,
+      "daily_change_pct": 0.07,
+      "weekly_change_pct": 3.59,
+      "monthly_change_pct": 10.08,
+      "volume_ratio": 0.79,
+      "momentum_score": 70.0,
+      "composite_score": 32.52
+    },
+    {
+      "ticker": "MO",
+      "current_price": 69.25,
+      "daily_change_pct": 0.39,
+      "weekly_change_pct": 4.07,
+      "monthly_change_pct": 11.86,
+      "volume_ratio": 0.68,
+      "momentum_score": 70.0,
+      "composite_score": 32.48
+    },
+    {
+      "ticker": "QCOM",
+      "current_price": 144.78,
+      "daily_change_pct": 3.11,
+      "weekly_change_pct": 1.51,
+      "monthly_change_pct": -7.09,
+      "volume_ratio": 1.0,
+      "momentum_score": 70.0,
+      "composite_score": 31.91
+    },
+    {
+      "ticker": "ASTS",
+      "current_price": 85.82,
+      "daily_change_pct": 2.29,
+      "weekly_change_pct": 3.36,
+      "monthly_change_pct": -24.43,
+      "volume_ratio": 0.5,
+      "momentum_score": 70.0,
+      "composite_score": 31.52
+    },
+    {
+      "ticker": "LYFT",
+      "current_price": 13.53,
+      "daily_change_pct": 1.81,
+      "weekly_change_pct": 1.73,
+      "monthly_change_pct": -24.41,
+      "volume_ratio": 0.78,
+      "momentum_score": 70.0,
+      "composite_score": 31.38
+    },
+    {
+      "ticker": "MDLZ",
+      "current_price": 61.13,
+      "daily_change_pct": 1.24,
+      "weekly_change_pct": 2.12,
+      "monthly_change_pct": 4.67,
+      "volume_ratio": 0.64,
+      "momentum_score": 70.0,
+      "composite_score": 31.19
+    },
+    {
+      "ticker": "EXAS",
+      "current_price": 103.45,
+      "daily_change_pct": 0.06,
+      "weekly_change_pct": 0.14,
+      "monthly_change_pct": 1.16,
+      "volume_ratio": 1.03,
+      "momentum_score": 70.0,
+      "composite_score": 31.17
+    },
+    {
+      "ticker": "HUT",
+      "current_price": 59.19,
+      "daily_change_pct": 9.55,
+      "weekly_change_pct": 11.81,
+      "monthly_change_pct": 1.67,
+      "volume_ratio": 1.34,
+      "momentum_score": 50.0,
+      "composite_score": 31.11
+    },
+    {
+      "ticker": "EBAY",
+      "current_price": 85.3,
+      "daily_change_pct": 1.17,
+      "weekly_change_pct": 6.69,
+      "monthly_change_pct": -8.88,
+      "volume_ratio": 1.03,
+      "momentum_score": 60.0,
+      "composite_score": 31.1
+    },
+    {
+      "ticker": "VZ",
+      "current_price": 49.86,
+      "daily_change_pct": 0.36,
+      "weekly_change_pct": 1.9,
+      "monthly_change_pct": 26.16,
+      "volume_ratio": 0.65,
+      "momentum_score": 70.0,
+      "composite_score": 31.09
+    },
+    {
+      "ticker": "NIO",
+      "current_price": 5.3,
+      "daily_change_pct": 0.19,
+      "weekly_change_pct": 7.72,
+      "monthly_change_pct": 14.22,
+      "volume_ratio": 0.8,
+      "momentum_score": 60.0,
+      "composite_score": 31.03
+    },
+    {
+      "ticker": "TSLA",
+      "current_price": 409.38,
+      "daily_change_pct": 2.39,
+      "weekly_change_pct": -0.3,
+      "monthly_change_pct": -8.84,
+      "volume_ratio": 0.97,
+      "momentum_score": 70.0,
+      "composite_score": 30.73
+    },
+    {
+      "ticker": "PH",
+      "current_price": 1023.02,
+      "daily_change_pct": 1.39,
+      "weekly_change_pct": 1.3,
+      "monthly_change_pct": 10.45,
+      "volume_ratio": 0.62,
+      "momentum_score": 70.0,
+      "composite_score": 30.64
+    },
+    {
+      "ticker": "HCA",
+      "current_price": 526.52,
+      "daily_change_pct": -1.76,
+      "weekly_change_pct": -1.54,
+      "monthly_change_pct": 11.82,
+      "volume_ratio": 1.17,
+      "momentum_score": 70.0,
+      "composite_score": 30.59
+    },
+    {
+      "ticker": "SPOT",
+      "current_price": 465.66,
+      "daily_change_pct": -0.46,
+      "weekly_change_pct": 0.61,
+      "monthly_change_pct": -9.27,
+      "volume_ratio": 0.74,
+      "momentum_score": 70.0,
+      "composite_score": 30.59
+    },
+    {
+      "ticker": "GE",
+      "current_price": 345.64,
+      "daily_change_pct": 1.96,
+      "weekly_change_pct": 5.67,
+      "monthly_change_pct": 17.62,
+      "volume_ratio": 1.02,
+      "momentum_score": 60.0,
+      "composite_score": 30.46
+    },
+    {
+      "ticker": "CIFR",
+      "current_price": 17.12,
+      "daily_change_pct": 12.48,
+      "weekly_change_pct": 9.46,
+      "monthly_change_pct": -2.56,
+      "volume_ratio": 1.52,
+      "momentum_score": 50.0,
+      "composite_score": 30.24
+    },
+    {
+      "ticker": "ISRG",
+      "current_price": 494.02,
+      "daily_change_pct": 0.39,
+      "weekly_change_pct": 0.14,
+      "monthly_change_pct": -5.72,
+      "volume_ratio": 0.63,
+      "momentum_score": 70.0,
+      "composite_score": 29.97
+    },
+    {
+      "ticker": "DD",
+      "current_price": 51.07,
+      "daily_change_pct": 1.98,
+      "weekly_change_pct": 0.39,
+      "monthly_change_pct": 15.7,
+      "volume_ratio": 0.48,
+      "momentum_score": 70.0,
+      "composite_score": 29.67
+    },
+    {
+      "ticker": "NVDA",
+      "current_price": 192.85,
+      "daily_change_pct": 0.68,
+      "weekly_change_pct": 4.26,
+      "monthly_change_pct": 2.76,
+      "volume_ratio": 1.02,
+      "momentum_score": 60.0,
+      "composite_score": 29.62
+    },
+    {
+      "ticker": "TTWO",
+      "current_price": 204.19,
+      "daily_change_pct": 4.4,
+      "weekly_change_pct": 5.32,
+      "monthly_change_pct": -16.9,
+      "volume_ratio": 0.73,
+      "momentum_score": 60.0,
+      "composite_score": 29.38
+    },
+    {
+      "ticker": "RARE",
+      "current_price": 22.75,
+      "daily_change_pct": 1.07,
+      "weekly_change_pct": 12.74,
+      "monthly_change_pct": -6.03,
+      "volume_ratio": 0.57,
+      "momentum_score": 50.0,
+      "composite_score": 29.35
+    },
+    {
+      "ticker": "IREN",
+      "current_price": 45.45,
+      "daily_change_pct": 7.29,
+      "weekly_change_pct": 10.93,
+      "monthly_change_pct": -19.81,
+      "volume_ratio": 0.85,
+      "momentum_score": 50.0,
+      "composite_score": 29.11
+    },
+    {
+      "ticker": "NOC",
+      "current_price": 727.73,
+      "daily_change_pct": 0.32,
+      "weekly_change_pct": 3.8,
+      "monthly_change_pct": 8.14,
+      "volume_ratio": 0.76,
+      "momentum_score": 60.0,
+      "composite_score": 28.56
+    },
+    {
+      "ticker": "WELL",
+      "current_price": 209.3,
+      "daily_change_pct": -0.11,
+      "weekly_change_pct": -2.87,
+      "monthly_change_pct": 13.95,
+      "volume_ratio": 0.76,
+      "momentum_score": 70.0,
+      "composite_score": 28.56
+    },
+    {
+      "ticker": "AAPL",
+      "current_price": 272.14,
+      "daily_change_pct": 2.24,
+      "weekly_change_pct": 3.13,
+      "monthly_change_pct": 9.82,
+      "volume_ratio": 0.87,
+      "momentum_score": 60.0,
+      "composite_score": 28.49
+    },
+    {
+      "ticker": "LRCX",
+      "current_price": 244.25,
+      "daily_change_pct": 0.82,
+      "weekly_change_pct": 3.68,
+      "monthly_change_pct": 12.07,
+      "volume_ratio": 0.75,
+      "momentum_score": 60.0,
+      "composite_score": 28.46
+    },
+    {
+      "ticker": "CCI",
+      "current_price": 88.64,
+      "daily_change_pct": 1.07,
+      "weekly_change_pct": -3.51,
+      "monthly_change_pct": 2.36,
+      "volume_ratio": 0.83,
+      "momentum_score": 70.0,
+      "composite_score": 28.38
+    },
+    {
+      "ticker": "HD",
+      "current_price": 384.48,
+      "daily_change_pct": 1.99,
+      "weekly_change_pct": 0.38,
+      "monthly_change_pct": 0.19,
+      "volume_ratio": 1.35,
+      "momentum_score": 60.0,
+      "composite_score": 28.28
+    },
+    {
+      "ticker": "BMY",
+      "current_price": 61.6,
+      "daily_change_pct": 0.57,
+      "weekly_change_pct": 2.07,
+      "monthly_change_pct": 12.72,
+      "volume_ratio": 1.01,
+      "momentum_score": 60.0,
+      "composite_score": 28.27
+    },
+    {
+      "ticker": "SHOP",
+      "current_price": 116.93,
+      "daily_change_pct": -0.3,
+      "weekly_change_pct": 2.99,
+      "monthly_change_pct": -15.2,
+      "volume_ratio": 0.74,
+      "momentum_score": 60.0,
+      "composite_score": 28.01
+    },
+    {
+      "ticker": "AMGN",
+      "current_price": 382.87,
+      "daily_change_pct": 0.91,
+      "weekly_change_pct": 2.55,
+      "monthly_change_pct": 11.83,
+      "volume_ratio": 0.82,
+      "momentum_score": 60.0,
+      "composite_score": 27.99
+    },
+    {
+      "ticker": "CL",
+      "current_price": 98.11,
+      "daily_change_pct": 1.04,
+      "weekly_change_pct": 2.57,
+      "monthly_change_pct": 13.21,
+      "volume_ratio": 0.74,
+      "momentum_score": 60.0,
+      "composite_score": 27.76
+    },
+    {
+      "ticker": "LMT",
+      "current_price": 664.43,
+      "daily_change_pct": 0.58,
+      "weekly_change_pct": 2.29,
+      "monthly_change_pct": 12.46,
+      "volume_ratio": 0.77,
+      "momentum_score": 60.0,
+      "composite_score": 27.68
+    },
+    {
+      "ticker": "NEM",
+      "current_price": 124.09,
+      "daily_change_pct": -0.13,
+      "weekly_change_pct": 1.46,
+      "monthly_change_pct": -0.18,
+      "volume_ratio": 0.93,
+      "momentum_score": 60.0,
+      "composite_score": 27.67
+    },
+    {
+      "ticker": "CVX",
+      "current_price": 185.34,
+      "daily_change_pct": 0.23,
+      "weekly_change_pct": 2.65,
+      "monthly_change_pct": 12.26,
+      "volume_ratio": 0.67,
+      "momentum_score": 60.0,
+      "composite_score": 27.6
+    },
+    {
+      "ticker": "F",
+      "current_price": 14.2,
+      "daily_change_pct": 4.11,
+      "weekly_change_pct": 0.5,
+      "monthly_change_pct": 5.85,
+      "volume_ratio": 1.07,
+      "momentum_score": 60.0,
+      "composite_score": 27.51
+    },
+    {
+      "ticker": "ABT",
+      "current_price": 114.58,
+      "daily_change_pct": -0.62,
+      "weekly_change_pct": 2.07,
+      "monthly_change_pct": 6.67,
+      "volume_ratio": 0.74,
+      "momentum_score": 60.0,
+      "composite_score": 27.46
+    },
+    {
+      "ticker": "ECL",
+      "current_price": 308.16,
+      "daily_change_pct": 0.81,
+      "weekly_change_pct": 1.44,
+      "monthly_change_pct": 9.32,
+      "volume_ratio": 0.86,
+      "momentum_score": 60.0,
+      "composite_score": 27.44
+    },
+    {
+      "ticker": "MCD",
+      "current_price": 333.05,
+      "daily_change_pct": -0.45,
+      "weekly_change_pct": 1.66,
+      "monthly_change_pct": 7.7,
+      "volume_ratio": 0.81,
+      "momentum_score": 60.0,
+      "composite_score": 27.43
+    },
+    {
+      "ticker": "RTX",
+      "current_price": 198.46,
+      "daily_change_pct": -1.71,
+      "weekly_change_pct": -2.15,
+      "monthly_change_pct": 1.63,
+      "volume_ratio": 1.57,
+      "momentum_score": 60.0,
+      "composite_score": 27.42
+    },
+    {
+      "ticker": "KO",
+      "current_price": 80.72,
+      "daily_change_pct": 0.2,
+      "weekly_change_pct": 1.46,
+      "monthly_change_pct": 10.76,
+      "volume_ratio": 0.84,
+      "momentum_score": 60.0,
+      "composite_score": 27.4
+    },
+    {
+      "ticker": "EA",
+      "current_price": 201.0,
+      "daily_change_pct": 0.26,
+      "weekly_change_pct": 0.74,
+      "monthly_change_pct": -1.47,
+      "volume_ratio": 0.98,
+      "momentum_score": 60.0,
+      "composite_score": 27.38
+    },
+    {
+      "ticker": "UBER",
+      "current_price": 71.38,
+      "daily_change_pct": 0.93,
+      "weekly_change_pct": 1.21,
+      "monthly_change_pct": -13.28,
+      "volume_ratio": 0.87,
+      "momentum_score": 60.0,
+      "composite_score": 27.34
+    },
+    {
+      "ticker": "BLK",
+      "current_price": 1081.05,
+      "daily_change_pct": 0.94,
+      "weekly_change_pct": 0.78,
+      "monthly_change_pct": -4.32,
+      "volume_ratio": 0.9,
+      "momentum_score": 60.0,
+      "composite_score": 27.17
+    },
+    {
+      "ticker": "KLAC",
+      "current_price": 1506.65,
+      "daily_change_pct": 1.28,
+      "weekly_change_pct": 2.48,
+      "monthly_change_pct": -0.28,
+      "volume_ratio": 0.54,
+      "momentum_score": 60.0,
+      "composite_score": 27.11
+    },
+    {
+      "ticker": "GME",
+      "current_price": 23.77,
+      "daily_change_pct": 0.55,
+      "weekly_change_pct": 2.19,
+      "monthly_change_pct": 3.39,
+      "volume_ratio": 0.59,
+      "momentum_score": 60.0,
+      "composite_score": 27.08
+    },
+    {
+      "ticker": "EMR",
+      "current_price": 150.88,
+      "daily_change_pct": 3.69,
+      "weekly_change_pct": 1.36,
+      "monthly_change_pct": 2.56,
+      "volume_ratio": 0.74,
+      "momentum_score": 60.0,
+      "composite_score": 27.04
+    },
+    {
+      "ticker": "LYV",
+      "current_price": 157.98,
+      "daily_change_pct": -0.19,
+      "weekly_change_pct": 0.29,
+      "monthly_change_pct": 7.49,
+      "volume_ratio": 0.94,
+      "momentum_score": 60.0,
+      "composite_score": 26.99
+    },
+    {
+      "ticker": "JNJ",
+      "current_price": 246.28,
+      "daily_change_pct": 0.18,
+      "weekly_change_pct": 1.21,
+      "monthly_change_pct": 11.87,
+      "volume_ratio": 0.73,
+      "momentum_score": 60.0,
+      "composite_score": 26.92
+    },
+    {
+      "ticker": "LOW",
+      "current_price": 278.59,
+      "daily_change_pct": 1.54,
+      "weekly_change_pct": -0.91,
+      "monthly_change_pct": 0.67,
+      "volume_ratio": 1.15,
+      "momentum_score": 60.0,
+      "composite_score": 26.9
+    },
+    {
+      "ticker": "NFLX",
+      "current_price": 78.04,
+      "daily_change_pct": 2.66,
+      "weekly_change_pct": 1.35,
+      "monthly_change_pct": -9.38,
+      "volume_ratio": 0.67,
+      "momentum_score": 60.0,
+      "composite_score": 26.82
+    },
+    {
+      "ticker": "DE",
+      "current_price": 644.54,
+      "daily_change_pct": -0.36,
+      "weekly_change_pct": 7.27,
+      "monthly_change_pct": 25.29,
+      "volume_ratio": 0.77,
+      "momentum_score": 50.0,
+      "composite_score": 26.67
+    },
+    {
+      "ticker": "SBUX",
+      "current_price": 96.51,
+      "daily_change_pct": 1.83,
+      "weekly_change_pct": 1.17,
+      "monthly_change_pct": -0.5,
+      "volume_ratio": 0.64,
+      "momentum_score": 60.0,
+      "composite_score": 26.62
+    },
+    {
+      "ticker": "VEEV",
+      "current_price": 175.79,
+      "daily_change_pct": 2.1,
+      "weekly_change_pct": -0.58,
+      "monthly_change_pct": -20.82,
+      "volume_ratio": 0.92,
+      "momentum_score": 60.0,
+      "composite_score": 26.41
+    },
+    {
+      "ticker": "ILMN",
+      "current_price": 122.9,
+      "daily_change_pct": 1.96,
+      "weekly_change_pct": 5.48,
+      "monthly_change_pct": -18.22,
+      "volume_ratio": 1.0,
+      "momentum_score": 50.0,
+      "composite_score": 26.29
+    },
+    {
+      "ticker": "NKE",
+      "current_price": 64.09,
+      "daily_change_pct": 1.59,
+      "weekly_change_pct": -1.13,
+      "monthly_change_pct": -1.46,
+      "volume_ratio": 0.96,
+      "momentum_score": 60.0,
+      "composite_score": 26.2
+    },
+    {
+      "ticker": "HAL",
+      "current_price": 35.79,
+      "daily_change_pct": 1.56,
+      "weekly_change_pct": 6.17,
+      "monthly_change_pct": 5.42,
+      "volume_ratio": 0.82,
+      "momentum_score": 50.0,
+      "composite_score": 26.16
+    },
+    {
+      "ticker": "GM",
+      "current_price": 81.29,
+      "daily_change_pct": 2.05,
+      "weekly_change_pct": 0.09,
+      "monthly_change_pct": 2.02,
+      "volume_ratio": 0.68,
+      "momentum_score": 60.0,
+      "composite_score": 26.09
+    },
+    {
+      "ticker": "ROK",
+      "current_price": 405.3,
+      "daily_change_pct": 4.56,
+      "weekly_change_pct": 4.33,
+      "monthly_change_pct": -3.0,
+      "volume_ratio": 1.15,
+      "momentum_score": 50.0,
+      "composite_score": 26.05
+    },
+    {
+      "ticker": "RIOT",
+      "current_price": 16.5,
+      "daily_change_pct": 5.43,
+      "weekly_change_pct": 12.63,
+      "monthly_change_pct": -4.51,
+      "volume_ratio": 0.8,
+      "momentum_score": 40.0,
+      "composite_score": 25.98
+    },
+    {
+      "ticker": "ITW",
+      "current_price": 294.56,
+      "daily_change_pct": 0.46,
+      "weekly_change_pct": -0.96,
+      "monthly_change_pct": 14.06,
+      "volume_ratio": 0.78,
+      "momentum_score": 60.0,
+      "composite_score": 25.76
+    },
+    {
+      "ticker": "EOG",
+      "current_price": 123.7,
+      "daily_change_pct": 1.14,
+      "weekly_change_pct": 3.3,
+      "monthly_change_pct": 14.19,
+      "volume_ratio": 1.21,
+      "momentum_score": 50.0,
+      "composite_score": 25.61
+    },
+    {
+      "ticker": "AVB",
+      "current_price": 177.58,
+      "daily_change_pct": 0.69,
+      "weekly_change_pct": -0.04,
+      "monthly_change_pct": -0.67,
+      "volume_ratio": 0.53,
+      "momentum_score": 60.0,
+      "composite_score": 25.57
+    },
+    {
+      "ticker": "ADYEY",
+      "current_price": 11.0,
+      "daily_change_pct": -1.08,
+      "weekly_change_pct": -2.31,
+      "monthly_change_pct": -32.93,
+      "volume_ratio": 2.3,
+      "momentum_score": 50.0,
+      "composite_score": 25.51
+    },
+    {
+      "ticker": "GS",
+      "current_price": 902.27,
+      "daily_change_pct": 1.12,
+      "weekly_change_pct": -1.5,
+      "monthly_change_pct": -1.81,
+      "volume_ratio": 0.79,
+      "momentum_score": 60.0,
+      "composite_score": 25.47
+    },
+    {
+      "ticker": "CLSK",
+      "current_price": 10.35,
+      "daily_change_pct": 5.4,
+      "weekly_change_pct": 11.53,
+      "monthly_change_pct": -24.51,
+      "volume_ratio": 0.82,
+      "momentum_score": 40.0,
+      "composite_score": 25.38
+    },
+    {
+      "ticker": "UPS",
+      "current_price": 115.37,
+      "daily_change_pct": 0.3,
+      "weekly_change_pct": -0.12,
+      "monthly_change_pct": 8.33,
+      "volume_ratio": 0.42,
+      "momentum_score": 60.0,
+      "composite_score": 25.19
+    },
+    {
+      "ticker": "HSY",
+      "current_price": 230.21,
+      "daily_change_pct": 1.83,
+      "weekly_change_pct": 4.93,
+      "monthly_change_pct": 21.19,
+      "volume_ratio": 0.7,
+      "momentum_score": 50.0,
+      "composite_score": 25.06
+    },
+    {
+      "ticker": "AMD",
+      "current_price": 213.84,
+      "daily_change_pct": 8.77,
+      "weekly_change_pct": 5.3,
+      "monthly_change_pct": -17.65,
+      "volume_ratio": 1.9,
+      "momentum_score": 40.0,
+      "composite_score": 24.88
+    },
+    {
+      "ticker": "V",
+      "current_price": 307.22,
+      "daily_change_pct": 0.23,
+      "weekly_change_pct": -3.84,
+      "monthly_change_pct": -5.62,
+      "volume_ratio": 1.01,
+      "momentum_score": 60.0,
+      "composite_score": 24.73
+    },
+    {
+      "ticker": "BKNG",
+      "current_price": 4068.56,
+      "daily_change_pct": 5.11,
+      "weekly_change_pct": -1.73,
+      "monthly_change_pct": -20.2,
+      "volume_ratio": 1.82,
+      "momentum_score": 50.0,
+      "composite_score": 24.42
+    },
+    {
+      "ticker": "AMZN",
+      "current_price": 208.56,
+      "daily_change_pct": 1.6,
+      "weekly_change_pct": 3.68,
+      "monthly_change_pct": -12.79,
+      "volume_ratio": 0.73,
+      "momentum_score": 50.0,
+      "composite_score": 24.4
+    },
+    {
+      "ticker": "DXCM",
+      "current_price": 73.09,
+      "daily_change_pct": -0.23,
+      "weekly_change_pct": 3.78,
+      "monthly_change_pct": 0.32,
+      "volume_ratio": 0.7,
+      "momentum_score": 50.0,
+      "composite_score": 24.37
+    },
+    {
+      "ticker": "RDW",
+      "current_price": 8.42,
+      "daily_change_pct": 3.69,
+      "weekly_change_pct": 5.25,
+      "monthly_change_pct": -32.75,
+      "volume_ratio": 0.33,
+      "momentum_score": 50.0,
+      "composite_score": 24.14
+    },
+    {
+      "ticker": "VRTX",
+      "current_price": 487.43,
+      "daily_change_pct": 1.33,
+      "weekly_change_pct": 2.12,
+      "monthly_change_pct": 4.06,
+      "volume_ratio": 0.86,
+      "momentum_score": 50.0,
+      "composite_score": 23.85
+    },
+    {
+      "ticker": "NXPI",
+      "current_price": 234.63,
+      "daily_change_pct": 1.5,
+      "weekly_change_pct": -4.27,
+      "monthly_change_pct": 0.92,
+      "volume_ratio": 0.65,
+      "momentum_score": 60.0,
+      "composite_score": 23.39
+    },
+    {
+      "ticker": "COP",
+      "current_price": 110.59,
+      "daily_change_pct": 0.65,
+      "weekly_change_pct": 2.46,
+      "monthly_change_pct": 13.32,
+      "volume_ratio": 0.6,
+      "momentum_score": 50.0,
+      "composite_score": 23.28
+    },
+    {
+      "ticker": "XOM",
+      "current_price": 149.26,
+      "daily_change_pct": -0.99,
+      "weekly_change_pct": 2.1,
+      "monthly_change_pct": 11.32,
+      "volume_ratio": 0.67,
+      "momentum_score": 50.0,
+      "composite_score": 23.27
+    },
+    {
+      "ticker": "HUBS",
+      "current_price": 232.6,
+      "daily_change_pct": 7.01,
+      "weekly_change_pct": -5.95,
+      "monthly_change_pct": -27.94,
+      "volume_ratio": 0.89,
+      "momentum_score": 60.0,
+      "composite_score": 23.1
+    },
+    {
+      "ticker": "TJX",
+      "current_price": 157.66,
+      "daily_change_pct": -0.02,
+      "weekly_change_pct": 0.44,
+      "monthly_change_pct": 3.18,
+      "volume_ratio": 0.94,
+      "momentum_score": 50.0,
+      "composite_score": 23.08
+    },
+    {
+      "ticker": "XPEV",
+      "current_price": 18.73,
+      "daily_change_pct": 6.66,
+      "weekly_change_pct": 4.99,
+      "monthly_change_pct": -2.7,
+      "volume_ratio": 1.35,
+      "momentum_score": 40.0,
+      "composite_score": 23.04
+    },
+    {
+      "ticker": "CAT",
+      "current_price": 768.23,
+      "daily_change_pct": 1.55,
+      "weekly_change_pct": 0.45,
+      "monthly_change_pct": 22.6,
+      "volume_ratio": 0.87,
+      "momentum_score": 50.0,
+      "composite_score": 22.88
+    },
+    {
+      "ticker": "APD",
+      "current_price": 279.47,
+      "daily_change_pct": -1.33,
+      "weekly_change_pct": 0.64,
+      "monthly_change_pct": 6.93,
+      "volume_ratio": 0.81,
+      "momentum_score": 50.0,
+      "composite_score": 22.81
+    },
+    {
+      "ticker": "CLF",
+      "current_price": 10.59,
+      "daily_change_pct": -1.76,
+      "weekly_change_pct": 0.67,
+      "monthly_change_pct": -29.82,
+      "volume_ratio": 0.8,
+      "momentum_score": 50.0,
+      "composite_score": 22.8
+    },
+    {
+      "ticker": "GIS",
+      "current_price": 45.42,
+      "daily_change_pct": 0.09,
+      "weekly_change_pct": 1.02,
+      "monthly_change_pct": 1.93,
+      "volume_ratio": 0.72,
+      "momentum_score": 50.0,
+      "composite_score": 22.77
+    },
+    {
+      "ticker": "MARA",
+      "current_price": 8.05,
+      "daily_change_pct": 2.16,
+      "weekly_change_pct": 7.19,
+      "monthly_change_pct": -23.33,
+      "volume_ratio": 0.8,
+      "momentum_score": 40.0,
+      "composite_score": 22.71
+    },
+    {
+      "ticker": "KOSS",
+      "current_price": 4.26,
+      "daily_change_pct": 1.91,
+      "weekly_change_pct": 2.65,
+      "monthly_change_pct": -3.62,
+      "volume_ratio": 0.33,
+      "momentum_score": 50.0,
+      "composite_score": 22.58
+    },
+    {
+      "ticker": "VLO",
+      "current_price": 199.33,
+      "daily_change_pct": 0.98,
+      "weekly_change_pct": 1.01,
+      "monthly_change_pct": 7.19,
+      "volume_ratio": 0.65,
+      "momentum_score": 50.0,
+      "composite_score": 22.56
+    },
+    {
+      "ticker": "UAL",
+      "current_price": 112.59,
+      "daily_change_pct": 5.06,
+      "weekly_change_pct": -1.25,
+      "monthly_change_pct": 4.5,
+      "volume_ratio": 0.99,
+      "momentum_score": 50.0,
+      "composite_score": 22.22
+    },
+    {
+      "ticker": "EQIX",
+      "current_price": 951.9,
+      "daily_change_pct": 0.66,
+      "weekly_change_pct": -0.01,
+      "monthly_change_pct": 20.3,
+      "volume_ratio": 0.71,
+      "momentum_score": 50.0,
+      "composite_score": 22.12
+    },
+    {
+      "ticker": "AA",
+      "current_price": 61.41,
+      "daily_change_pct": 2.68,
+      "weekly_change_pct": 6.86,
+      "monthly_change_pct": -1.29,
+      "volume_ratio": 0.62,
+      "momentum_score": 40.0,
+      "composite_score": 21.98
+    },
+    {
+      "ticker": "HON",
+      "current_price": 243.61,
+      "daily_change_pct": 0.23,
+      "weekly_change_pct": 0.4,
+      "monthly_change_pct": 10.0,
+      "volume_ratio": 0.55,
+      "momentum_score": 50.0,
+      "composite_score": 21.89
+    },
+    {
+      "ticker": "NU",
+      "current_price": 16.53,
+      "daily_change_pct": 2.1,
+      "weekly_change_pct": -1.72,
+      "monthly_change_pct": -8.37,
+      "volume_ratio": 0.97,
+      "momentum_score": 50.0,
+      "composite_score": 21.88
+    },
+    {
+      "ticker": "MPW",
+      "current_price": 5.7,
+      "daily_change_pct": -1.38,
+      "weekly_change_pct": 4.97,
+      "monthly_change_pct": 11.55,
+      "volume_ratio": 0.96,
+      "momentum_score": 40.0,
+      "composite_score": 21.86
+    },
+    {
+      "ticker": "TGT",
+      "current_price": 115.52,
+      "daily_change_pct": 1.92,
+      "weekly_change_pct": -0.88,
+      "monthly_change_pct": 7.95,
+      "volume_ratio": 0.79,
+      "momentum_score": 50.0,
+      "composite_score": 21.84
+    },
+    {
+      "ticker": "MS",
+      "current_price": 168.79,
+      "daily_change_pct": 1.19,
+      "weekly_change_pct": -1.6,
+      "monthly_change_pct": -5.18,
+      "volume_ratio": 0.91,
+      "momentum_score": 50.0,
+      "composite_score": 21.77
+    },
+    {
+      "ticker": "CORZ",
+      "current_price": 17.87,
+      "daily_change_pct": 5.8,
+      "weekly_change_pct": 3.71,
+      "monthly_change_pct": -4.9,
+      "volume_ratio": 1.18,
+      "momentum_score": 40.0,
+      "composite_score": 21.77
+    },
+    {
+      "ticker": "AFRM",
+      "current_price": 47.87,
+      "daily_change_pct": 1.57,
+      "weekly_change_pct": -7.23,
+      "monthly_change_pct": -32.98,
+      "volume_ratio": 0.65,
+      "momentum_score": 60.0,
+      "composite_score": 21.61
+    },
+    {
+      "ticker": "PFE",
+      "current_price": 27.14,
+      "daily_change_pct": 0.3,
+      "weekly_change_pct": -0.84,
+      "monthly_change_pct": 5.81,
+      "volume_ratio": 0.69,
+      "momentum_score": 50.0,
+      "composite_score": 21.57
+    },
+    {
+      "ticker": "T",
+      "current_price": 28.35,
+      "daily_change_pct": -0.6,
+      "weekly_change_pct": -1.15,
+      "monthly_change_pct": 20.18,
+      "volume_ratio": 0.72,
+      "momentum_score": 50.0,
+      "composite_score": 21.47
+    },
+    {
+      "ticker": "MU",
+      "current_price": 418.01,
+      "daily_change_pct": -0.7,
+      "weekly_change_pct": 4.56,
+      "monthly_change_pct": 4.59,
+      "volume_ratio": 0.9,
+      "momentum_score": 40.0,
+      "composite_score": 21.44
+    },
+    {
+      "ticker": "MRVL",
+      "current_price": 78.39,
+      "daily_change_pct": 0.77,
+      "weekly_change_pct": -0.78,
+      "monthly_change_pct": -2.29,
+      "volume_ratio": 0.63,
+      "momentum_score": 50.0,
+      "composite_score": 21.42
+    },
+    {
+      "ticker": "MPC",
+      "current_price": 195.29,
+      "daily_change_pct": 1.28,
+      "weekly_change_pct": -2.13,
+      "monthly_change_pct": 11.91,
+      "volume_ratio": 0.88,
+      "momentum_score": 50.0,
+      "composite_score": 21.36
+    },
+    {
+      "ticker": "COST",
+      "current_price": 998.43,
+      "daily_change_pct": 1.26,
+      "weekly_change_pct": -1.35,
+      "monthly_change_pct": 1.68,
+      "volume_ratio": 0.7,
+      "momentum_score": 50.0,
+      "composite_score": 21.29
+    },
+    {
+      "ticker": "MMM",
+      "current_price": 166.46,
+      "daily_change_pct": 0.07,
+      "weekly_change_pct": -0.69,
+      "monthly_change_pct": 2.78,
+      "volume_ratio": 0.54,
+      "momentum_score": 50.0,
+      "composite_score": 21.21
+    },
+    {
+      "ticker": "HLT",
+      "current_price": 312.78,
+      "daily_change_pct": 0.31,
+      "weekly_change_pct": -1.59,
+      "monthly_change_pct": 4.92,
+      "volume_ratio": 0.68,
+      "momentum_score": 50.0,
+      "composite_score": 21.09
+    },
+    {
+      "ticker": "COIN",
+      "current_price": 162.03,
+      "daily_change_pct": 1.12,
+      "weekly_change_pct": -2.4,
+      "monthly_change_pct": -25.31,
+      "volume_ratio": 0.81,
+      "momentum_score": 50.0,
+      "composite_score": 20.99
+    },
+    {
+      "ticker": "MA",
+      "current_price": 498.0,
+      "daily_change_pct": 0.4,
+      "weekly_change_pct": -4.58,
+      "monthly_change_pct": -5.1,
+      "volume_ratio": 1.21,
+      "momentum_score": 50.0,
+      "composite_score": 20.88
+    },
+    {
+      "ticker": "BTBT",
+      "current_price": 1.68,
+      "daily_change_pct": 1.2,
+      "weekly_change_pct": -1.75,
+      "monthly_change_pct": -20.38,
+      "volume_ratio": 0.64,
+      "momentum_score": 50.0,
+      "composite_score": 20.87
+    },
+    {
+      "ticker": "ESTC",
+      "current_price": 56.38,
+      "daily_change_pct": 5.7,
+      "weekly_change_pct": -6.72,
+      "monthly_change_pct": -21.45,
+      "volume_ratio": 1.55,
+      "momentum_score": 50.0,
+      "composite_score": 20.62
+    },
+    {
+      "ticker": "NOW",
+      "current_price": 102.49,
+      "daily_change_pct": 1.68,
+      "weekly_change_pct": -3.23,
+      "monthly_change_pct": -23.0,
+      "volume_ratio": 0.82,
+      "momentum_score": 50.0,
+      "composite_score": 20.52
+    },
+    {
+      "ticker": "PACB",
+      "current_price": 1.66,
+      "daily_change_pct": 5.06,
+      "weekly_change_pct": 5.06,
+      "monthly_change_pct": -35.66,
+      "volume_ratio": 0.49,
+      "momentum_score": 40.0,
+      "composite_score": 20.51
+    },
+    {
+      "ticker": "WMT",
+      "current_price": 126.75,
+      "daily_change_pct": 0.75,
+      "weekly_change_pct": -1.63,
+      "monthly_change_pct": 7.66,
+      "volume_ratio": 0.48,
+      "momentum_score": 50.0,
+      "composite_score": 20.46
+    },
+    {
+      "ticker": "SLB",
+      "current_price": 51.85,
+      "daily_change_pct": 1.19,
+      "weekly_change_pct": 4.03,
+      "monthly_change_pct": 6.12,
+      "volume_ratio": 0.62,
+      "momentum_score": 40.0,
+      "composite_score": 20.28
+    },
+    {
+      "ticker": "CRM",
+      "current_price": 185.42,
+      "daily_change_pct": 4.07,
+      "weekly_change_pct": 0.61,
+      "monthly_change_pct": -18.69,
+      "volume_ratio": 1.2,
+      "momentum_score": 40.0,
+      "composite_score": 19.97
+    },
+    {
+      "ticker": "TXN",
+      "current_price": 213.35,
+      "daily_change_pct": -2.96,
+      "weekly_change_pct": -5.47,
+      "monthly_change_pct": 11.09,
+      "volume_ratio": 1.08,
+      "momentum_score": 50.0,
+      "composite_score": 19.96
+    },
+    {
+      "ticker": "DASH",
+      "current_price": 164.38,
+      "daily_change_pct": -0.17,
+      "weekly_change_pct": 1.26,
+      "monthly_change_pct": -20.68,
+      "volume_ratio": 0.99,
+      "momentum_score": 40.0,
+      "composite_score": 19.73
+    },
+    {
+      "ticker": "DIS",
+      "current_price": 106.05,
+      "daily_change_pct": 1.57,
+      "weekly_change_pct": 0.58,
+      "monthly_change_pct": -4.44,
+      "volume_ratio": 1.07,
+      "momentum_score": 40.0,
+      "composite_score": 19.56
+    },
+    {
+      "ticker": "UNH",
+      "current_price": 273.95,
+      "daily_change_pct": -2.97,
+      "weekly_change_pct": -5.24,
+      "monthly_change_pct": -23.1,
+      "volume_ratio": 0.87,
+      "momentum_score": 50.0,
+      "composite_score": 19.47
+    },
+    {
+      "ticker": "ORCL",
+      "current_price": 146.14,
+      "daily_change_pct": 3.42,
+      "weekly_change_pct": -5.09,
+      "monthly_change_pct": -17.51,
+      "volume_ratio": 0.75,
+      "momentum_score": 50.0,
+      "composite_score": 19.2
+    },
+    {
+      "ticker": "HUM",
+      "current_price": 174.64,
+      "daily_change_pct": -3.6,
+      "weekly_change_pct": -5.59,
+      "monthly_change_pct": -34.47,
+      "volume_ratio": 0.8,
+      "momentum_score": 50.0,
+      "composite_score": 19.05
+    },
+    {
+      "ticker": "GD",
+      "current_price": 351.18,
+      "daily_change_pct": 0.63,
+      "weekly_change_pct": 2.53,
+      "monthly_change_pct": -3.33,
+      "volume_ratio": 0.49,
+      "momentum_score": 40.0,
+      "composite_score": 18.99
+    },
+    {
+      "ticker": "LLY",
+      "current_price": 1042.15,
+      "daily_change_pct": -1.55,
+      "weekly_change_pct": 0.59,
+      "monthly_change_pct": -1.92,
+      "volume_ratio": 0.82,
+      "momentum_score": 40.0,
+      "composite_score": 18.81
+    },
+    {
+      "ticker": "SPCE",
+      "current_price": 2.55,
+      "daily_change_pct": 4.94,
+      "weekly_change_pct": 2.0,
+      "monthly_change_pct": -16.94,
+      "volume_ratio": 0.53,
+      "momentum_score": 40.0,
+      "composite_score": 18.79
+    },
+    {
+      "ticker": "LUV",
+      "current_price": 50.64,
+      "daily_change_pct": -0.51,
+      "weekly_change_pct": -6.67,
+      "monthly_change_pct": 20.72,
+      "volume_ratio": 0.87,
+      "momentum_score": 50.0,
+      "composite_score": 18.61
+    },
+    {
+      "ticker": "AXP",
+      "current_price": 320.48,
+      "daily_change_pct": -0.24,
+      "weekly_change_pct": -6.98,
+      "monthly_change_pct": -11.39,
+      "volume_ratio": 2.22,
+      "momentum_score": 40.0,
+      "composite_score": 18.47
+    },
+    {
+      "ticker": "ZM",
+      "current_price": 87.51,
+      "daily_change_pct": 1.68,
+      "weekly_change_pct": -1.29,
+      "monthly_change_pct": 2.02,
+      "volume_ratio": 1.06,
+      "momentum_score": 40.0,
+      "composite_score": 18.41
+    },
+    {
+      "ticker": "LI",
+      "current_price": 18.67,
+      "daily_change_pct": 1.3,
+      "weekly_change_pct": 1.47,
+      "monthly_change_pct": 11.73,
+      "volume_ratio": 0.42,
+      "momentum_score": 40.0,
+      "composite_score": 18.14
+    },
+    {
+      "ticker": "DOCN",
+      "current_price": 62.74,
+      "daily_change_pct": 5.91,
+      "weekly_change_pct": -7.27,
+      "monthly_change_pct": 17.03,
+      "volume_ratio": 2.14,
+      "momentum_score": 40.0,
+      "composite_score": 18.06
+    },
+    {
+      "ticker": "RKLB",
+      "current_price": 69.97,
+      "daily_change_pct": -0.34,
+      "weekly_change_pct": 0.11,
+      "monthly_change_pct": -21.29,
+      "volume_ratio": 0.62,
+      "momentum_score": 40.0,
+      "composite_score": 17.93
+    },
+    {
+      "ticker": "CMCSA",
+      "current_price": 31.61,
+      "daily_change_pct": -0.06,
+      "weekly_change_pct": 0.19,
+      "monthly_change_pct": 7.88,
+      "volume_ratio": 0.6,
+      "momentum_score": 40.0,
+      "composite_score": 17.91
+    },
+    {
+      "ticker": "META",
+      "current_price": 639.3,
+      "daily_change_pct": 0.32,
+      "weekly_change_pct": 0.0,
+      "monthly_change_pct": -2.95,
+      "volume_ratio": 0.6,
+      "momentum_score": 40.0,
+      "composite_score": 17.8
+    },
+    {
+      "ticker": "DAL",
+      "current_price": 69.23,
+      "daily_change_pct": 3.51,
+      "weekly_change_pct": -2.29,
+      "monthly_change_pct": 1.87,
+      "volume_ratio": 1.04,
+      "momentum_score": 40.0,
+      "composite_score": 17.75
+    },
+    {
+      "ticker": "AVGO",
+      "current_price": 325.49,
+      "daily_change_pct": -1.47,
+      "weekly_change_pct": -2.12,
+      "monthly_change_pct": 1.7,
+      "volume_ratio": 0.94,
+      "momentum_score": 40.0,
+      "composite_score": 17.55
+    },
+    {
+      "ticker": "ADBE",
+      "current_price": 255.17,
+      "daily_change_pct": 3.44,
+      "weekly_change_pct": -2.03,
+      "monthly_change_pct": -15.25,
+      "volume_ratio": 0.92,
+      "momentum_score": 40.0,
+      "composite_score": 17.54
+    },
+    {
+      "ticker": "PLD",
+      "current_price": 140.3,
+      "daily_change_pct": -0.31,
+      "weekly_change_pct": -1.04,
+      "monthly_change_pct": 10.34,
+      "volume_ratio": 0.67,
+      "momentum_score": 40.0,
+      "composite_score": 17.39
+    },
+    {
+      "ticker": "WFC",
+      "current_price": 84.57,
+      "daily_change_pct": -0.68,
+      "weekly_change_pct": -3.24,
+      "monthly_change_pct": -2.27,
+      "volume_ratio": 1.09,
+      "momentum_score": 40.0,
+      "composite_score": 17.33
+    },
+    {
+      "ticker": "BIIB",
+      "current_price": 195.13,
+      "daily_change_pct": -0.62,
+      "weekly_change_pct": -0.25,
+      "monthly_change_pct": 13.72,
+      "volume_ratio": 0.47,
+      "momentum_score": 40.0,
+      "composite_score": 17.26
+    },
+    {
+      "ticker": "SPG",
+      "current_price": 199.38,
+      "daily_change_pct": -0.34,
+      "weekly_change_pct": -1.3,
+      "monthly_change_pct": 7.93,
+      "volume_ratio": 0.66,
+      "momentum_score": 40.0,
+      "composite_score": 17.2
+    },
+    {
+      "ticker": "BAC",
+      "current_price": 50.41,
+      "daily_change_pct": -1.29,
+      "weekly_change_pct": -4.42,
+      "monthly_change_pct": -2.53,
+      "volume_ratio": 1.26,
+      "momentum_score": 40.0,
+      "composite_score": 17.13
+    },
+    {
+      "ticker": "PLTR",
+      "current_price": 128.84,
+      "daily_change_pct": -1.35,
+      "weekly_change_pct": -3.14,
+      "monthly_change_pct": -24.03,
+      "volume_ratio": 0.89,
+      "momentum_score": 40.0,
+      "composite_score": 16.79
+    },
+    {
+      "ticker": "REGN",
+      "current_price": 772.19,
+      "daily_change_pct": -1.89,
+      "weekly_change_pct": -2.57,
+      "monthly_change_pct": 2.6,
+      "volume_ratio": 0.75,
+      "momentum_score": 40.0,
+      "composite_score": 16.71
+    },
+    {
+      "ticker": "CVS",
+      "current_price": 74.18,
+      "daily_change_pct": -3.66,
+      "weekly_change_pct": -5.14,
+      "monthly_change_pct": -10.64,
+      "volume_ratio": 1.23,
+      "momentum_score": 40.0,
+      "composite_score": 16.61
+    },
+    {
+      "ticker": "HOOD",
+      "current_price": 73.39,
+      "daily_change_pct": 2.24,
+      "weekly_change_pct": -2.72,
+      "monthly_change_pct": -31.4,
+      "volume_ratio": 0.72,
+      "momentum_score": 40.0,
+      "composite_score": 16.53
+    },
+    {
+      "ticker": "COF",
+      "current_price": 196.56,
+      "daily_change_pct": 3.45,
+      "weekly_change_pct": -4.56,
+      "monthly_change_pct": -9.2,
+      "volume_ratio": 1.07,
+      "momentum_score": 40.0,
+      "composite_score": 16.47
+    },
+    {
+      "ticker": "CRWD",
+      "current_price": 350.25,
+      "daily_change_pct": -0.02,
+      "weekly_change_pct": -15.46,
+      "monthly_change_pct": -22.59,
+      "volume_ratio": 1.85,
+      "momentum_score": 50.0,
+      "composite_score": 16.27
+    },
+    {
+      "ticker": "GILD",
+      "current_price": 147.64,
+      "daily_change_pct": -1.46,
+      "weekly_change_pct": -4.91,
+      "monthly_change_pct": 8.61,
+      "volume_ratio": 1.03,
+      "momentum_score": 40.0,
+      "composite_score": 16.14
+    },
+    {
+      "ticker": "ETN",
+      "current_price": 374.56,
+      "daily_change_pct": 3.46,
+      "weekly_change_pct": -4.32,
+      "monthly_change_pct": 13.08,
+      "volume_ratio": 0.77,
+      "momentum_score": 40.0,
+      "composite_score": 15.72
+    },
+    {
+      "ticker": "IBM",
+      "current_price": 229.32,
+      "daily_change_pct": 2.67,
+      "weekly_change_pct": -11.22,
+      "monthly_change_pct": -21.14,
+      "volume_ratio": 2.09,
+      "momentum_score": 40.0,
+      "composite_score": 15.54
+    },
+    {
+      "ticker": "SCHW",
+      "current_price": 93.12,
+      "daily_change_pct": 0.4,
+      "weekly_change_pct": 0.04,
+      "monthly_change_pct": -8.56,
+      "volume_ratio": 1.08,
+      "momentum_score": 30.0,
+      "composite_score": 15.26
+    },
+    {
+      "ticker": "BA",
+      "current_price": 233.39,
+      "daily_change_pct": 1.28,
+      "weekly_change_pct": -4.36,
+      "monthly_change_pct": -7.44,
+      "volume_ratio": 0.58,
+      "momentum_score": 40.0,
+      "composite_score": 15.12
+    },
+    {
+      "ticker": "SNOW",
+      "current_price": 161.06,
+      "daily_change_pct": 2.2,
+      "weekly_change_pct": -9.06,
+      "monthly_change_pct": -23.19,
+      "volume_ratio": 1.32,
+      "momentum_score": 40.0,
+      "composite_score": 14.52
+    },
+    {
+      "ticker": "AAL",
+      "current_price": 13.15,
+      "daily_change_pct": 1.7,
+      "weekly_change_pct": -8.68,
+      "monthly_change_pct": -10.36,
+      "volume_ratio": 1.18,
+      "momentum_score": 40.0,
+      "composite_score": 14.33
+    },
+    {
+      "ticker": "INTC",
+      "current_price": 46.12,
+      "daily_change_pct": 5.71,
+      "weekly_change_pct": -0.13,
+      "monthly_change_pct": 2.33,
+      "volume_ratio": 0.79,
+      "momentum_score": 30.0,
+      "composite_score": 14.29
+    },
+    {
+      "ticker": "CI",
+      "current_price": 281.0,
+      "daily_change_pct": -0.77,
+      "weekly_change_pct": -3.34,
+      "monthly_change_pct": 0.64,
+      "volume_ratio": 1.3,
+      "momentum_score": 30.0,
+      "composite_score": 13.9
+    },
+    {
+      "ticker": "CVNA",
+      "current_price": 325.16,
+      "daily_change_pct": 0.02,
+      "weekly_change_pct": -7.35,
+      "monthly_change_pct": -31.3,
+      "volume_ratio": 0.66,
+      "momentum_score": 40.0,
+      "composite_score": 13.57
+    },
+    {
+      "ticker": "JPM",
+      "current_price": 297.3,
+      "daily_change_pct": -0.12,
+      "weekly_change_pct": -3.2,
+      "monthly_change_pct": -0.14,
+      "volume_ratio": 1.14,
+      "momentum_score": 30.0,
+      "composite_score": 13.5
+    },
+    {
+      "ticker": "MDB",
+      "current_price": 312.51,
+      "daily_change_pct": 2.34,
+      "weekly_change_pct": -11.81,
+      "monthly_change_pct": -21.62,
+      "volume_ratio": 1.45,
+      "momentum_score": 40.0,
+      "composite_score": 13.26
+    },
+    {
+      "ticker": "NET",
+      "current_price": 163.81,
+      "daily_change_pct": 2.26,
+      "weekly_change_pct": -15.42,
+      "monthly_change_pct": -5.55,
+      "volume_ratio": 0.81,
+      "momentum_score": 50.0,
+      "composite_score": 13.18
+    },
+    {
+      "ticker": "C",
+      "current_price": 109.56,
+      "daily_change_pct": -1.07,
+      "weekly_change_pct": -3.71,
+      "monthly_change_pct": -3.05,
+      "volume_ratio": 1.0,
+      "momentum_score": 30.0,
+      "composite_score": 12.77
+    },
+    {
+      "ticker": "PSX",
+      "current_price": 154.36,
+      "daily_change_pct": -0.32,
+      "weekly_change_pct": -2.4,
+      "monthly_change_pct": 9.06,
+      "volume_ratio": 0.71,
+      "momentum_score": 30.0,
+      "composite_score": 12.69
+    },
+    {
+      "ticker": "SOFI",
+      "current_price": 18.66,
+      "daily_change_pct": 2.41,
+      "weekly_change_pct": -4.36,
+      "monthly_change_pct": -27.81,
+      "volume_ratio": 1.05,
+      "momentum_score": 30.0,
+      "composite_score": 12.53
+    },
+    {
+      "ticker": "OKTA",
+      "current_price": 71.14,
+      "daily_change_pct": 2.34,
+      "weekly_change_pct": -13.73,
+      "monthly_change_pct": -21.62,
+      "volume_ratio": 1.35,
+      "momentum_score": 40.0,
+      "composite_score": 11.81
+    },
+    {
+      "ticker": "GOOGL",
+      "current_price": 310.9,
+      "daily_change_pct": -0.19,
+      "weekly_change_pct": 2.94,
+      "monthly_change_pct": -5.19,
+      "volume_ratio": 0.68,
+      "momentum_score": 20.0,
+      "composite_score": 11.8
+    },
+    {
+      "ticker": "MAR",
+      "current_price": 343.15,
+      "daily_change_pct": 0.15,
+      "weekly_change_pct": -4.66,
+      "monthly_change_pct": 7.33,
+      "volume_ratio": 0.8,
+      "momentum_score": 30.0,
+      "composite_score": 11.6
+    },
+    {
+      "ticker": "LCID",
+      "current_price": 9.92,
+      "daily_change_pct": 5.08,
+      "weekly_change_pct": 0.0,
+      "monthly_change_pct": -10.31,
+      "volume_ratio": 1.17,
+      "momentum_score": 20.0,
+      "composite_score": 11.51
+    },
+    {
+      "ticker": "UPST",
+      "current_price": 28.14,
+      "daily_change_pct": 3.23,
+      "weekly_change_pct": -11.98,
+      "monthly_change_pct": -37.87,
+      "volume_ratio": 0.79,
+      "momentum_score": 40.0,
+      "composite_score": 11.18
+    },
+    {
+      "ticker": "SONY",
+      "current_price": 21.6,
+      "daily_change_pct": -0.32,
+      "weekly_change_pct": -5.35,
+      "monthly_change_pct": -6.45,
+      "volume_ratio": 0.75,
+      "momentum_score": 30.0,
+      "composite_score": 11.04
+    },
+    {
+      "ticker": "BILL",
+      "current_price": 42.49,
+      "daily_change_pct": 1.31,
+      "weekly_change_pct": -5.83,
+      "monthly_change_pct": -12.3,
+      "volume_ratio": 0.41,
+      "momentum_score": 30.0,
+      "composite_score": 9.73
+    },
+    {
+      "ticker": "ZS",
+      "current_price": 149.36,
+      "daily_change_pct": 4.24,
+      "weekly_change_pct": -13.46,
+      "monthly_change_pct": -28.75,
+      "volume_ratio": 1.89,
+      "momentum_score": 30.0,
+      "composite_score": 9.59
+    },
+    {
+      "ticker": "AMC",
+      "current_price": 1.17,
+      "daily_change_pct": 1.74,
+      "weekly_change_pct": -6.4,
+      "monthly_change_pct": -25.0,
+      "volume_ratio": 0.44,
+      "momentum_score": 30.0,
+      "composite_score": 9.48
+    },
+    {
+      "ticker": "MSFT",
+      "current_price": 389.0,
+      "daily_change_pct": 1.18,
+      "weekly_change_pct": -1.76,
+      "monthly_change_pct": -16.32,
+      "volume_ratio": 0.83,
+      "momentum_score": 20.0,
+      "composite_score": 9.43
+    },
+    {
+      "ticker": "RIVN",
+      "current_price": 15.12,
+      "daily_change_pct": 1.07,
+      "weekly_change_pct": -8.2,
+      "monthly_change_pct": -5.2,
+      "volume_ratio": 0.68,
+      "momentum_score": 30.0,
+      "composite_score": 9.12
+    },
+    {
+      "ticker": "WDAY",
+      "current_price": 130.23,
+      "daily_change_pct": 0.79,
+      "weekly_change_pct": -9.01,
+      "monthly_change_pct": -31.19,
+      "volume_ratio": 2.12,
+      "momentum_score": 20.0,
+      "composite_score": 8.95
+    },
+    {
+      "ticker": "TEAM",
+      "current_price": 71.18,
+      "daily_change_pct": 3.44,
+      "weekly_change_pct": -13.35,
+      "monthly_change_pct": -45.97,
+      "volume_ratio": 1.45,
+      "momentum_score": 30.0,
+      "composite_score": 8.34
+    },
+    {
+      "ticker": "MNTS",
+      "current_price": 4.82,
+      "daily_change_pct": -2.03,
+      "weekly_change_pct": -10.07,
+      "monthly_change_pct": -40.05,
+      "volume_ratio": 0.12,
+      "momentum_score": 30.0,
+      "composite_score": 6.32
+    },
+    {
+      "ticker": "GTLB",
+      "current_price": 24.93,
+      "daily_change_pct": 3.75,
+      "weekly_change_pct": -12.28,
+      "monthly_change_pct": -31.47,
+      "volume_ratio": 1.01,
+      "momentum_score": 20.0,
+      "composite_score": 3.66
+    },
+    {
+      "ticker": "DDOG",
+      "current_price": 104.43,
+      "daily_change_pct": 1.77,
+      "weekly_change_pct": -14.79,
+      "monthly_change_pct": -19.75,
+      "volume_ratio": 1.07,
+      "momentum_score": 20.0,
+      "composite_score": 2.34
+    },
+    {
+      "ticker": "PANW",
+      "current_price": 141.67,
+      "daily_change_pct": -1.71,
+      "weekly_change_pct": -13.35,
+      "monthly_change_pct": -21.37,
+      "volume_ratio": 1.81,
+      "momentum_score": 10.0,
+      "composite_score": 1.42
+    }
+  ]
 }
