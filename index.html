@@ -110,6 +110,18 @@
     .download-btn.btn-all:hover { background: var(--muted); color: white; }
 
     @keyframes fadeUp { from{opacity:0;transform:translateY(18px)} to{opacity:1;transform:translateY(0)} }
+
+    /* Model toggle */
+    .model-toggle-wrap { max-width: 1200px; margin: 0 auto; padding: 0 2rem 1.5rem; animation: fadeUp 0.5s ease both; }
+    .model-toggle { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 4px; gap: 4px; }
+    .model-btn { padding: 7px 20px; border-radius: 7px; border: none; background: transparent; cursor: pointer; font-family: 'DM Mono', monospace; font-size: 0.78rem; letter-spacing: 0.04em; color: var(--muted); transition: all 0.18s; display: flex; align-items: center; gap: 7px; }
+    .model-btn.active { background: var(--text); color: var(--bg); }
+    .model-btn .model-dot { width: 7px; height: 7px; border-radius: 50%; }
+    .model-btn.claude-btn .model-dot { background: #C97B3A; }
+    .model-btn.gemini-btn .model-dot { background: #4285F4; }
+    .model-btn.active.claude-btn { background: #C97B3A; color: white; }
+    .model-btn.active.gemini-btn { background: #4285F4; color: white; }
+    .model-unavailable { display: inline-flex; align-items: center; gap: 6px; font-size: 0.72rem; font-family: 'DM Mono', monospace; color: var(--muted); background: var(--tag-bg); padding: 4px 10px; border-radius: 6px; margin-left: 8px; }
   </style>
 </head>
 <body>
@@ -130,6 +142,22 @@
 </div>
 
 <div id="app"><div class="loading-msg">Loading market data...</div></div>
+
+<!-- Model toggle rendered by JS after data loads -->
+<div class="model-toggle-wrap" id="modelToggleWrap" style="display:none">
+  <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+    <div class="model-toggle">
+      <button class="model-btn claude-btn active" id="btnClaude" onclick="switchModel('claude')">
+        <span class="model-dot"></span>Claude
+      </button>
+      <button class="model-btn gemini-btn" id="btnGemini" onclick="switchModel('gemini')">
+        <span class="model-dot"></span>Gemini
+      </button>
+    </div>
+    <span id="modelUnavailableNote" style="display:none" class="model-unavailable">⚠ Model unavailable today</span>
+  </div>
+  <div style="font-size:0.72rem;color:var(--muted);margin-top:6px;font-family:'DM Mono',monospace">Switch between AI models to compare predictions and accuracy</div>
+</div>
 
 <div class="next-update">
   <div class="update-strip">
@@ -198,6 +226,8 @@
 
   // Store data globally for download buttons
   let _data = null;
+  let _activeModel = 'claude';
+
   function updateTime() {
     document.getElementById('liveTime').textContent =
       new Date().toLocaleTimeString('en-US', {hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'America/Chicago',timeZoneName:'short'});
@@ -221,6 +251,21 @@
   const sign = n => n >= 0 ? '+' : '';
   const dirClass = n => n > 0 ? 'up' : n < 0 ? 'down' : 'neutral';
   const arrow = n => n > 0 ? '▲' : n < 0 ? '▼' : '—';
+
+  function switchModel(model) {
+    if (!_data) return;
+    _activeModel = model;
+    document.getElementById('btnClaude').classList.toggle('active', model === 'claude');
+    document.getElementById('btnGemini').classList.toggle('active', model === 'gemini');
+    const modelData = _data.today[model];
+    const note = document.getElementById('modelUnavailableNote');
+    if (!modelData || !modelData.available) {
+      note.style.display = 'inline-flex';
+    } else {
+      note.style.display = 'none';
+    }
+    renderSections();
+  }
 
   function renderIndexCard(label, d) {
     if (!d || d.value == null) return `<div class="overview-card"><div class="overview-card-label">${label}</div><div class="overview-card-value" style="color:var(--muted)">—</div><div class="overview-card-change neutral">No data</div></div>`;
@@ -271,7 +316,6 @@
         : `<span style="color:var(--muted);font-size:0.72rem">≈ close</span>`;
     const barCls = isWinner ? 'bar-fill-gain' : 'bar-fill-loss';
     const actualCls = hasActual ? dirClass(actual) : 'neutral';
-
     return `<tr>
       <td><span class="ticker-badge">${e.ticker}</span></td>
       <td><span class="tag ${isWinner ? 'type-winner' : 'type-loser'}">${isWinner ? 'WINNER' : 'LOSER'}</span></td>
@@ -284,110 +328,138 @@
     </tr>`;
   }
 
+  function renderSections() {
+    if (!_data) return;
+    const { today, yesterday, indices = {} } = _data;
+    const model = _activeModel;
+    const modelPreds = today[model] || {};
+    const winners = modelPreds.winners || [];
+    const losers  = modelPreds.losers  || [];
+    const summary = modelPreds.market_summary || '';
+    const available = modelPreds.available !== false;
+
+    const yestModel = yesterday[model] || {};
+    const yestWinners = yestModel.winners || [];
+    const yestLosers  = yestModel.losers  || [];
+    const hasYesterday = yestWinners.length > 0 || yestLosers.length > 0;
+
+    // Update hero summary
+    if (summary) document.getElementById('heroSummary').textContent = summary;
+
+    const modelLabel = model === 'claude' ? 'Claude' : 'Gemini';
+    const modelColor = model === 'claude' ? '#C97B3A' : '#4285F4';
+
+    document.getElementById('app').innerHTML = `
+      <section class="section">
+        <div class="section-header">
+          <div class="section-title"><span class="dot dot-neutral"></span> Market Overview</div>
+          <div class="section-date">${fmtDate(today.date)}</div>
+        </div>
+        <div class="overview-grid">
+          ${renderIndexCard('S&P 500', indices.sp500)}
+          ${renderIndexCard('NASDAQ', indices.nasdaq)}
+          ${renderIndexCard('DOW JONES', indices.dow)}
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="dot" style="background:${modelColor}"></span>
+            Today's Predictions
+            <span style="font-family:'DM Mono',monospace;font-size:0.7rem;color:${modelColor};font-weight:400">via ${modelLabel}</span>
+          </div>
+          <div class="section-date">Updated 6:00 AM CST</div>
+        </div>
+        ${!available
+          ? `<div class="pending-note">${modelLabel} predictions unavailable for today.<br>Switch to the other model above.</div>`
+          : `<div class="stocks-layout">
+              <div class="stock-panel">
+                <div class="panel-header">
+                  <div class="panel-title">Top 10 Expected Winners <span class="pill pill-gain">↑ GAIN</span></div>
+                </div>
+                ${winners.map(e => renderStockRow(e, 'winner')).join('')}
+              </div>
+              <div class="stock-panel">
+                <div class="panel-header">
+                  <div class="panel-title">Top 10 Expected Losers <span class="pill pill-loss">↓ LOSS</span></div>
+                </div>
+                ${losers.map(e => renderStockRow(e, 'loser')).join('')}
+              </div>
+            </div>
+            <div class="download-bar">
+              <button class="download-btn btn-gain" onclick="downloadWinners(_data.today['${model}'].winners, _data.today.date)">↓ Download Winners CSV</button>
+              <button class="download-btn btn-loss" onclick="downloadLosers(_data.today['${model}'].losers, _data.today.date)">↓ Download Losers CSV</button>
+              <button class="download-btn btn-all" onclick="downloadFullList(_data.full_ranked_list || [], _data.today.date)">↓ Full Ranked List (${_data.full_ranked_list ? _data.full_ranked_list.length : 0} stocks)</button>
+            </div>`
+        }
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="dot dot-accent"></span> Yesterday's Performance
+            <span style="font-family:'DM Mono',monospace;font-size:0.7rem;color:${modelColor};font-weight:400">via ${modelLabel}</span>
+          </div>
+          <div class="section-date">${fmtDate(yesterday.date)}</div>
+        </div>
+        <div class="perf-panel">
+          ${!hasYesterday
+            ? `<div class="pending-note">No ${modelLabel} predictions recorded for yesterday yet.<br>Performance tracking begins after the second daily run.</div>`
+            : `<table class="perf-table">
+                <thead><tr><th>Ticker</th><th>Type</th><th>Predicted</th><th>Actual</th><th>Accuracy</th></tr></thead>
+                <tbody>
+                  <tr class="group-header group-winner"><td colspan="5">▲ Predicted Winners</td></tr>
+                  ${yestWinners.map(e => renderPerfRow(e, 'winner')).join('')}
+                  <tr class="group-header group-loser"><td colspan="5">▼ Predicted Losers</td></tr>
+                  ${yestLosers.map(e => renderPerfRow(e, 'loser')).join('')}
+                </tbody>
+              </table>
+              <div class="download-bar">
+                <button class="download-btn btn-gain" onclick="downloadWinners(_data.yesterday['${model}'].winners, _data.yesterday.date)">↓ Download Winners CSV</button>
+                <button class="download-btn btn-loss" onclick="downloadLosers(_data.yesterday['${model}'].losers, _data.yesterday.date)">↓ Download Losers CSV</button>
+                <button class="download-btn btn-all" onclick="downloadYesterdayPerf(_data.yesterday['${model}'].winners, _data.yesterday['${model}'].losers, _data.yesterday.date)">↓ Full Performance CSV</button>
+              </div>`
+          }
+        </div>
+      </section>
+    `;
+  }
+
   async function render() {
     try {
-      const res = await fetch('data.json?t=' + Date.now());
+      const DATA_URL = 'https://stockcast-frontend.vercel.app/data.json';
+      const res = await fetch(DATA_URL + '?t=' + Date.now());
       if (!res.ok) throw new Error(`HTTP ${res.status} — data.json not found`);
       const data = await res.json();
-
-      const { today, yesterday, indices = {} } = data;
       _data = data;
 
       // Populate last successful run timestamp
       if (data.generated_at) {
         const runDate = new Date(data.generated_at);
-        const runStr = runDate.toLocaleString('en-US', {
-          timeZone: 'America/Chicago',
-          month: 'short', day: 'numeric',
-          hour: '2-digit', minute: '2-digit',
-          timeZoneName: 'short'
+        const runStr  = runDate.toLocaleString('en-US', {
+          timeZone: 'America/Chicago', month: 'short', day: 'numeric',
+          hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
         });
         document.getElementById('lastRun').textContent = runStr;
       }
 
-      // Show last successful run time
-      if (data.generated_at) {
-        const runDate = new Date(data.generated_at);
-        const runStr = runDate.toLocaleString('en-US', {
-          month: 'short', day: 'numeric', year: 'numeric',
-          hour: '2-digit', minute: '2-digit',
-          timeZone: 'America/Chicago', timeZoneName: 'short'
-        });
-        document.getElementById('lastRun').textContent = runStr;
-      }
+      // Show model toggle
+      const toggleWrap = document.getElementById('modelToggleWrap');
+      toggleWrap.style.display = 'block';
 
-      // Update hero summary with AI market insight
-      if (today.market_summary) {
-        document.getElementById('heroSummary').textContent = today.market_summary;
-      }
+      // Auto-select first available model
+      const claudeAvail = data.today?.claude?.available;
+      const geminiAvail = data.today?.gemini?.available;
+      _activeModel = claudeAvail ? 'claude' : 'gemini';
+      document.getElementById('btnClaude').classList.toggle('active', _activeModel === 'claude');
+      document.getElementById('btnGemini').classList.toggle('active', _activeModel === 'gemini');
 
-      const hasYesterday = yesterday.winners.length > 0 || yesterday.losers.length > 0;
+      // Disable unavailable model buttons
+      if (!claudeAvail) document.getElementById('btnClaude').style.opacity = '0.4';
+      if (!geminiAvail) document.getElementById('btnGemini').style.opacity = '0.4';
 
-      document.getElementById('app').innerHTML = `
-        <section class="section">
-          <div class="section-header">
-            <div class="section-title"><span class="dot dot-neutral"></span> Market Overview</div>
-            <div class="section-date">${fmtDate(today.date)}</div>
-          </div>
-          <div class="overview-grid">
-            ${renderIndexCard('S&P 500', indices.sp500)}
-            ${renderIndexCard('NASDAQ', indices.nasdaq)}
-            ${renderIndexCard('DOW JONES', indices.dow)}
-          </div>
-        </section>
-
-        <section class="section">
-          <div class="section-header">
-            <div class="section-title"><span class="dot dot-neutral"></span> Today's Predictions</div>
-            <div class="section-date">Updated 6:00 AM CST</div>
-          </div>
-          <div class="stocks-layout">
-            <div class="stock-panel">
-              <div class="panel-header">
-                <div class="panel-title">Top 10 Expected Winners <span class="pill pill-gain">↑ GAIN</span></div>
-              </div>
-              ${today.winners.map(e => renderStockRow(e, 'winner')).join('')}
-            </div>
-            <div class="stock-panel">
-              <div class="panel-header">
-                <div class="panel-title">Top 10 Expected Losers <span class="pill pill-loss">↓ LOSS</span></div>
-              </div>
-              ${today.losers.map(e => renderStockRow(e, 'loser')).join('')}
-            </div>
-          </div>
-          <div class="download-bar">
-            <button class="download-btn btn-gain" onclick="downloadWinners(_data.today.winners, _data.today.date)">↓ Download Winners CSV</button>
-            <button class="download-btn btn-loss" onclick="downloadLosers(_data.today.losers, _data.today.date)">↓ Download Losers CSV</button>
-            <button class="download-btn btn-all" onclick="downloadFullList(_data.full_ranked_list || [], _data.today.date)">↓ Download Full Ranked List (${data.full_ranked_list ? data.full_ranked_list.length : 0} stocks)</button>
-          </div>
-        </section>
-
-        <section class="section">
-          <div class="section-header">
-            <div class="section-title"><span class="dot dot-accent"></span> Yesterday's Performance</div>
-            <div class="section-date">${fmtDate(yesterday.date)}</div>
-          </div>
-          <div class="perf-panel">
-            ${!hasYesterday
-              ? `<div class="pending-note">No predictions recorded for yesterday yet.<br>Performance tracking begins after the second daily run.</div>`
-              : `<table class="perf-table">
-                  <thead><tr><th>Ticker</th><th>Type</th><th>Predicted</th><th>Actual</th><th>Accuracy</th></tr></thead>
-                  <tbody>
-                    <tr class="group-header group-winner"><td colspan="5">▲ Predicted Winners</td></tr>
-                    ${yesterday.winners.map(e => renderPerfRow(e, 'winner')).join('')}
-                    <tr class="group-header group-loser"><td colspan="5">▼ Predicted Losers</td></tr>
-                    ${yesterday.losers.map(e => renderPerfRow(e, 'loser')).join('')}
-                  </tbody>
-                </table>
-                <div class="download-bar">
-                  <button class="download-btn btn-gain" onclick="downloadWinners(_data.yesterday.winners, _data.yesterday.date)">↓ Download Winners CSV</button>
-                  <button class="download-btn btn-loss" onclick="downloadLosers(_data.yesterday.losers, _data.yesterday.date)">↓ Download Losers CSV</button>
-                  <button class="download-btn btn-all" onclick="downloadYesterdayPerf(_data.yesterday.winners, _data.yesterday.losers, _data.yesterday.date)">↓ Download Full Performance CSV</button>
-                </div>`
-            }
-          </div>
-        </section>
-      `;
+      renderSections();
 
     } catch (err) {
       document.getElementById('app').innerHTML = `
@@ -400,6 +472,50 @@
   }
 
   render();
+</script>
+
+<!-- Firebase SDK for push notifications (only active inside native app) -->
+<script type="module">
+  async function setupPushNotifications() {
+    try {
+      if (!window.Capacitor || !window.Capacitor.isNativePlatform()) return;
+
+      const { PushNotifications } = window.Capacitor.Plugins;
+      if (!PushNotifications) return;
+
+      // Request permission
+      const perm = await PushNotifications.requestPermissions();
+      if (perm.receive !== 'granted') {
+        console.log('Notification permission denied');
+        return;
+      }
+
+      await PushNotifications.register();
+
+      PushNotifications.addListener('registration', (token) => {
+        console.log('Registered for push, token:', token.value);
+        // Store token for debugging
+        localStorage.setItem('fcm_token', token.value);
+      });
+
+      PushNotifications.addListener('pushNotificationReceived', () => {
+        render(); // Refresh predictions when notification arrives
+      });
+
+      PushNotifications.addListener('pushNotificationActionPerformed', () => {
+        render(); // Refresh when user taps notification
+      });
+
+      PushNotifications.addListener('registrationError', (err) => {
+        console.error('Registration error:', err);
+      });
+
+    } catch (e) {
+      console.log('Push setup error:', e);
+    }
+  }
+
+  window.addEventListener('load', () => setTimeout(setupPushNotifications, 1500));
 </script>
 </body>
 </html>
