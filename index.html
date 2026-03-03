@@ -123,6 +123,7 @@
     .model-btn.active.gemini-btn { background: #4285F4; color: white; }
     .model-unavailable { display: inline-flex; align-items: center; gap: 6px; font-size: 0.72rem; font-family: 'DM Mono', monospace; color: var(--muted); background: var(--tag-bg); padding: 4px 10px; border-radius: 6px; margin-left: 8px; }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
 
@@ -227,6 +228,17 @@
   // Store data globally for download buttons
   let _data = null;
   let _activeModel = 'claude';
+  let _selectedPerfDate = null;
+  let _historyData = null;
+  let _historyLoading = false;
+
+  // Supabase client for historical data queries
+  // Replace with your project URL and anon (public) key:
+  // Supabase Dashboard → Settings → API → "anon public"
+  const _sb = window.supabase.createClient(
+    'https://uhqphstcwhdblrmposlt.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVocXBoc3Rjd2hkYmxybXBvc2x0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE5NjA3NjQsImV4cCI6MjA4NzUzNjc2NH0.pSukr4c1Yu6qTCOjVJmYS0VU6y9HLxtJpYo9xliYK5g'
+  );
 
   function updateTime() {
     document.getElementById('liveTime').textContent =
@@ -328,6 +340,68 @@
     </tr>`;
   }
 
+  function enrichWithActuals(entries, actualsMap) {
+    return entries.map(entry => {
+      const actual = Object.prototype.hasOwnProperty.call(actualsMap, entry.ticker) ? actualsMap[entry.ticker] : null;
+      let accuracy = null, outcome = 'pending';
+      if (actual !== null) {
+        const predicted = entry.predicted_change_pct;
+        const dirCorrect = (predicted > 0 && actual > 0) || (predicted < 0 && actual < 0);
+        if (dirCorrect) {
+          const diff = Math.abs(Math.abs(predicted) - Math.abs(actual));
+          accuracy = Math.round(50 + Math.max(0, 50 - diff * 10));
+          outcome = Math.abs(actual) > Math.abs(predicted) ? 'beat' : 'close';
+        } else {
+          accuracy = Math.max(0, Math.round(50 - Math.abs(actual - predicted) * 5));
+          outcome = 'miss';
+        }
+      }
+      return { ...entry, actual_change_pct: actual, accuracy_score: accuracy, outcome };
+    });
+  }
+
+  async function loadHistoryForDate(dateStr) {
+    _historyLoading = true;
+    _historyData = null;
+    renderSections();
+    try {
+      const [predsResp, actualsResp] = await Promise.all([
+        _sb.from('predictions').select('winners,losers').eq('date', dateStr).single(),
+        _sb.from('actuals').select('ticker,actual_change_pct').eq('date', dateStr)
+      ]);
+      const preds = predsResp.data || {};
+      const actualsMap = {};
+      (actualsResp.data || []).forEach(a => { actualsMap[a.ticker] = a.actual_change_pct; });
+      _historyData = {
+        winners: enrichWithActuals(preds.winners || [], actualsMap),
+        losers:  enrichWithActuals(preds.losers  || [], actualsMap),
+      };
+    } catch (e) {
+      _historyData = { winners: [], losers: [], error: true };
+    }
+    _historyLoading = false;
+    renderSections();
+  }
+
+  function onPerfDateChange(dateStr) {
+    if (!dateStr || (_data && dateStr === _data.yesterday.date)) {
+      _selectedPerfDate = null;
+      _historyData = null;
+      renderSections();
+    } else {
+      _selectedPerfDate = dateStr;
+      loadHistoryForDate(dateStr);
+    }
+  }
+
+  function downloadPerfCsv(type) {
+    const src = (_selectedPerfDate && _historyData) ? _historyData : (_data.yesterday[_activeModel] || {});
+    const date = _selectedPerfDate || _data.yesterday.date;
+    if (type === 'winners') downloadWinners(src.winners || [], date);
+    else if (type === 'losers') downloadLosers(src.losers || [], date);
+    else downloadYesterdayPerf(src.winners || [], src.losers || [], date);
+  }
+
   function renderSections() {
     if (!_data) return;
     const { today, yesterday, indices = {} } = _data;
@@ -341,7 +415,25 @@
     const yestModel = yesterday[model] || {};
     const yestWinners = yestModel.winners || [];
     const yestLosers  = yestModel.losers  || [];
-    const hasYesterday = yestWinners.length > 0 || yestLosers.length > 0;
+
+    // Resolve which data to show in the performance section
+    let perfWinners, perfLosers, perfDate, perfHasData, perfShowLoading, perfErrored;
+    if (_historyLoading) {
+      perfWinners = []; perfLosers = [];
+      perfDate = _selectedPerfDate;
+      perfHasData = false; perfShowLoading = true; perfErrored = false;
+    } else if (_selectedPerfDate && _historyData) {
+      perfWinners = _historyData.winners;
+      perfLosers  = _historyData.losers;
+      perfDate = _selectedPerfDate;
+      perfHasData = perfWinners.length > 0 || perfLosers.length > 0;
+      perfShowLoading = false; perfErrored = !!_historyData.error;
+    } else {
+      perfWinners = yestWinners; perfLosers = yestLosers;
+      perfDate = yesterday.date;
+      perfHasData = yestWinners.length > 0 || yestLosers.length > 0;
+      perfShowLoading = false; perfErrored = false;
+    }
 
     // Update hero summary
     if (summary) document.getElementById('heroSummary').textContent = summary;
@@ -361,6 +453,18 @@
           ${renderIndexCard('DOW JONES', indices.dow)}
         </div>
       </section>
+
+      <div style="max-width:1200px;margin:0 auto;padding:0 2rem 0.25rem;display:flex;align-items:center;gap:12px">
+        <div class="model-toggle">
+          <button class="model-btn claude-btn ${model === 'claude' ? 'active' : ''}" onclick="switchModel('claude')">
+            <span class="model-dot"></span>Claude
+          </button>
+          <button class="model-btn gemini-btn ${model === 'gemini' ? 'active' : ''}" onclick="switchModel('gemini')">
+            <span class="model-dot"></span>Gemini
+          </button>
+        </div>
+        ${!available ? `<span class="model-unavailable">⚠ Model unavailable today</span>` : ''}
+      </div>
 
       <section class="section">
         <div class="section-header">
@@ -398,28 +502,39 @@
       <section class="section">
         <div class="section-header">
           <div class="section-title">
-            <span class="dot dot-accent"></span> Yesterday's Performance
+            <span class="dot dot-accent"></span> Historical Performance
             <span style="font-family:'DM Mono',monospace;font-size:0.7rem;color:${modelColor};font-weight:400">via ${modelLabel}</span>
           </div>
-          <div class="section-date">${fmtDate(yesterday.date)}</div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <input type="date" id="perfDatePicker"
+              value="${_selectedPerfDate || yesterday.date}"
+              max="${yesterday.date}"
+              onchange="onPerfDateChange(this.value)"
+              style="background:var(--surface);border:1px solid var(--border);color:var(--text);border-radius:6px;padding:4px 8px;font-family:'DM Mono',monospace;font-size:0.78rem;cursor:pointer;outline:none">
+            <div class="section-date">${perfDate ? fmtDate(perfDate) : ''}</div>
+          </div>
         </div>
         <div class="perf-panel">
-          ${!hasYesterday
-            ? `<div class="pending-note">No ${modelLabel} predictions recorded for yesterday yet.<br>Performance tracking begins after the second daily run.</div>`
-            : `<table class="perf-table">
-                <thead><tr><th>Ticker</th><th>Type</th><th>Predicted</th><th>Actual</th><th>Accuracy</th></tr></thead>
-                <tbody>
-                  <tr class="group-header group-winner"><td colspan="5">▲ Predicted Winners</td></tr>
-                  ${yestWinners.map(e => renderPerfRow(e, 'winner')).join('')}
-                  <tr class="group-header group-loser"><td colspan="5">▼ Predicted Losers</td></tr>
-                  ${yestLosers.map(e => renderPerfRow(e, 'loser')).join('')}
-                </tbody>
-              </table>
-              <div class="download-bar">
-                <button class="download-btn btn-gain" onclick="downloadWinners(_data.yesterday['${model}'].winners, _data.yesterday.date)">↓ Download Winners CSV</button>
-                <button class="download-btn btn-loss" onclick="downloadLosers(_data.yesterday['${model}'].losers, _data.yesterday.date)">↓ Download Losers CSV</button>
-                <button class="download-btn btn-all" onclick="downloadYesterdayPerf(_data.yesterday['${model}'].winners, _data.yesterday['${model}'].losers, _data.yesterday.date)">↓ Full Performance CSV</button>
-              </div>`
+          ${perfShowLoading
+            ? `<div class="pending-note">Loading data for ${perfDate}…</div>`
+            : perfErrored
+              ? `<div class="pending-note">Could not load data for this date. Check your connection.</div>`
+              : !perfHasData
+                ? `<div class="pending-note">No ${modelLabel} predictions recorded for this date.<br>Performance tracking begins after the first daily run.</div>`
+                : `<table class="perf-table">
+                    <thead><tr><th>Ticker</th><th>Type</th><th>Predicted</th><th>Actual</th><th>Accuracy</th></tr></thead>
+                    <tbody>
+                      <tr class="group-header group-winner"><td colspan="5">▲ Predicted Winners</td></tr>
+                      ${perfWinners.map(e => renderPerfRow(e, 'winner')).join('')}
+                      <tr class="group-header group-loser"><td colspan="5">▼ Predicted Losers</td></tr>
+                      ${perfLosers.map(e => renderPerfRow(e, 'loser')).join('')}
+                    </tbody>
+                  </table>
+                  <div class="download-bar">
+                    <button class="download-btn btn-gain" onclick="downloadPerfCsv('winners')">↓ Download Winners CSV</button>
+                    <button class="download-btn btn-loss" onclick="downloadPerfCsv('losers')">↓ Download Losers CSV</button>
+                    <button class="download-btn btn-all" onclick="downloadPerfCsv('all')">↓ Full Performance CSV</button>
+                  </div>`
           }
         </div>
       </section>
