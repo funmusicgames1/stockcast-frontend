@@ -329,7 +329,10 @@
     const barCls = isWinner ? 'bar-fill-gain' : 'bar-fill-loss';
     const actualCls = hasActual ? dirClass(actual) : 'neutral';
     return `<tr>
-      <td><span class="ticker-badge">${e.ticker}</span></td>
+      <td>
+        <span class="ticker-badge">${e.ticker}</span>
+        ${e.company ? `<div class="stock-name" style="margin-top:2px">${e.company}${e.sector ? ' · ' + e.sector : ''}</div>` : ''}
+      </td>
       <td><span class="tag ${isWinner ? 'type-winner' : 'type-loser'}">${isWinner ? 'WINNER' : 'LOSER'}</span></td>
       <td class="${isWinner ? 'up' : 'down'}">${sign(pred)}${pred}%</td>
       <td class="${actualCls}">${hasActual ? sign(actual)+actual+'% '+outcome : '<span style="color:var(--muted)">Pending</span>'}</td>
