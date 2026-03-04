@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-04T07:09:14-0600",
+  "generated_at": "2026-03-04T08:11:44-0600",
   "today": {
     "date": "2026-03-04",
     "claude": {
-      "market_summary": "US-Iran war drives oil stocks up and broad market selloff with tech and semis hit hardest.",
+      "market_summary": "US-Iran war drives oil stocks higher while tech and semis sell off on geopolitical risk and demand fears.",
       "winners": [
         {
           "rank": 1,
@@ -11,7 +11,7 @@
           "company": "Valero Energy Corporation",
           "sector": "Energy",
           "predicted_change_pct": 5.8,
-          "reason": "Refiner surges on spiking oil prices"
+          "reason": "Refiner surges on oil price spike"
         },
         {
           "rank": 2,
@@ -19,7 +19,7 @@
           "company": "Marathon Petroleum Corporation",
           "sector": "Energy",
           "predicted_change_pct": 5.2,
-          "reason": "Refining margins expand on oil shock"
+          "reason": "Refining margins jump on crude surge"
         },
         {
           "rank": 3,
@@ -27,15 +27,15 @@
           "company": "ConocoPhillips",
           "sector": "Energy",
           "predicted_change_pct": 4.5,
-          "reason": "Strong momentum plus Iran oil catalyst"
+          "reason": "High momentum oil producer benefits"
         },
         {
           "rank": 4,
           "ticker": "OXY",
           "company": "Occidental Petroleum Corporation",
           "sector": "Energy",
-          "predicted_change_pct": 4.2,
-          "reason": "High momentum oil producer benefits"
+          "predicted_change_pct": 4.3,
+          "reason": "Iran war drives crude prices higher"
         },
         {
           "rank": 5,
@@ -43,7 +43,7 @@
           "company": "EOG Resources Inc",
           "sector": "Energy",
           "predicted_change_pct": 3.8,
-          "reason": "E&P rallies on crude price surge"
+          "reason": "Strong momentum plus oil catalyst"
         },
         {
           "rank": 6,
@@ -51,23 +51,23 @@
           "company": "Phillips 66",
           "sector": "Energy",
           "predicted_change_pct": 3.5,
-          "reason": "Refiner benefits from oil price spike"
+          "reason": "Refiner benefits from oil shock"
         },
         {
           "rank": 7,
-          "ticker": "CVX",
-          "company": "Chevron Corporation",
-          "sector": "Energy",
-          "predicted_change_pct": 3.2,
-          "reason": "Major oil firm gains on conflict"
-        },
-        {
-          "rank": 8,
           "ticker": "XOM",
           "company": "Exxon Mobil Corporation",
           "sector": "Energy",
+          "predicted_change_pct": 3.2,
+          "reason": "Major oil producer geopolitical beneficiary"
+        },
+        {
+          "rank": 8,
+          "ticker": "CVX",
+          "company": "Chevron Corporation",
+          "sector": "Energy",
           "predicted_change_pct": 3.0,
-          "reason": "Oil supermajor rises on Iran war"
+          "reason": "Oil major gains on conflict"
         },
         {
           "rank": 9,
@@ -75,7 +75,7 @@
           "company": "Northrop Grumman Corporation",
           "sector": "Industrials",
           "predicted_change_pct": 2.8,
-          "reason": "Defense contractor gains on war spending"
+          "reason": "Defense spending surge on Iran war"
         },
         {
           "rank": 10,
@@ -83,7 +83,7 @@
           "company": "Lockheed Martin Corporation",
           "sector": "Industrials",
           "predicted_change_pct": 2.5,
-          "reason": "Weapons demand surges from Iran conflict"
+          "reason": "Weapons replenishment boosts defense stocks"
         }
       ],
       "losers": [
@@ -99,7 +99,7 @@
           "rank": 2,
           "ticker": "HUT",
           "company": "Hut 8 Corp",
-          "sector": "Crypto Mining",
+          "sector": "Technology",
           "predicted_change_pct": -6.5,
           "reason": "Crypto miners crushed risk-off sentiment"
         },
@@ -107,151 +107,151 @@
           "rank": 3,
           "ticker": "CORZ",
           "company": "Core Scientific Inc",
-          "sector": "Crypto Mining",
-          "predicted_change_pct": -6.0,
-          "reason": "High volume selloff crypto risk-off"
+          "sector": "Technology",
+          "predicted_change_pct": -5.8,
+          "reason": "Bitcoin miner selloff high volume"
         },
         {
           "rank": 4,
           "ticker": "XPEV",
           "company": "XPeng Inc",
-          "sector": "Automotive",
+          "sector": "Consumer Discretionary",
           "predicted_change_pct": -5.5,
-          "reason": "China EV weak momentum accelerates down"
+          "reason": "China EV weak momentum continues"
         },
         {
           "rank": 5,
           "ticker": "MARA",
           "company": "MARA Holdings Inc",
-          "sector": "Crypto Mining",
+          "sector": "Technology",
           "predicted_change_pct": -5.2,
-          "reason": "Bitcoin miners sell on geopolitical fear"
+          "reason": "Crypto risk-off geopolitical fear selling"
         },
         {
           "rank": 6,
-          "ticker": "MU",
-          "company": "Micron Technology Inc",
-          "sector": "Semiconductors",
-          "predicted_change_pct": -4.8,
-          "reason": "Semis crushed by war risk-off selling"
+          "ticker": "IREN",
+          "company": "Iris Energy Limited",
+          "sector": "Technology",
+          "predicted_change_pct": -5.0,
+          "reason": "Zero momentum crypto miner selloff"
         },
         {
           "rank": 7,
-          "ticker": "LRCX",
-          "company": "Lam Research Corporation",
-          "sector": "Semiconductors",
-          "predicted_change_pct": -4.5,
-          "reason": "Chip equipment selloff continues steep decline"
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices Inc",
+          "sector": "Technology",
+          "predicted_change_pct": -4.2,
+          "reason": "Semis plunge on war demand fears"
         },
         {
           "rank": 8,
-          "ticker": "AMD",
-          "company": "Advanced Micro Devices Inc",
-          "sector": "Semiconductors",
-          "predicted_change_pct": -4.2,
-          "reason": "Lowest momentum semiconductor under heavy pressure"
+          "ticker": "LRCX",
+          "company": "Lam Research Corporation",
+          "sector": "Technology",
+          "predicted_change_pct": -4.0,
+          "reason": "Chip equipment selloff accelerates further"
         },
         {
           "rank": 9,
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "sector": "Semiconductors",
-          "predicted_change_pct": -4.0,
-          "reason": "Weak chip stock war fears compound"
+          "ticker": "MU",
+          "company": "Micron Technology Inc",
+          "sector": "Technology",
+          "predicted_change_pct": -3.8,
+          "reason": "Memory chip weakness geopolitical risk-off"
         },
         {
           "rank": 10,
-          "ticker": "NIO",
-          "company": "NIO Inc",
-          "sector": "Automotive",
-          "predicted_change_pct": -3.8,
-          "reason": "China EV weak with geopolitical headwinds"
+          "ticker": "INTC",
+          "company": "Intel Corporation",
+          "sector": "Technology",
+          "predicted_change_pct": -3.5,
+          "reason": "Weak semis under heavy selling pressure"
         }
       ],
       "available": true
     },
     "gemini": {
-      "market_summary": "Geopolitical tensions in the Middle East are driving oil prices higher and causing broad market declines, while AI optimism offers some tech resilience.",
+      "market_summary": "Global markets are rattled by US-Israel attacks on Iran, driving oil prices up and broader stocks down, with AI impact on economy a growing concern.",
       "winners": [
         {
           "rank": 1,
           "ticker": "VLO",
           "company": "Valero Energy Corporation",
           "sector": "Energy",
-          "predicted_change_pct": 5.5,
-          "reason": "Oil surges amid Iran conflict."
+          "predicted_change_pct": 8.5,
+          "reason": "Oil surges on Middle East conflict"
         },
         {
           "rank": 2,
           "ticker": "MPC",
           "company": "Marathon Petroleum Corporation",
           "sector": "Energy",
-          "predicted_change_pct": 5.2,
-          "reason": "Oil surges amid Iran conflict."
+          "predicted_change_pct": 7.8,
+          "reason": "Oil surges on Middle East conflict"
         },
         {
           "rank": 3,
           "ticker": "COP",
           "company": "ConocoPhillips",
           "sector": "Energy",
-          "predicted_change_pct": 4.8,
-          "reason": "Oil surges amid Iran conflict."
+          "predicted_change_pct": 6.9,
+          "reason": "Oil surges on Middle East conflict"
         },
         {
           "rank": 4,
           "ticker": "OXY",
           "company": "Occidental Petroleum Corporation",
           "sector": "Energy",
-          "predicted_change_pct": 4.5,
-          "reason": "Oil surges amid Iran conflict."
+          "predicted_change_pct": 6.2,
+          "reason": "Oil surges on Middle East conflict"
         },
         {
           "rank": 5,
           "ticker": "EOG",
-          "company": "EOG Resources, Inc.",
+          "company": "EOG Resources Inc.",
           "sector": "Energy",
-          "predicted_change_pct": 4.1,
-          "reason": "Oil surges amid Iran conflict."
+          "predicted_change_pct": 5.8,
+          "reason": "Oil surges on Middle East conflict"
         },
         {
           "rank": 6,
           "ticker": "PSX",
           "company": "Phillips 66",
           "sector": "Energy",
-          "predicted_change_pct": 3.8,
-          "reason": "Oil surges amid Iran conflict."
+          "predicted_change_pct": 5.1,
+          "reason": "Oil surges on Middle East conflict"
         },
         {
           "rank": 7,
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
-          "sector": "Energy",
-          "predicted_change_pct": 3.5,
-          "reason": "Oil prices jump on war."
-        },
-        {
-          "rank": 8,
           "ticker": "CVX",
           "company": "Chevron Corporation",
           "sector": "Energy",
-          "predicted_change_pct": 3.2,
-          "reason": "Oil prices jump on war."
+          "predicted_change_pct": 4.5,
+          "reason": "Oil surges on Middle East conflict"
+        },
+        {
+          "rank": 8,
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "sector": "Energy",
+          "predicted_change_pct": 4.1,
+          "reason": "Oil surges on Middle East conflict"
         },
         {
           "rank": 9,
           "ticker": "TGT",
           "company": "Target Corporation",
-          "sector": "Consumer Discretionary",
-          "predicted_change_pct": 2.9,
-          "reason": "Strong recent momentum and volume."
+          "sector": "Retail",
+          "predicted_change_pct": 3.8,
+          "reason": "Strong recent performance, high momentum"
         },
         {
           "rank": 10,
-          "ticker": "ADBE",
-          "company": "Adobe Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 2.7,
-          "reason": "Strong momentum, AI-driven growth optimism."
+          "ticker": "ASTS",
+          "company": "AST SpaceMobile, Inc.",
+          "sector": "Aerospace & Defense",
+          "predicted_change_pct": 3.2,
+          "reason": "Strong 1-day/1-week gain, high volume"
         }
       ],
       "losers": [
@@ -261,79 +261,79 @@
           "company": "MongoDB, Inc.",
           "sector": "Technology",
           "predicted_change_pct": -15.0,
-          "reason": "Massive 1-day drop, high volume."
+          "reason": "Significant 1-day drop, high volume"
         },
         {
           "rank": 2,
-          "ticker": "HUT",
-          "company": "Hut 8 Mining Corp.",
-          "sector": "Financial",
+          "ticker": "CORZ",
+          "company": "Core Scientific, Inc.",
+          "sector": "Financial Services",
           "predicted_change_pct": -8.5,
-          "reason": "Crypto miners suffer heavy losses."
+          "reason": "Significant 1-day drop, high volume"
         },
         {
           "rank": 3,
-          "ticker": "MU",
-          "company": "Micron Technology, Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": -7.0,
-          "reason": "Weak momentum, high volume."
+          "ticker": "HUT",
+          "company": "Hut 8 Mining Corp.",
+          "sector": "Financial Services",
+          "predicted_change_pct": -7.5,
+          "reason": "Significant 1-day drop, low momentum"
         },
         {
           "rank": 4,
-          "ticker": "CORZ",
-          "company": "Core Scientific, Inc.",
-          "sector": "Financial",
-          "predicted_change_pct": -6.8,
-          "reason": "Crypto miners suffer heavy losses."
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "sector": "Technology",
+          "predicted_change_pct": -6.5,
+          "reason": "Weak 1-day/1-week, high volume"
         },
         {
           "rank": 5,
-          "ticker": "IREN",
-          "company": "Iris Energy Limited",
-          "sector": "Financial",
-          "predicted_change_pct": -6.5,
-          "reason": "Crypto miners suffer heavy losses."
+          "ticker": "RIOT",
+          "company": "Riot Platforms, Inc.",
+          "sector": "Financial Services",
+          "predicted_change_pct": -6.0,
+          "reason": "Weak 1-day/1-week, high volume"
         },
         {
           "rank": 6,
-          "ticker": "KLAC",
-          "company": "KLA Corporation",
-          "sector": "Technology",
-          "predicted_change_pct": -6.0,
-          "reason": "Semiconductor weakness, high volume."
+          "ticker": "XPEV",
+          "company": "XPeng Inc.",
+          "sector": "Automotive",
+          "predicted_change_pct": -5.5,
+          "reason": "Significant 1-day/1-week drop"
         },
         {
           "rank": 7,
-          "ticker": "LRCX",
-          "company": "Lam Research Corporation",
-          "sector": "Technology",
-          "predicted_change_pct": -5.8,
-          "reason": "Semiconductor weakness, high volume."
+          "ticker": "NEM",
+          "company": "Newmont Corporation",
+          "sector": "Materials",
+          "predicted_change_pct": -5.0,
+          "reason": "Significant 1-day drop, high volume"
         },
         {
           "rank": 8,
-          "ticker": "XPEV",
-          "company": "XPeng Inc.",
-          "sector": "Consumer Discretionary",
-          "predicted_change_pct": -5.5,
-          "reason": "Weak momentum, high volume."
+          "ticker": "LRCX",
+          "company": "Lam Research Corporation",
+          "sector": "Technology",
+          "predicted_change_pct": -4.8,
+          "reason": "Weak 1-day/1-week, high volume"
         },
         {
           "rank": 9,
-          "ticker": "AMD",
-          "company": "Advanced Micro Devices, Inc.",
+          "ticker": "KLAC",
+          "company": "KLA Corporation",
           "sector": "Technology",
-          "predicted_change_pct": -5.0,
-          "reason": "Weak semiconductor momentum, low score."
+          "predicted_change_pct": -4.5,
+          "reason": "Weak 1-day/1-week, high volume"
         },
         {
           "rank": 10,
-          "ticker": "INTC",
-          "company": "Intel Corporation",
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices, Inc.",
           "sector": "Technology",
-          "predicted_change_pct": -4.8,
-          "reason": "Weak semiconductor momentum, low score."
+          "predicted_change_pct": -4.0,
+          "reason": "Weak 1-day/1-week, low momentum"
         }
       ],
       "available": true
