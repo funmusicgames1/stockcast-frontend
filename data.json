@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-06T07:20:04-0600",
+  "generated_at": "2026-03-06T08:08:09-0600",
   "today": {
     "date": "2026-03-06",
     "claude": {
-      "market_summary": "Markets rebound on Iran de-escalation hopes while oil-driven energy stocks and high-momentum software names lead gains amid persistent geopolitical uncertainty.",
+      "market_summary": "Markets rebounding on Iran de-escalation hopes amid tech strength and energy gains from elevated oil prices.",
       "winners": [
         {
           "rank": 1,
           "ticker": "AVGO",
           "company": "Broadcom Inc",
           "sector": "Technology",
-          "predicted_change_pct": 5.5,
+          "predicted_change_pct": 5.8,
           "reason": "AI chip revenue up 106% earnings"
         },
         {
@@ -19,7 +19,7 @@
           "company": "Okta Inc",
           "sector": "Technology",
           "predicted_change_pct": 4.2,
-          "reason": "Strong momentum high volume breakout"
+          "reason": "Strong momentum, high volume breakout"
         },
         {
           "rank": 3,
@@ -27,7 +27,7 @@
           "company": "ServiceNow Inc",
           "sector": "Technology",
           "predicted_change_pct": 3.5,
-          "reason": "Top momentum score sector rotation"
+          "reason": "Momentum 95, tech rebound continuation"
         },
         {
           "rank": 4,
@@ -35,18 +35,26 @@
           "company": "Valero Energy Corp",
           "sector": "Energy",
           "predicted_change_pct": 3.2,
-          "reason": "Oil spike Iran war supply fears"
+          "reason": "Oil rising on Iran supply fears"
         },
         {
           "rank": 5,
-          "ticker": "EOG",
-          "company": "EOG Resources Inc",
-          "sector": "Energy",
-          "predicted_change_pct": 2.8,
-          "reason": "Highest energy momentum rising oil"
+          "ticker": "SPOT",
+          "company": "Spotify Technology SA",
+          "sector": "Technology",
+          "predicted_change_pct": 3.0,
+          "reason": "Highest momentum score, strong trend"
         },
         {
           "rank": 6,
+          "ticker": "CRWD",
+          "company": "CrowdStrike Holdings Inc",
+          "sector": "Technology",
+          "predicted_change_pct": 2.8,
+          "reason": "Cybersecurity momentum, geopolitical demand catalyst"
+        },
+        {
+          "rank": 7,
           "ticker": "PSX",
           "company": "Phillips 66",
           "sector": "Energy",
@@ -54,36 +62,28 @@
           "reason": "Refiner benefits from oil surge"
         },
         {
-          "rank": 7,
-          "ticker": "SPOT",
-          "company": "Spotify Technology SA",
-          "sector": "Technology",
-          "predicted_change_pct": 2.5,
-          "reason": "Strongest momentum score continued buying"
-        },
-        {
           "rank": 8,
-          "ticker": "CRWD",
-          "company": "CrowdStrike Holdings Inc",
-          "sector": "Technology",
-          "predicted_change_pct": 2.3,
-          "reason": "Cybersecurity demand geopolitical tensions rising"
+          "ticker": "EOG",
+          "company": "EOG Resources Inc",
+          "sector": "Energy",
+          "predicted_change_pct": 2.4,
+          "reason": "Top energy momentum, oil rally"
         },
         {
           "rank": 9,
-          "ticker": "COP",
-          "company": "ConocoPhillips",
-          "sector": "Energy",
-          "predicted_change_pct": 2.1,
-          "reason": "Strong oil momentum Iran conflict"
+          "ticker": "NET",
+          "company": "Cloudflare Inc",
+          "sector": "Technology",
+          "predicted_change_pct": 2.3,
+          "reason": "Momentum 95, cloud sector strength"
         },
         {
           "rank": 10,
           "ticker": "HUBS",
           "company": "HubSpot Inc",
           "sector": "Technology",
-          "predicted_change_pct": 2.0,
-          "reason": "Perfect momentum score software rally"
+          "predicted_change_pct": 2.2,
+          "reason": "Perfect momentum score, SaaS leader"
         }
       ],
       "losers": [
@@ -91,252 +91,90 @@
           "rank": 1,
           "ticker": "LUV",
           "company": "Southwest Airlines Co",
-          "sector": "Industrials",
-          "predicted_change_pct": -5.2,
-          "reason": "Oil surge crushes airline margins"
+          "sector": "Airlines",
+          "predicted_change_pct": -4.5,
+          "reason": "Oil spike crushes airlines further"
         },
         {
           "rank": 2,
           "ticker": "AAL",
-          "company": "American Airlines Group",
-          "sector": "Industrials",
-          "predicted_change_pct": -4.8,
-          "reason": "Weakest momentum rising fuel costs"
+          "company": "American Airlines Group Inc",
+          "sector": "Airlines",
+          "predicted_change_pct": -4.2,
+          "reason": "Weakest momentum, oil headwinds persist"
         },
         {
           "rank": 3,
           "ticker": "UAL",
-          "company": "United Airlines Holdings",
-          "sector": "Industrials",
-          "predicted_change_pct": -4.5,
-          "reason": "Airlines hammered by oil spike"
+          "company": "United Airlines Holdings Inc",
+          "sector": "Airlines",
+          "predicted_change_pct": -3.8,
+          "reason": "Airline selloff continues, fuel costs"
         },
         {
           "rank": 4,
           "ticker": "DAL",
-          "company": "Delta Air Lines",
-          "sector": "Industrials",
-          "predicted_change_pct": -3.8,
-          "reason": "High volume airline selloff continues"
+          "company": "Delta Air Lines Inc",
+          "sector": "Airlines",
+          "predicted_change_pct": -3.5,
+          "reason": "High volume airline sector rout"
         },
         {
           "rank": 5,
           "ticker": "EDIT",
           "company": "Editas Medicine Inc",
           "sector": "Healthcare",
-          "predicted_change_pct": -3.5,
-          "reason": "Collapsing momentum risk-off biotech selling"
+          "predicted_change_pct": -3.3,
+          "reason": "Continued biotech collapse, no catalyst"
         },
         {
           "rank": 6,
           "ticker": "IREN",
-          "company": "Iris Energy Ltd",
-          "sector": "Technology",
-          "predicted_change_pct": -3.3,
-          "reason": "Zero momentum severe downtrend continuation"
+          "company": "Iris Energy Limited",
+          "sector": "Crypto Mining",
+          "predicted_change_pct": -3.0,
+          "reason": "Severe downtrend, momentum zero score"
         },
         {
           "rank": 7,
-          "ticker": "LYFT",
-          "company": "Lyft Inc",
-          "sector": "Technology",
-          "predicted_change_pct": -3.0,
-          "reason": "Near-zero momentum fuel cost pressure"
+          "ticker": "LRCX",
+          "company": "Lam Research Corp",
+          "sector": "Semiconductors",
+          "predicted_change_pct": -2.8,
+          "reason": "Semis weak, steep weekly decline"
         },
         {
           "rank": 8,
           "ticker": "F",
           "company": "Ford Motor Co",
-          "sector": "Consumer Discretionary",
-          "predicted_change_pct": -2.8,
-          "reason": "Weak momentum tariff war fears"
+          "sector": "Automotive",
+          "predicted_change_pct": -2.5,
+          "reason": "Auto weak, oil raises input costs"
         },
         {
           "rank": 9,
-          "ticker": "UPS",
-          "company": "United Parcel Service",
-          "sector": "Industrials",
-          "predicted_change_pct": -2.7,
-          "reason": "High volume selloff economic slowdown"
+          "ticker": "LYFT",
+          "company": "Lyft Inc",
+          "sector": "Transportation",
+          "predicted_change_pct": -2.4,
+          "reason": "Momentum 2, deep downtrend continues"
         },
         {
           "rank": 10,
-          "ticker": "LRCX",
-          "company": "Lam Research Corp",
-          "sector": "Technology",
-          "predicted_change_pct": -2.5,
-          "reason": "Semis weak lowest momentum score"
+          "ticker": "BEAM",
+          "company": "Beam Therapeutics Inc",
+          "sector": "Healthcare",
+          "predicted_change_pct": -2.3,
+          "reason": "Biotech selloff, weak momentum persists"
         }
       ],
       "available": true
     },
     "gemini": {
-      "market_summary": "Geopolitical tensions from the Iran war are driving oil prices higher, while mixed signals from the Fed on rate cuts create uncertainty for broader markets, though tech futures show a rebound.",
-      "winners": [
-        {
-          "rank": 1,
-          "ticker": "BKNG",
-          "company": "Booking Holdings Inc.",
-          "sector": "Consumer Discretionary",
-          "predicted_change_pct": 8.0,
-          "reason": "Strong 1-day gain, high momentum."
-        },
-        {
-          "rank": 2,
-          "ticker": "OKTA",
-          "company": "Okta, Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 7.5,
-          "reason": "Huge 1-day gain, high volume."
-        },
-        {
-          "rank": 3,
-          "ticker": "NOW",
-          "company": "ServiceNow, Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 6.5,
-          "reason": "Strong 1-day gain, high momentum."
-        },
-        {
-          "rank": 4,
-          "ticker": "MDB",
-          "company": "MongoDB, Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 6.0,
-          "reason": "High volume, recent dip rebound."
-        },
-        {
-          "rank": 5,
-          "ticker": "SNOW",
-          "company": "Snowflake Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 5.5,
-          "reason": "Strong 1-day gain, good momentum."
-        },
-        {
-          "rank": 6,
-          "ticker": "AVGO",
-          "company": "Broadcom Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 5.0,
-          "reason": "AI chip business jumps 106%."
-        },
-        {
-          "rank": 7,
-          "ticker": "CRWD",
-          "company": "CrowdStrike Holdings, Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 4.8,
-          "reason": "Strong 1-day gain, high momentum."
-        },
-        {
-          "rank": 8,
-          "ticker": "VEEV",
-          "company": "Veeva Systems Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 4.5,
-          "reason": "High volume, strong daily gain."
-        },
-        {
-          "rank": 9,
-          "ticker": "CRM",
-          "company": "Salesforce, Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 4.3,
-          "reason": "Strong 1-day gain, high momentum."
-        },
-        {
-          "rank": 10,
-          "ticker": "ADBE",
-          "company": "Adobe Inc.",
-          "sector": "Technology",
-          "predicted_change_pct": 3.8,
-          "reason": "Strong 1-day gain, high momentum."
-        }
-      ],
-      "losers": [
-        {
-          "rank": 1,
-          "ticker": "LUV",
-          "company": "Southwest Airlines Co.",
-          "sector": "Industrials",
-          "predicted_change_pct": -6.5,
-          "reason": "Rising oil prices, weak momentum."
-        },
-        {
-          "rank": 2,
-          "ticker": "MRNA",
-          "company": "Moderna, Inc.",
-          "sector": "Healthcare",
-          "predicted_change_pct": -6.0,
-          "reason": "Significant 1-day decline, high volume."
-        },
-        {
-          "rank": 3,
-          "ticker": "UPS",
-          "company": "United Parcel Service, Inc.",
-          "sector": "Industrials",
-          "predicted_change_pct": -5.5,
-          "reason": "High volume, weak short-term performance."
-        },
-        {
-          "rank": 4,
-          "ticker": "AAL",
-          "company": "American Airlines Group Inc.",
-          "sector": "Industrials",
-          "predicted_change_pct": -5.0,
-          "reason": "Rising oil prices, weak momentum."
-        },
-        {
-          "rank": 5,
-          "ticker": "UAL",
-          "company": "United Airlines Holdings, Inc.",
-          "sector": "Industrials",
-          "predicted_change_pct": -4.8,
-          "reason": "Rising oil prices, weak momentum."
-        },
-        {
-          "rank": 6,
-          "ticker": "DAL",
-          "company": "Delta Air Lines, Inc.",
-          "sector": "Industrials",
-          "predicted_change_pct": -4.5,
-          "reason": "Rising oil prices, weak momentum."
-        },
-        {
-          "rank": 7,
-          "ticker": "F",
-          "company": "Ford Motor Company",
-          "sector": "Consumer Discretionary",
-          "predicted_change_pct": -4.0,
-          "reason": "Weak momentum, geopolitical risks."
-        },
-        {
-          "rank": 8,
-          "ticker": "GE",
-          "company": "General Electric Company",
-          "sector": "Industrials",
-          "predicted_change_pct": -3.8,
-          "reason": "Significant 1-day decline."
-        },
-        {
-          "rank": 9,
-          "ticker": "GS",
-          "company": "The Goldman Sachs Group, Inc.",
-          "sector": "Financials",
-          "predicted_change_pct": -3.5,
-          "reason": "Significant 1-day decline, low momentum."
-        },
-        {
-          "rank": 10,
-          "ticker": "FCX",
-          "company": "Freeport-McMoRan Inc.",
-          "sector": "Materials",
-          "predicted_change_pct": -3.3,
-          "reason": "Significant 1-day decline, weak momentum."
-        }
-      ],
-      "available": true
+      "market_summary": null,
+      "winners": [],
+      "losers": [],
+      "available": false
     }
   },
   "yesterday": {
