@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-03T07:41:27-0500",
+  "generated_at": "2026-04-06T07:48:20-0500",
   "today": {
-    "date": "2026-04-03",
+    "date": "2026-04-06",
     "claude": {
       "market_summary": null,
       "winners": [],
@@ -9,671 +9,185 @@
       "available": false
     },
     "gemini": {
-      "market_summary": "Stocks are expected to rebound on hopes for Middle East de-escalation and falling oil prices, despite ongoing tariff concerns.",
+      "market_summary": "Stagflation and Middle East tensions are increasing market uncertainty, with some tech and crypto stocks showing resilience.",
       "winners": [
         {
           "rank": 1,
           "ticker": "MARA",
-          "company": "Marathon Digital Holdings",
-          "sector": "Financial Technology & Services",
-          "predicted_change_pct": 9.5,
-          "reason": "Bitcoin rally, high volume, strong momentum."
+          "company": "Marathon Digital Holdings Inc.",
+          "sector": "Financial Technology & Infrastructure",
+          "predicted_change_pct": 7.5,
+          "reason": "Strong 1-day gain, Bitcoin reserve news."
         },
         {
           "rank": 2,
-          "ticker": "AMC",
-          "company": "AMC Entertainment Holdings",
-          "sector": "Entertainment",
-          "predicted_change_pct": 9.2,
-          "reason": "High volume, strong 1-week gain."
+          "ticker": "CORZ",
+          "company": "Core Scientific, Inc.",
+          "sector": "Financial Technology & Infrastructure",
+          "predicted_change_pct": 6.8,
+          "reason": "Strong 1-day gain, Bitcoin reserve news."
         },
         {
           "rank": 3,
           "ticker": "ASTS",
-          "company": "AST SpaceMobile",
-          "sector": "Telecommunications",
-          "predicted_change_pct": 8.5,
-          "reason": "Exceptional 1-day gain, high volume."
+          "company": "AST SpaceMobile, Inc.",
+          "sector": "Telecommunication Services",
+          "predicted_change_pct": 6.0,
+          "reason": "High 1-day gain, strong volume ratio."
         },
         {
           "rank": 4,
-          "ticker": "CORZ",
-          "company": "Core Scientific",
-          "sector": "Financial Technology & Services",
-          "predicted_change_pct": 7.0,
-          "reason": "Strong 1-day gain, solid momentum."
+          "ticker": "EDIT",
+          "company": "Editas Medicine, Inc.",
+          "sector": "Biotechnology",
+          "predicted_change_pct": 5.5,
+          "reason": "Strong 1-week/1-month gains, momentum."
         },
         {
           "rank": 5,
-          "ticker": "CCI",
-          "company": "Crown Castle International",
-          "sector": "Real Estate",
-          "predicted_change_pct": 6.5,
-          "reason": "High volume, strong weekly momentum."
+          "ticker": "SRPT",
+          "company": "Sarepta Therapeutics, Inc.",
+          "sector": "Biotechnology",
+          "predicted_change_pct": 5.2,
+          "reason": "High momentum, significant 1-month gain."
         },
         {
           "rank": 6,
-          "ticker": "SRPT",
-          "company": "Sarepta Therapeutics",
-          "sector": "Healthcare",
-          "predicted_change_pct": 5.5,
-          "reason": "Exceptional 1-month momentum."
+          "ticker": "DASH",
+          "company": "DoorDash, Inc.",
+          "sector": "Software & Services",
+          "predicted_change_pct": 4.8,
+          "reason": "Strong 1-day gain, increased volume."
         },
         {
           "rank": 7,
-          "ticker": "NIO",
-          "company": "NIO Inc.",
-          "sector": "Automotive",
-          "predicted_change_pct": 4.8,
-          "reason": "Strong 1-month and 1-week gains."
+          "ticker": "CCI",
+          "company": "Crown Castle International Corp.",
+          "sector": "Equity REITs",
+          "predicted_change_pct": 4.5,
+          "reason": "High 1-day gain, significant volume."
         },
         {
           "rank": 8,
           "ticker": "AMD",
-          "company": "Advanced Micro Devices",
-          "sector": "Semiconductors",
-          "predicted_change_pct": 4.2,
-          "reason": "Strong 1-day/1-week/1-month gains, volume."
+          "company": "Advanced Micro Devices, Inc.",
+          "sector": "Semiconductors & Semiconductor Equipment",
+          "predicted_change_pct": 4.0,
+          "reason": "Strong recent performance and momentum."
         },
         {
           "rank": 9,
           "ticker": "INTC",
           "company": "Intel Corporation",
-          "sector": "Semiconductors",
-          "predicted_change_pct": 4.0,
-          "reason": "Strong 1-day/1-week/1-month gains, volume."
+          "sector": "Semiconductors & Semiconductor Equipment",
+          "predicted_change_pct": 3.8,
+          "reason": "Strong recent performance and momentum."
         },
         {
           "rank": 10,
           "ticker": "NFLX",
-          "company": "Netflix Inc.",
-          "sector": "Entertainment",
-          "predicted_change_pct": 3.8,
-          "reason": "Strong 1-day gain, positive momentum."
+          "company": "Netflix, Inc.",
+          "sector": "Media & Entertainment",
+          "predicted_change_pct": 3.5,
+          "reason": "Strong 1-day gain, healthy volume."
         }
       ],
       "losers": [
         {
           "rank": 1,
-          "ticker": "NKE",
-          "company": "NIKE, Inc.",
-          "sector": "Consumer Discretionary",
-          "predicted_change_pct": -4.5,
-          "reason": "Significant 1-week and 1-month decline."
-        },
-        {
-          "rank": 2,
           "ticker": "TSLA",
           "company": "Tesla, Inc.",
-          "sector": "Automotive",
-          "predicted_change_pct": -3.8,
-          "reason": "Significant 1-day and 1-month decline."
-        },
-        {
-          "rank": 3,
-          "ticker": "GE",
-          "company": "General Electric",
-          "sector": "Industrials",
-          "predicted_change_pct": -3.5,
-          "reason": "Sharp 1-day drop, low momentum."
-        },
-        {
-          "rank": 4,
-          "ticker": "BIIB",
-          "company": "Biogen Inc.",
-          "sector": "Healthcare",
-          "predicted_change_pct": -3.0,
-          "reason": "Sharp 1-day drop, low momentum."
-        },
-        {
-          "rank": 5,
-          "ticker": "GM",
-          "company": "General Motors",
-          "sector": "Automotive",
-          "predicted_change_pct": -2.8,
+          "sector": "Automobiles & Components",
+          "predicted_change_pct": -4.5,
           "reason": "Significant 1-day drop, low momentum."
         },
         {
-          "rank": 6,
-          "ticker": "HD",
-          "company": "The Home Depot",
-          "sector": "Consumer Discretionary",
+          "rank": 2,
+          "ticker": "GE",
+          "company": "General Electric Company",
+          "sector": "Industrials",
+          "predicted_change_pct": -3.5,
+          "reason": "Large 1-day drop, poor recent trend."
+        },
+        {
+          "rank": 3,
+          "ticker": "BIIB",
+          "company": "Biogen Inc.",
+          "sector": "Biotechnology",
+          "predicted_change_pct": -3.0,
+          "reason": "Significant 1-day drop, low momentum."
+        },
+        {
+          "rank": 4,
+          "ticker": "GM",
+          "company": "General Motors Company",
+          "sector": "Automobiles & Components",
+          "predicted_change_pct": -2.8,
+          "reason": "Recent negative trend, low momentum."
+        },
+        {
+          "rank": 5,
+          "ticker": "ISRG",
+          "company": "Intuitive Surgical, Inc.",
+          "sector": "Health Care Equipment & Services",
           "predicted_change_pct": -2.5,
-          "reason": "Significant 1-day decline, low momentum."
+          "reason": "Large 1-day drop, declining momentum."
+        },
+        {
+          "rank": 6,
+          "ticker": "BMY",
+          "company": "Bristol-Myers Squibb Company",
+          "sector": "Pharmaceuticals, Biotechnology & Life Sciences",
+          "predicted_change_pct": -2.3,
+          "reason": "Significant 1-day drop, weak momentum."
         },
         {
           "rank": 7,
-          "ticker": "BMY",
-          "company": "Bristol-Myers Squibb",
-          "sector": "Healthcare",
-          "predicted_change_pct": -2.3,
-          "reason": "Significant 1-day drop, high volume."
+          "ticker": "HD",
+          "company": "The Home Depot, Inc.",
+          "sector": "Retailing",
+          "predicted_change_pct": -2.2,
+          "reason": "Weak recent trend, low momentum score."
         },
         {
           "rank": 8,
-          "ticker": "LOW",
-          "company": "Lowe's Companies",
-          "sector": "Consumer Discretionary",
-          "predicted_change_pct": -2.2,
-          "reason": "Significant 1-day decline, low momentum."
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
+          "sector": "Pharmaceuticals, Biotechnology & Life Sciences",
+          "predicted_change_pct": -2.1,
+          "reason": "Recent negative trend, declining momentum."
         },
         {
           "rank": 9,
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "sector": "Healthcare",
+          "ticker": "LOW",
+          "company": "Lowe's Companies, Inc.",
+          "sector": "Retailing",
           "predicted_change_pct": -2.0,
-          "reason": "Recent 1-day decline, volume."
+          "reason": "Weak recent trend, low momentum score."
         },
         {
           "rank": 10,
           "ticker": "REGN",
-          "company": "Regeneron Pharmaceuticals",
-          "sector": "Healthcare",
+          "company": "Regeneron Pharmaceuticals, Inc.",
+          "sector": "Biotechnology",
           "predicted_change_pct": -1.8,
-          "reason": "Recent 1-day decline, high volume."
+          "reason": "High volume, recent negative movement."
         }
       ],
       "available": true
     }
   },
   "yesterday": {
-    "date": "2026-04-02",
+    "date": "2026-04-05",
     "claude": {
-      "date": "2026-04-02",
-      "winners": [
-        {
-          "rank": 1,
-          "reason": "Strong momentum, high volume, commodity rally",
-          "sector": "Materials",
-          "ticker": "AA",
-          "company": "Alcoa Corporation",
-          "predicted_change_pct": 9.5,
-          "prediction_type": "winner",
-          "actual_change_pct": -0.74,
-          "accuracy_score": 0,
-          "outcome": "miss"
-        },
-        {
-          "rank": 2,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Technology",
-          "ticker": "MU",
-          "company": "Micron Technology, Inc.",
-          "predicted_change_pct": 9.2,
-          "prediction_type": "winner",
-          "actual_change_pct": -0.44,
-          "accuracy_score": 2,
-          "outcome": "miss"
-        },
-        {
-          "rank": 3,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Technology",
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "predicted_change_pct": 9.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 4.89,
-          "accuracy_score": 59,
-          "outcome": "close"
-        },
-        {
-          "rank": 4,
-          "reason": "Strong momentum, high volume, 1-day gain",
-          "sector": "Technology",
-          "ticker": "MRVL",
-          "company": "Marvell Technology, Inc.",
-          "predicted_change_pct": 8.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 0.37,
-          "accuracy_score": 50,
-          "outcome": "close"
-        },
-        {
-          "rank": 5,
-          "reason": "Strong momentum, high 1-day gain",
-          "sector": "Healthcare",
-          "ticker": "EDIT",
-          "company": "Editas Medicine, Inc.",
-          "predicted_change_pct": 6.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 2.3,
-          "accuracy_score": 63,
-          "outcome": "close"
-        },
-        {
-          "rank": 6,
-          "reason": "Strong 1-day and 1-week gain",
-          "sector": "Materials",
-          "ticker": "NEM",
-          "company": "Newmont Corporation",
-          "predicted_change_pct": 5.5,
-          "prediction_type": "winner",
-          "actual_change_pct": 0.23,
-          "accuracy_score": 50,
-          "outcome": "close"
-        },
-        {
-          "rank": 7,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Communication Services",
-          "ticker": "AMC",
-          "company": "AMC Entertainment Holdings, Inc.",
-          "predicted_change_pct": 5.2,
-          "prediction_type": "winner",
-          "actual_change_pct": 8.74,
-          "accuracy_score": 65,
-          "outcome": "beat"
-        },
-        {
-          "rank": 8,
-          "reason": "Positive 1-week/1-month trend",
-          "sector": "Healthcare",
-          "ticker": "PFE",
-          "company": "Pfizer Inc.",
-          "predicted_change_pct": 4.0,
-          "prediction_type": "winner",
-          "actual_change_pct": -0.81,
-          "accuracy_score": 26,
-          "outcome": "miss"
-        },
-        {
-          "rank": 9,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Healthcare",
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "predicted_change_pct": 4.0,
-          "prediction_type": "winner",
-          "actual_change_pct": -1.98,
-          "accuracy_score": 20,
-          "outcome": "miss"
-        },
-        {
-          "rank": 10,
-          "reason": "Strong 1-day and 1-week gain",
-          "sector": "Industrials",
-          "ticker": "BA",
-          "company": "The Boeing Company",
-          "predicted_change_pct": 4.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 0.43,
-          "accuracy_score": 64,
-          "outcome": "close"
-        }
-      ],
-      "losers": [
-        {
-          "rank": 1,
-          "reason": "Massive 1-day drop, very high volume",
-          "sector": "Consumer Discretionary",
-          "ticker": "NKE",
-          "company": "NIKE, Inc.",
-          "predicted_change_pct": -10.0,
-          "prediction_type": "loser",
-          "actual_change_pct": -0.99,
-          "accuracy_score": 50,
-          "outcome": "close"
-        },
-        {
-          "rank": 2,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
-          "predicted_change_pct": -5.0,
-          "prediction_type": "loser",
-          "actual_change_pct": -0.06,
-          "accuracy_score": 51,
-          "outcome": "close"
-        },
-        {
-          "rank": 3,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "CVX",
-          "company": "Chevron Corporation",
-          "predicted_change_pct": -4.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 0.79,
-          "accuracy_score": 24,
-          "outcome": "miss"
-        },
-        {
-          "rank": 4,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "OXY",
-          "company": "Occidental Petroleum Corporation",
-          "predicted_change_pct": -4.0,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.19,
-          "accuracy_score": 24,
-          "outcome": "miss"
-        },
-        {
-          "rank": 5,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "PSX",
-          "company": "Phillips 66",
-          "predicted_change_pct": -3.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 0.32,
-          "accuracy_score": 31,
-          "outcome": "miss"
-        },
-        {
-          "rank": 6,
-          "reason": "Negative 1-day momentum, low momentum",
-          "sector": "Communication Services",
-          "ticker": "SPOT",
-          "company": "Spotify Technology S.A.",
-          "predicted_change_pct": -3.0,
-          "prediction_type": "loser",
-          "actual_change_pct": 4.03,
-          "accuracy_score": 15,
-          "outcome": "miss"
-        },
-        {
-          "rank": 7,
-          "reason": "Negative 1-day momentum, low momentum",
-          "sector": "Technology",
-          "ticker": "ZS",
-          "company": "Zscaler, Inc.",
-          "predicted_change_pct": -2.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.38,
-          "accuracy_score": 31,
-          "outcome": "miss"
-        },
-        {
-          "rank": 8,
-          "reason": "Negative 1-day, 1-week, 1-month trend",
-          "sector": "Consumer Staples",
-          "ticker": "HSY",
-          "company": "The Hershey Company",
-          "predicted_change_pct": -2.0,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.63,
-          "accuracy_score": 32,
-          "outcome": "miss"
-        },
-        {
-          "rank": 9,
-          "reason": "Negative 1-day, 1-week trend",
-          "sector": "Communication Services",
-          "ticker": "T",
-          "company": "AT&T Inc.",
-          "predicted_change_pct": -1.8,
-          "prediction_type": "loser",
-          "actual_change_pct": 0.07,
-          "accuracy_score": 41,
-          "outcome": "miss"
-        },
-        {
-          "rank": 10,
-          "reason": "High volume, negative 1-day trend",
-          "sector": "Financials",
-          "ticker": "SCHW",
-          "company": "The Charles Schwab Corporation",
-          "predicted_change_pct": -1.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.53,
-          "accuracy_score": 35,
-          "outcome": "miss"
-        }
-      ],
-      "has_actuals": true
+      "winners": [],
+      "losers": [],
+      "has_actuals": false
     },
     "gemini": {
-      "date": "2026-04-02",
-      "winners": [
-        {
-          "rank": 1,
-          "reason": "Strong momentum, high volume, commodity rally",
-          "sector": "Materials",
-          "ticker": "AA",
-          "company": "Alcoa Corporation",
-          "predicted_change_pct": 9.5,
-          "prediction_type": "winner",
-          "actual_change_pct": -0.74,
-          "accuracy_score": 0,
-          "outcome": "miss"
-        },
-        {
-          "rank": 2,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Technology",
-          "ticker": "MU",
-          "company": "Micron Technology, Inc.",
-          "predicted_change_pct": 9.2,
-          "prediction_type": "winner",
-          "actual_change_pct": -0.44,
-          "accuracy_score": 2,
-          "outcome": "miss"
-        },
-        {
-          "rank": 3,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Technology",
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "predicted_change_pct": 9.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 4.89,
-          "accuracy_score": 59,
-          "outcome": "close"
-        },
-        {
-          "rank": 4,
-          "reason": "Strong momentum, high volume, 1-day gain",
-          "sector": "Technology",
-          "ticker": "MRVL",
-          "company": "Marvell Technology, Inc.",
-          "predicted_change_pct": 8.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 0.37,
-          "accuracy_score": 50,
-          "outcome": "close"
-        },
-        {
-          "rank": 5,
-          "reason": "Strong momentum, high 1-day gain",
-          "sector": "Healthcare",
-          "ticker": "EDIT",
-          "company": "Editas Medicine, Inc.",
-          "predicted_change_pct": 6.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 2.3,
-          "accuracy_score": 63,
-          "outcome": "close"
-        },
-        {
-          "rank": 6,
-          "reason": "Strong 1-day and 1-week gain",
-          "sector": "Materials",
-          "ticker": "NEM",
-          "company": "Newmont Corporation",
-          "predicted_change_pct": 5.5,
-          "prediction_type": "winner",
-          "actual_change_pct": 0.23,
-          "accuracy_score": 50,
-          "outcome": "close"
-        },
-        {
-          "rank": 7,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Communication Services",
-          "ticker": "AMC",
-          "company": "AMC Entertainment Holdings, Inc.",
-          "predicted_change_pct": 5.2,
-          "prediction_type": "winner",
-          "actual_change_pct": 8.74,
-          "accuracy_score": 65,
-          "outcome": "beat"
-        },
-        {
-          "rank": 8,
-          "reason": "Positive 1-week/1-month trend",
-          "sector": "Healthcare",
-          "ticker": "PFE",
-          "company": "Pfizer Inc.",
-          "predicted_change_pct": 4.0,
-          "prediction_type": "winner",
-          "actual_change_pct": -0.81,
-          "accuracy_score": 26,
-          "outcome": "miss"
-        },
-        {
-          "rank": 9,
-          "reason": "High volume, strong 1-day gain",
-          "sector": "Healthcare",
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "predicted_change_pct": 4.0,
-          "prediction_type": "winner",
-          "actual_change_pct": -1.98,
-          "accuracy_score": 20,
-          "outcome": "miss"
-        },
-        {
-          "rank": 10,
-          "reason": "Strong 1-day and 1-week gain",
-          "sector": "Industrials",
-          "ticker": "BA",
-          "company": "The Boeing Company",
-          "predicted_change_pct": 4.0,
-          "prediction_type": "winner",
-          "actual_change_pct": 0.43,
-          "accuracy_score": 64,
-          "outcome": "close"
-        }
-      ],
-      "losers": [
-        {
-          "rank": 1,
-          "reason": "Massive 1-day drop, very high volume",
-          "sector": "Consumer Discretionary",
-          "ticker": "NKE",
-          "company": "NIKE, Inc.",
-          "predicted_change_pct": -10.0,
-          "prediction_type": "loser",
-          "actual_change_pct": -0.99,
-          "accuracy_score": 50,
-          "outcome": "close"
-        },
-        {
-          "rank": 2,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
-          "predicted_change_pct": -5.0,
-          "prediction_type": "loser",
-          "actual_change_pct": -0.06,
-          "accuracy_score": 51,
-          "outcome": "close"
-        },
-        {
-          "rank": 3,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "CVX",
-          "company": "Chevron Corporation",
-          "predicted_change_pct": -4.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 0.79,
-          "accuracy_score": 24,
-          "outcome": "miss"
-        },
-        {
-          "rank": 4,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "OXY",
-          "company": "Occidental Petroleum Corporation",
-          "predicted_change_pct": -4.0,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.19,
-          "accuracy_score": 24,
-          "outcome": "miss"
-        },
-        {
-          "rank": 5,
-          "reason": "Oil prices falling after Iran news",
-          "sector": "Energy",
-          "ticker": "PSX",
-          "company": "Phillips 66",
-          "predicted_change_pct": -3.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 0.32,
-          "accuracy_score": 31,
-          "outcome": "miss"
-        },
-        {
-          "rank": 6,
-          "reason": "Negative 1-day momentum, low momentum",
-          "sector": "Communication Services",
-          "ticker": "SPOT",
-          "company": "Spotify Technology S.A.",
-          "predicted_change_pct": -3.0,
-          "prediction_type": "loser",
-          "actual_change_pct": 4.03,
-          "accuracy_score": 15,
-          "outcome": "miss"
-        },
-        {
-          "rank": 7,
-          "reason": "Negative 1-day momentum, low momentum",
-          "sector": "Technology",
-          "ticker": "ZS",
-          "company": "Zscaler, Inc.",
-          "predicted_change_pct": -2.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.38,
-          "accuracy_score": 31,
-          "outcome": "miss"
-        },
-        {
-          "rank": 8,
-          "reason": "Negative 1-day, 1-week, 1-month trend",
-          "sector": "Consumer Staples",
-          "ticker": "HSY",
-          "company": "The Hershey Company",
-          "predicted_change_pct": -2.0,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.63,
-          "accuracy_score": 32,
-          "outcome": "miss"
-        },
-        {
-          "rank": 9,
-          "reason": "Negative 1-day, 1-week trend",
-          "sector": "Communication Services",
-          "ticker": "T",
-          "company": "AT&T Inc.",
-          "predicted_change_pct": -1.8,
-          "prediction_type": "loser",
-          "actual_change_pct": 0.07,
-          "accuracy_score": 41,
-          "outcome": "miss"
-        },
-        {
-          "rank": 10,
-          "reason": "High volume, negative 1-day trend",
-          "sector": "Financials",
-          "ticker": "SCHW",
-          "company": "The Charles Schwab Corporation",
-          "predicted_change_pct": -1.5,
-          "prediction_type": "loser",
-          "actual_change_pct": 1.53,
-          "accuracy_score": 35,
-          "outcome": "miss"
-        }
-      ],
-      "has_actuals": true
+      "winners": [],
+      "losers": [],
+      "has_actuals": false
     }
   },
   "indices": {
@@ -730,9 +244,9 @@
       "daily_change_pct": 8.74,
       "weekly_change_pct": 15.46,
       "monthly_change_pct": -5.08,
-      "volume_ratio": 1.51,
+      "volume_ratio": 1.52,
       "momentum_score": 82.5,
-      "composite_score": 46.81
+      "composite_score": 46.84
     },
     {
       "ticker": "SRPT",
@@ -740,9 +254,9 @@
       "daily_change_pct": 4.97,
       "weekly_change_pct": 7.15,
       "monthly_change_pct": 44.38,
-      "volume_ratio": 0.87,
+      "volume_ratio": 0.88,
       "momentum_score": 99.3,
-      "composite_score": 46.62
+      "composite_score": 46.65
     },
     {
       "ticker": "NIO",
@@ -750,9 +264,9 @@
       "daily_change_pct": 1.61,
       "weekly_change_pct": 13.31,
       "monthly_change_pct": 30.17,
-      "volume_ratio": 0.67,
+      "volume_ratio": 0.68,
       "momentum_score": 88.1,
-      "composite_score": 45.24
+      "composite_score": 45.27
     },
     {
       "ticker": "CCI",
@@ -950,9 +464,9 @@
       "daily_change_pct": 8.33,
       "weekly_change_pct": 1.52,
       "monthly_change_pct": -6.24,
-      "volume_ratio": 1.07,
+      "volume_ratio": 1.08,
       "momentum_score": 66.8,
-      "composite_score": 30.84
+      "composite_score": 30.87
     },
     {
       "ticker": "LYV",
@@ -1685,6 +1199,16 @@
       "composite_score": 21.74
     },
     {
+      "ticker": "BKNG",
+      "current_price": 167.77,
+      "daily_change_pct": 0.23,
+      "weekly_change_pct": -0.46,
+      "monthly_change_pct": -1.17,
+      "volume_ratio": 0.78,
+      "momentum_score": 49.1,
+      "composite_score": 21.7
+    },
+    {
       "ticker": "XOM",
       "current_price": 160.69,
       "daily_change_pct": -0.06,
@@ -1715,16 +1239,6 @@
       "composite_score": 21.55
     },
     {
-      "ticker": "BKNG",
-      "current_price": 4194.31,
-      "daily_change_pct": 0.23,
-      "weekly_change_pct": -0.46,
-      "monthly_change_pct": -1.17,
-      "volume_ratio": 0.72,
-      "momentum_score": 49.1,
-      "composite_score": 21.52
-    },
-    {
       "ticker": "DDOG",
       "current_price": 120.36,
       "daily_change_pct": 1.42,
@@ -1740,9 +1254,9 @@
       "daily_change_pct": -1.24,
       "weekly_change_pct": -0.15,
       "monthly_change_pct": 4.59,
-      "volume_ratio": 0.69,
+      "volume_ratio": 0.7,
       "momentum_score": 48.1,
-      "composite_score": 21.22
+      "composite_score": 21.25
     },
     {
       "ticker": "DE",
@@ -1770,9 +1284,9 @@
       "daily_change_pct": 0.87,
       "weekly_change_pct": 0.99,
       "monthly_change_pct": -9.8,
-      "volume_ratio": 0.55,
+      "volume_ratio": 0.56,
       "momentum_score": 46.5,
-      "composite_score": 20.84
+      "composite_score": 20.87
     },
     {
       "ticker": "BILL",
@@ -1840,9 +1354,9 @@
       "daily_change_pct": -0.7,
       "weekly_change_pct": 1.57,
       "monthly_change_pct": -6.78,
-      "volume_ratio": 0.63,
+      "volume_ratio": 0.64,
       "momentum_score": 42.9,
-      "composite_score": 19.99
+      "composite_score": 20.02
     },
     {
       "ticker": "TXN",
@@ -2200,9 +1714,9 @@
       "daily_change_pct": -0.88,
       "weekly_change_pct": -1.11,
       "monthly_change_pct": -17.93,
-      "volume_ratio": 0.76,
+      "volume_ratio": 0.77,
       "momentum_score": 28.4,
-      "composite_score": 12.97
+      "composite_score": 13.0
     },
     {
       "ticker": "NOW",
@@ -2270,9 +1784,9 @@
       "daily_change_pct": -1.73,
       "weekly_change_pct": -2.06,
       "monthly_change_pct": -16.19,
-      "volume_ratio": 0.89,
+      "volume_ratio": 0.9,
       "momentum_score": 22.2,
-      "composite_score": 10.31
+      "composite_score": 10.34
     },
     {
       "ticker": "HD",
@@ -2310,9 +1824,9 @@
       "daily_change_pct": -0.99,
       "weekly_change_pct": -15.13,
       "monthly_change_pct": -24.64,
-      "volume_ratio": 2.66,
+      "volume_ratio": 2.67,
       "momentum_score": 23.4,
-      "composite_score": 8.26
+      "composite_score": 8.29
     },
     {
       "ticker": "GM",
