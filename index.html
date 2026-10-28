@@ -25,14 +25,14 @@
     .nav-time { font-family: 'DM Mono', monospace; font-size: 0.75rem; color: var(--muted); letter-spacing: 0.04em; }
     .nav-badge { background: var(--gain-bg); color: var(--gain); font-family: 'DM Mono', monospace; font-size: 0.7rem; font-weight: 500; padding: 3px 10px; border-radius: 20px; border: 1px solid #C3E6D0; letter-spacing: 0.03em; }
 
-    .hero { padding: 4rem 2rem 2.5rem; max-width: 1200px; margin: 0 auto; animation: fadeUp 0.6s ease both; }
+    .hero { padding: 4rem 2rem 2.5rem; max-width: 1800px; margin: 0 auto; animation: fadeUp 0.6s ease both; }
     .hero-label { font-family: 'DM Mono', monospace; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
     .hero h1 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(2.2rem, 5vw, 3.8rem); line-height: 1.05; letter-spacing: -0.03em; max-width: 700px; }
     .hero h1 span { color: var(--muted); }
     .hero-sub { margin-top: 1rem; color: var(--muted); font-size: 0.95rem; max-width: 600px; }
     .disclaimer { margin-top: 1.5rem; display: inline-flex; align-items: center; gap: 6px; background: #FFF8E6; border: 1px solid #F0DFA0; border-radius: 6px; padding: 6px 12px; font-size: 0.75rem; color: #8A7030; }
 
-    .section { max-width: 1200px; margin: 0 auto; padding: 0 2rem 3rem; }
+    .section { max-width: 1800px; margin: 0 auto; padding: 0 2rem 3rem; }
     .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; }
     .section-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; display: flex; align-items: center; gap: 8px; }
     .section-title .dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; }
@@ -56,12 +56,12 @@
     .pill-loss { background: var(--loss-bg); color: var(--loss); }
     .stock-name { font-size: 0.75rem; color: var(--muted); margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .stock-open-pending { font-style: italic; opacity: 0.7; color: var(--muted); font-size: 0.85em; }
-    .table-scroll { overflow-x: auto; }
-    .stock-table { min-width: 720px; }
-    .stock-table th, .stock-table td { white-space: nowrap; }
-    .stock-table th:last-child, .stock-table td:last-child { text-align: left; white-space: normal; }
+    .table-scroll { overflow-x: auto; } /* safety net on narrow/mobile screens only */
+    .stock-table th, .stock-table td { padding: 0.7rem 0.6rem; }
+    .stock-table th:first-child, .stock-table td:first-child { padding-left: 1.4rem; }
+    .stock-table th:last-child, .stock-table td:last-child { text-align: left; white-space: normal; padding-right: 1.4rem; }
     .stock-rank-cell { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted); }
-    .stock-reason-cell { font-size: 0.78rem; color: var(--muted); max-width: 220px; }
+    .stock-reason-cell { font-size: 0.76rem; color: var(--muted); line-height: 1.4; }
     .stock-reason { font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
 
     .perf-panel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; animation: fadeUp 0.6s 0.3s ease both; }
@@ -85,7 +85,7 @@
     .group-loser { background: var(--loss-bg); } .group-loser td { color: var(--loss); }
     .pending-note { padding: 2.5rem 1.4rem; text-align: center; color: var(--muted); font-size: 0.85rem; font-family: 'DM Mono', monospace; line-height: 1.8; }
 
-    .next-update { max-width: 1200px; margin: 0 auto; padding: 0 2rem 4rem; animation: fadeUp 0.6s 0.4s ease both; }
+    .next-update { max-width: 1800px; margin: 0 auto; padding: 0 2rem 4rem; animation: fadeUp 0.6s 0.4s ease both; }
     .update-strip { border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem 1.5rem; display: flex; align-items: center; justify-content: space-between; background: var(--surface); }
     .update-left { display: flex; align-items: center; gap: 12px; }
     .pulse-dot { width: 10px; height: 10px; background: var(--gain); border-radius: 50%; position: relative; }
@@ -95,10 +95,10 @@
     .update-sub { font-size: 0.75rem; color: var(--muted); margin-top: 2px; font-family: 'DM Mono', monospace; }
     .countdown { font-family: 'DM Mono', monospace; font-size: 1.1rem; font-weight: 500; letter-spacing: 0.05em; }
 
-    footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; max-width: 1800px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
     .footer-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; }
     .footer-note { font-size: 0.72rem; color: var(--muted); max-width: 500px; text-align: right; line-height: 1.5; }
-    .loading-msg { max-width: 1200px; margin: 4rem auto; padding: 0 2rem; text-align: center; color: var(--muted); font-family: 'DM Mono', monospace; font-size: 0.85rem; line-height: 2; }
+    .loading-msg { max-width: 1800px; margin: 4rem auto; padding: 0 2rem; text-align: center; color: var(--muted); font-family: 'DM Mono', monospace; font-size: 0.85rem; line-height: 2; }
     .download-bar { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; padding: 0 1.4rem 1.2rem; }
     .download-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 8px; font-size: 0.78rem; font-family: 'DM Mono', monospace; cursor: pointer; border: 1px solid var(--border); background: var(--surface); color: var(--text); text-decoration: none; transition: all 0.15s; letter-spacing: 0.03em; }
     .download-btn:hover { background: var(--text); color: var(--bg); border-color: var(--text); }
@@ -112,7 +112,7 @@
     @keyframes fadeUp { from{opacity:0;transform:translateY(18px)} to{opacity:1;transform:translateY(0)} }
 
     /* Model toggle */
-    .model-toggle-wrap { max-width: 1200px; margin: 0 auto; padding: 0 2rem 1.5rem; animation: fadeUp 0.5s ease both; }
+    .model-toggle-wrap { max-width: 1800px; margin: 0 auto; padding: 0 2rem 1.5rem; animation: fadeUp 0.5s ease both; }
     .model-toggle { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 4px; gap: 4px; }
     .model-btn { padding: 7px 20px; border-radius: 7px; border: none; background: transparent; cursor: pointer; font-family: 'DM Mono', monospace; font-size: 0.78rem; letter-spacing: 0.04em; color: var(--muted); transition: all 0.18s; display: flex; align-items: center; gap: 7px; }
     .model-btn.active { background: var(--text); color: var(--bg); }
@@ -304,7 +304,7 @@
       </td>
       <td class="${cls}">${sign(pct)}${pct}%</td>
       <td>${hasPrevClose ? `$${e.prev_close}` : `<span class="stock-open-pending">&mdash;</span>`}</td>
-      <td>${hasOpen ? `$${e.open_price}` : `<span class="stock-open-pending">pending 8:31 AM CT</span>`}</td>
+      <td>${hasOpen ? `$${e.open_price}` : `<span class="stock-open-pending" title="Pending market open (8:31 AM CT)">pending</span>`}</td>
       <td class="${capturedCls}">${hasCaptured ? `${sign(e.gap_captured_pct)}${e.gap_captured_pct}%` : `<span class="stock-open-pending">&mdash;</span>`}</td>
       <td class="stock-reason-cell">${e.reason}</td>
     </tr>`;
@@ -342,6 +342,7 @@
         : `<span style="color:var(--muted);font-size:0.72rem">≈ close</span>`;
     const barCls = isWinner ? 'bar-fill-gain' : 'bar-fill-loss';
     const actualCls = hasActual ? dirClass(actual) : 'neutral';
+    const dash = `<span class="stock-open-pending">&mdash;</span>`;
     return `<tr>
       <td>
         <span class="ticker-badge">${e.ticker}</span>
@@ -349,6 +350,9 @@
       </td>
       <td><span class="tag ${isWinner ? 'type-winner' : 'type-loser'}">${isWinner ? 'WINNER' : 'LOSER'}</span></td>
       <td class="${isWinner ? 'up' : 'down'}">${sign(pred)}${pred}%</td>
+      <td>${e.prev_close != null ? `$${e.prev_close}` : dash}</td>
+      <td>${e.open_price != null ? `$${e.open_price}` : dash}</td>
+      <td>${e.close_price != null ? `$${e.close_price}` : dash}</td>
       <td class="${actualCls}">${hasActual ? sign(actual)+actual+'% '+outcome : '<span style="color:var(--muted)">Pending</span>'}</td>
       <td>${accuracy != null
         ? `<div class="accuracy-bar"><div class="bar-track"><div class="${barCls}" style="width:${accuracy}%"></div></div><span class="${dirClass(accuracy-50)}" style="font-size:0.78rem;font-family:'DM Mono',monospace">${accuracy}%</span></div>`
@@ -357,9 +361,13 @@
     </tr>`;
   }
 
-  function enrichWithActuals(entries, actualsMap) {
+  function enrichWithActuals(entries, actualsMap, openMap) {
+    openMap = openMap || {};
     return entries.map(entry => {
-      const actual = Object.prototype.hasOwnProperty.call(actualsMap, entry.ticker) ? actualsMap[entry.ticker] : null;
+      const row = Object.prototype.hasOwnProperty.call(actualsMap, entry.ticker) ? actualsMap[entry.ticker] : null;
+      const actual = row ? row.actual_change_pct : null;
+      const closePrice = row ? row.close_price : null;
+      const openRow = openMap[entry.ticker];
       let accuracy = null, outcome = 'pending';
       if (actual !== null) {
         const predicted = entry.predicted_change_pct;
@@ -373,7 +381,15 @@
           outcome = 'miss';
         }
       }
-      return { ...entry, actual_change_pct: actual, accuracy_score: accuracy, outcome };
+      return {
+        ...entry,
+        actual_change_pct: actual,
+        close_price: closePrice,
+        prev_close: entry.prev_close != null ? entry.prev_close : (openRow ? openRow.prev_close : null),
+        open_price: openRow ? openRow.open_price : null,
+        accuracy_score: accuracy,
+        outcome,
+      };
     });
   }
 
@@ -382,16 +398,19 @@
     _historyData = null;
     renderSections();
     try {
-      const [predsResp, actualsResp] = await Promise.all([
+      const [predsResp, actualsResp, openResp] = await Promise.all([
         _sb.from('predictions').select('winners,losers').eq('date', dateStr).single(),
-        _sb.from('actuals').select('ticker,actual_change_pct').eq('date', dateStr)
+        _sb.from('actuals').select('ticker,actual_change_pct,close_price').eq('date', dateStr),
+        _sb.from('open_prices').select('ticker,prev_close,open_price').eq('date', dateStr),
       ]);
       const preds = predsResp.data || {};
       const actualsMap = {};
-      (actualsResp.data || []).forEach(a => { actualsMap[a.ticker] = a.actual_change_pct; });
+      (actualsResp.data || []).forEach(a => { actualsMap[a.ticker] = a; });
+      const openMap = {};
+      (openResp.data || []).forEach(o => { openMap[o.ticker] = o; });
       _historyData = {
-        winners: enrichWithActuals(preds.winners || [], actualsMap),
-        losers:  enrichWithActuals(preds.losers  || [], actualsMap),
+        winners: enrichWithActuals(preds.winners || [], actualsMap, openMap),
+        losers:  enrichWithActuals(preds.losers  || [], actualsMap, openMap),
       };
     } catch (e) {
       _historyData = { winners: [], losers: [], error: true };
@@ -471,7 +490,7 @@
         </div>
       </section>
 
-      <div style="max-width:1200px;margin:0 auto;padding:0 2rem 0.25rem;display:flex;align-items:center;gap:12px">
+      <div style="max-width:1800px;margin:0 auto;padding:0 2rem 0.25rem;display:flex;align-items:center;gap:12px">
         <div class="model-toggle">
           <button class="model-btn claude-btn ${model === 'claude' ? 'active' : ''}" onclick="switchModel('claude')">
             <span class="model-dot"></span>Claude
@@ -539,7 +558,7 @@
               : !perfHasData
                 ? `<div class="pending-note">No ${modelLabel} predictions recorded for this date.<br>Performance tracking begins after the first daily run.</div>`
                 : `<table class="perf-table">
-                    <thead><tr><th>Ticker</th><th>Type</th><th>Predicted</th><th>Actual</th><th>Accuracy</th></tr></thead>
+                    <thead><tr><th>Ticker</th><th>Type</th><th>Predicted</th><th>Prev Close</th><th>Open</th><th>Close</th><th>Actual</th><th>Accuracy</th></tr></thead>
                     <tbody>
                       <tr class="group-header group-winner"><td colspan="5">▲ Predicted Winners</td></tr>
                       ${perfWinners.map(e => renderPerfRow(e, 'winner')).join('')}
