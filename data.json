@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:26:14-0500",
+  "generated_at": "2026-10-27T20:34:13-0500",
   "today": {
     "date": "2026-10-27",
     "claude": {
@@ -407,7 +407,7 @@
           "prev_close": 329.17,
           "predicted_change_pct": 4.5,
           "prediction_type": "winner",
-          "actual_change_pct": 4.0,
+          "actual_change_pct": 4,
           "close_price": 342.33,
           "accuracy_score": 95,
           "outcome": "close",
@@ -755,7 +755,7 @@
           "prev_close": 329.17,
           "predicted_change_pct": 4.5,
           "prediction_type": "winner",
-          "actual_change_pct": 4.0,
+          "actual_change_pct": 4,
           "close_price": 342.33,
           "accuracy_score": 95,
           "outcome": "close",
