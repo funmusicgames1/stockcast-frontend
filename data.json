@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:34:13-0500",
+  "generated_at": "2026-10-27T20:48:14-0500",
   "today": {
     "date": "2026-10-27",
     "claude": {
@@ -19,9 +19,9 @@
           "company": "SoFi Technologies Inc.",
           "prev_close": 14.46,
           "predicted_change_pct": 8.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 16.1,
+          "gap_pct": 11.34,
+          "gap_captured_pct": 133.4
         },
         {
           "rank": 2,
@@ -31,9 +31,9 @@
           "company": "Rocket Lab USA, Inc.",
           "prev_close": 53.82,
           "predicted_change_pct": 7.8,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 54.16,
+          "gap_pct": 0.63,
+          "gap_captured_pct": 8.1
         },
         {
           "rank": 3,
@@ -43,9 +43,9 @@
           "company": "Iris Energy Limited",
           "prev_close": 25.43,
           "predicted_change_pct": 6.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 25.8,
+          "gap_pct": 1.45,
+          "gap_captured_pct": 22.3
         },
         {
           "rank": 4,
@@ -55,9 +55,9 @@
           "company": "AST SpaceMobile, Inc.",
           "prev_close": 39.45,
           "predicted_change_pct": 6.2,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 39.78,
+          "gap_pct": 0.84,
+          "gap_captured_pct": 13.5
         },
         {
           "rank": 5,
@@ -67,9 +67,9 @@
           "company": "Riot Platforms, Inc.",
           "prev_close": 12.59,
           "predicted_change_pct": 5.8,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 12.78,
+          "gap_pct": 1.51,
+          "gap_captured_pct": 26.0
         },
         {
           "rank": 6,
@@ -79,9 +79,9 @@
           "company": "Hut 8 Corp.",
           "prev_close": 62.97,
           "predicted_change_pct": 5.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 64,
+          "gap_pct": 1.64,
+          "gap_captured_pct": 29.8
         },
         {
           "rank": 7,
@@ -91,9 +91,9 @@
           "company": "General Motors Company",
           "prev_close": 76.31,
           "predicted_change_pct": 5.1,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 79.25,
+          "gap_pct": 3.85,
+          "gap_captured_pct": 75.5
         },
         {
           "rank": 8,
@@ -103,9 +103,9 @@
           "company": "Advanced Micro Devices, Inc.",
           "prev_close": 531.28,
           "predicted_change_pct": 4.9,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 543.23,
+          "gap_pct": 2.25,
+          "gap_captured_pct": 45.9
         },
         {
           "rank": 9,
@@ -115,9 +115,9 @@
           "company": "Broadcom Inc.",
           "prev_close": 329.17,
           "predicted_change_pct": 4.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 339.23,
+          "gap_pct": 3.06,
+          "gap_captured_pct": 68.0
         },
         {
           "rank": 10,
@@ -127,9 +127,9 @@
           "company": "United Parcel Service, Inc.",
           "prev_close": 100.32,
           "predicted_change_pct": 4.3,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 101.11,
+          "gap_pct": 0.79,
+          "gap_captured_pct": 18.4
         }
       ],
       "losers": [
@@ -141,9 +141,9 @@
           "company": "Valero Energy Corporation",
           "prev_close": 426.76,
           "predicted_change_pct": -6.8,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 422.2,
+          "gap_pct": -1.07,
+          "gap_captured_pct": 15.7
         },
         {
           "rank": 2,
@@ -153,9 +153,9 @@
           "company": "Phillips 66",
           "prev_close": 288.85,
           "predicted_change_pct": -5.9,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 286.98,
+          "gap_pct": -0.65,
+          "gap_captured_pct": 11.0
         },
         {
           "rank": 3,
@@ -165,9 +165,9 @@
           "company": "Marathon Petroleum Corporation",
           "prev_close": 470.64,
           "predicted_change_pct": -5.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 466.92,
+          "gap_pct": -0.79,
+          "gap_captured_pct": 14.4
         },
         {
           "rank": 4,
@@ -177,9 +177,9 @@
           "company": "The Boeing Company",
           "prev_close": 188.31,
           "predicted_change_pct": -5.0,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 186.69,
+          "gap_pct": -0.86,
+          "gap_captured_pct": 17.2
         },
         {
           "rank": 5,
@@ -189,9 +189,9 @@
           "company": "HCA Healthcare, Inc.",
           "prev_close": 465.26,
           "predicted_change_pct": -4.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 488,
+          "gap_pct": 4.89,
+          "gap_captured_pct": -108.7
         },
         {
           "rank": 6,
@@ -201,9 +201,9 @@
           "company": "Welltower Inc.",
           "prev_close": 240.61,
           "predicted_change_pct": -4.0,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 236.13,
+          "gap_pct": -1.86,
+          "gap_captured_pct": 46.5
         },
         {
           "rank": 7,
@@ -213,9 +213,9 @@
           "company": "Adobe Inc.",
           "prev_close": 258.62,
           "predicted_change_pct": -3.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 254.81,
+          "gap_pct": -1.47,
+          "gap_captured_pct": 42.0
         },
         {
           "rank": 8,
@@ -225,9 +225,9 @@
           "company": "Hilton Worldwide Holdings Inc.",
           "prev_close": 351.89,
           "predicted_change_pct": -3.0,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 342.92,
+          "gap_pct": -2.55,
+          "gap_captured_pct": 85.0
         },
         {
           "rank": 9,
@@ -237,9 +237,9 @@
           "company": "The Hershey Company",
           "prev_close": 168.23,
           "predicted_change_pct": -2.8,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 165.94,
+          "gap_pct": -1.36,
+          "gap_captured_pct": 48.6
         },
         {
           "rank": 10,
@@ -249,9 +249,9 @@
           "company": "Netflix, Inc.",
           "prev_close": 63.9,
           "predicted_change_pct": -2.5,
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 63.3,
+          "gap_pct": -0.94,
+          "gap_captured_pct": 37.6
         }
       ],
       "available": true
@@ -275,9 +275,9 @@
           "close_price": 16.4,
           "accuracy_score": 51,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 16.1,
+          "gap_pct": 11.34,
+          "gap_captured_pct": 133.4
         },
         {
           "rank": 2,
@@ -292,9 +292,9 @@
           "close_price": 58.31,
           "accuracy_score": 95,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 54.16,
+          "gap_pct": 0.63,
+          "gap_captured_pct": 8.1
         },
         {
           "rank": 3,
@@ -309,9 +309,9 @@
           "close_price": 27.44,
           "accuracy_score": 86,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 25.8,
+          "gap_pct": 1.45,
+          "gap_captured_pct": 22.3
         },
         {
           "rank": 4,
@@ -326,9 +326,9 @@
           "close_price": 41.96,
           "accuracy_score": 98,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 39.78,
+          "gap_pct": 0.84,
+          "gap_captured_pct": 13.5
         },
         {
           "rank": 5,
@@ -343,9 +343,9 @@
           "close_price": 13.56,
           "accuracy_score": 81,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 12.78,
+          "gap_pct": 1.51,
+          "gap_captured_pct": 26.0
         },
         {
           "rank": 6,
@@ -360,9 +360,9 @@
           "close_price": 67.34,
           "accuracy_score": 86,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 64,
+          "gap_pct": 1.64,
+          "gap_captured_pct": 29.8
         },
         {
           "rank": 7,
@@ -377,9 +377,9 @@
           "close_price": 80.54,
           "accuracy_score": 96,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 79.25,
+          "gap_pct": 3.85,
+          "gap_captured_pct": 75.5
         },
         {
           "rank": 8,
@@ -394,9 +394,9 @@
           "close_price": 560.26,
           "accuracy_score": 94,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 543.23,
+          "gap_pct": 2.25,
+          "gap_captured_pct": 45.9
         },
         {
           "rank": 9,
@@ -411,9 +411,9 @@
           "close_price": 342.33,
           "accuracy_score": 95,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 339.23,
+          "gap_pct": 3.06,
+          "gap_captured_pct": 68.0
         },
         {
           "rank": 10,
@@ -428,9 +428,9 @@
           "close_price": 106.09,
           "accuracy_score": 86,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 101.11,
+          "gap_pct": 0.79,
+          "gap_captured_pct": 18.4
         }
       ],
       "losers": [
@@ -447,9 +447,9 @@
           "close_price": 387.34,
           "accuracy_score": 76,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 422.2,
+          "gap_pct": -1.07,
+          "gap_captured_pct": 15.7
         },
         {
           "rank": 2,
@@ -464,9 +464,9 @@
           "close_price": 268.53,
           "accuracy_score": 89,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 286.98,
+          "gap_pct": -0.65,
+          "gap_captured_pct": 11.0
         },
         {
           "rank": 3,
@@ -481,9 +481,9 @@
           "close_price": 435.98,
           "accuracy_score": 81,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 466.92,
+          "gap_pct": -0.79,
+          "gap_captured_pct": 14.4
         },
         {
           "rank": 4,
@@ -498,9 +498,9 @@
           "close_price": 168.18,
           "accuracy_score": 50,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 186.69,
+          "gap_pct": -0.86,
+          "gap_captured_pct": 17.2
         },
         {
           "rank": 5,
@@ -515,9 +515,9 @@
           "close_price": 449.96,
           "accuracy_score": 88,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 488,
+          "gap_pct": 4.89,
+          "gap_captured_pct": -108.7
         },
         {
           "rank": 6,
@@ -532,9 +532,9 @@
           "close_price": 226.72,
           "accuracy_score": 82,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 236.13,
+          "gap_pct": -1.86,
+          "gap_captured_pct": 46.5
         },
         {
           "rank": 7,
@@ -549,9 +549,9 @@
           "close_price": 248.36,
           "accuracy_score": 95,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 254.81,
+          "gap_pct": -1.47,
+          "gap_captured_pct": 42.0
         },
         {
           "rank": 8,
@@ -566,9 +566,9 @@
           "close_price": 344.65,
           "accuracy_score": 91,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 342.92,
+          "gap_pct": -2.55,
+          "gap_captured_pct": 85.0
         },
         {
           "rank": 9,
@@ -583,9 +583,9 @@
           "close_price": 164.51,
           "accuracy_score": 94,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 165.94,
+          "gap_pct": -1.36,
+          "gap_captured_pct": 48.6
         },
         {
           "rank": 10,
@@ -600,9 +600,9 @@
           "close_price": 62.52,
           "accuracy_score": 97,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 63.3,
+          "gap_pct": -0.94,
+          "gap_captured_pct": 37.6
         }
       ],
       "has_actuals": true
@@ -623,9 +623,9 @@
           "close_price": 16.4,
           "accuracy_score": 51,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 16.1,
+          "gap_pct": 11.34,
+          "gap_captured_pct": 133.4
         },
         {
           "rank": 2,
@@ -640,9 +640,9 @@
           "close_price": 58.31,
           "accuracy_score": 95,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 54.16,
+          "gap_pct": 0.63,
+          "gap_captured_pct": 8.1
         },
         {
           "rank": 3,
@@ -657,9 +657,9 @@
           "close_price": 27.44,
           "accuracy_score": 86,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 25.8,
+          "gap_pct": 1.45,
+          "gap_captured_pct": 22.3
         },
         {
           "rank": 4,
@@ -674,9 +674,9 @@
           "close_price": 41.96,
           "accuracy_score": 98,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 39.78,
+          "gap_pct": 0.84,
+          "gap_captured_pct": 13.5
         },
         {
           "rank": 5,
@@ -691,9 +691,9 @@
           "close_price": 13.56,
           "accuracy_score": 81,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 12.78,
+          "gap_pct": 1.51,
+          "gap_captured_pct": 26.0
         },
         {
           "rank": 6,
@@ -708,9 +708,9 @@
           "close_price": 67.34,
           "accuracy_score": 86,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 64,
+          "gap_pct": 1.64,
+          "gap_captured_pct": 29.8
         },
         {
           "rank": 7,
@@ -725,9 +725,9 @@
           "close_price": 80.54,
           "accuracy_score": 96,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 79.25,
+          "gap_pct": 3.85,
+          "gap_captured_pct": 75.5
         },
         {
           "rank": 8,
@@ -742,9 +742,9 @@
           "close_price": 560.26,
           "accuracy_score": 94,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 543.23,
+          "gap_pct": 2.25,
+          "gap_captured_pct": 45.9
         },
         {
           "rank": 9,
@@ -759,9 +759,9 @@
           "close_price": 342.33,
           "accuracy_score": 95,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 339.23,
+          "gap_pct": 3.06,
+          "gap_captured_pct": 68.0
         },
         {
           "rank": 10,
@@ -776,9 +776,9 @@
           "close_price": 106.09,
           "accuracy_score": 86,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 101.11,
+          "gap_pct": 0.79,
+          "gap_captured_pct": 18.4
         }
       ],
       "losers": [
@@ -795,9 +795,9 @@
           "close_price": 387.34,
           "accuracy_score": 76,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 422.2,
+          "gap_pct": -1.07,
+          "gap_captured_pct": 15.7
         },
         {
           "rank": 2,
@@ -812,9 +812,9 @@
           "close_price": 268.53,
           "accuracy_score": 89,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 286.98,
+          "gap_pct": -0.65,
+          "gap_captured_pct": 11.0
         },
         {
           "rank": 3,
@@ -829,9 +829,9 @@
           "close_price": 435.98,
           "accuracy_score": 81,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 466.92,
+          "gap_pct": -0.79,
+          "gap_captured_pct": 14.4
         },
         {
           "rank": 4,
@@ -846,9 +846,9 @@
           "close_price": 168.18,
           "accuracy_score": 50,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 186.69,
+          "gap_pct": -0.86,
+          "gap_captured_pct": 17.2
         },
         {
           "rank": 5,
@@ -863,9 +863,9 @@
           "close_price": 449.96,
           "accuracy_score": 88,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 488,
+          "gap_pct": 4.89,
+          "gap_captured_pct": -108.7
         },
         {
           "rank": 6,
@@ -880,9 +880,9 @@
           "close_price": 226.72,
           "accuracy_score": 82,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 236.13,
+          "gap_pct": -1.86,
+          "gap_captured_pct": 46.5
         },
         {
           "rank": 7,
@@ -897,9 +897,9 @@
           "close_price": 248.36,
           "accuracy_score": 95,
           "outcome": "beat",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 254.81,
+          "gap_pct": -1.47,
+          "gap_captured_pct": 42.0
         },
         {
           "rank": 8,
@@ -914,9 +914,9 @@
           "close_price": 344.65,
           "accuracy_score": 91,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 342.92,
+          "gap_pct": -2.55,
+          "gap_captured_pct": 85.0
         },
         {
           "rank": 9,
@@ -931,9 +931,9 @@
           "close_price": 164.51,
           "accuracy_score": 94,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 165.94,
+          "gap_pct": -1.36,
+          "gap_captured_pct": 48.6
         },
         {
           "rank": 10,
@@ -948,9 +948,9 @@
           "close_price": 62.52,
           "accuracy_score": 97,
           "outcome": "close",
-          "open_price": null,
-          "gap_pct": null,
-          "gap_captured_pct": null
+          "open_price": 63.3,
+          "gap_pct": -0.94,
+          "gap_captured_pct": 37.6
         }
       ],
       "has_actuals": true
