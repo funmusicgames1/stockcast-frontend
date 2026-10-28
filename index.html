@@ -60,6 +60,8 @@
     .stock-rank { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted); text-align: center; }
     .stock-ticker { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem; }
     .stock-name { font-size: 0.75rem; color: var(--muted); margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .stock-open-info { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--muted); margin-top: 3px; }
+    .stock-open-pending { font-style: italic; opacity: 0.7; }
     .stock-right { text-align: right; }
     .stock-pred { font-family: 'DM Mono', monospace; font-size: 0.88rem; font-weight: 500; }
     .stock-reason { font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
@@ -292,11 +294,18 @@
   function renderStockRow(e, type) {
     const pct = e.predicted_change_pct;
     const cls = type === 'winner' ? 'up' : 'down';
+    const hasOpen = e.open_price != null && e.prev_close != null;
+    const gapCapturedCls = hasOpen && e.gap_captured_pct != null ? dirClass(e.gap_captured_pct) : 'neutral';
     return `<div class="stock-row">
       <div class="stock-rank">${String(e.rank).padStart(2,'0')}</div>
       <div>
         <div class="stock-ticker">${e.ticker}</div>
         <div class="stock-name">${e.company} · ${e.sector}</div>
+        ${hasOpen ? `<div class="stock-open-info">
+          Prev $${e.prev_close} &rarr; Open $${e.open_price}${e.gap_captured_pct != null
+            ? ` &nbsp;<span class="${gapCapturedCls}">${sign(e.gap_captured_pct)}${e.gap_captured_pct}% captured</span>`
+            : ''}
+        </div>` : `<div class="stock-open-info stock-open-pending">Open price: pending market open (8:31 AM CT)</div>`}
       </div>
       <div class="stock-right">
         <div class="stock-pred ${cls}">${sign(pct)}${pct}%</div>
