@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:06:09-0500",
+  "generated_at": "2026-10-27T20:26:14-0500",
   "today": {
     "date": "2026-10-27",
     "claude": {
@@ -272,8 +272,12 @@
           "predicted_change_pct": 8.5,
           "prediction_type": "winner",
           "actual_change_pct": 13.42,
+          "close_price": 16.4,
           "accuracy_score": 51,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 2,
@@ -285,8 +289,12 @@
           "predicted_change_pct": 7.8,
           "prediction_type": "winner",
           "actual_change_pct": 8.34,
+          "close_price": 58.31,
           "accuracy_score": 95,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 3,
@@ -298,8 +306,12 @@
           "predicted_change_pct": 6.5,
           "prediction_type": "winner",
           "actual_change_pct": 7.9,
+          "close_price": 27.44,
           "accuracy_score": 86,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 4,
@@ -311,8 +323,12 @@
           "predicted_change_pct": 6.2,
           "prediction_type": "winner",
           "actual_change_pct": 6.36,
+          "close_price": 41.96,
           "accuracy_score": 98,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 5,
@@ -324,8 +340,12 @@
           "predicted_change_pct": 5.8,
           "prediction_type": "winner",
           "actual_change_pct": 7.7,
+          "close_price": 13.56,
           "accuracy_score": 81,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 6,
@@ -337,8 +357,12 @@
           "predicted_change_pct": 5.5,
           "prediction_type": "winner",
           "actual_change_pct": 6.94,
+          "close_price": 67.34,
           "accuracy_score": 86,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 7,
@@ -350,8 +374,12 @@
           "predicted_change_pct": 5.1,
           "prediction_type": "winner",
           "actual_change_pct": 5.54,
+          "close_price": 80.54,
           "accuracy_score": 96,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 8,
@@ -363,8 +391,12 @@
           "predicted_change_pct": 4.9,
           "prediction_type": "winner",
           "actual_change_pct": 5.45,
+          "close_price": 560.26,
           "accuracy_score": 94,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 9,
@@ -376,8 +408,12 @@
           "predicted_change_pct": 4.5,
           "prediction_type": "winner",
           "actual_change_pct": 4.0,
+          "close_price": 342.33,
           "accuracy_score": 95,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 10,
@@ -389,8 +425,12 @@
           "predicted_change_pct": 4.3,
           "prediction_type": "winner",
           "actual_change_pct": 5.75,
+          "close_price": 106.09,
           "accuracy_score": 86,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         }
       ],
       "losers": [
@@ -404,8 +444,12 @@
           "predicted_change_pct": -6.8,
           "prediction_type": "loser",
           "actual_change_pct": -9.24,
+          "close_price": 387.34,
           "accuracy_score": 76,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 2,
@@ -417,8 +461,12 @@
           "predicted_change_pct": -5.9,
           "prediction_type": "loser",
           "actual_change_pct": -7.03,
+          "close_price": 268.53,
           "accuracy_score": 89,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 3,
@@ -430,8 +478,12 @@
           "predicted_change_pct": -5.5,
           "prediction_type": "loser",
           "actual_change_pct": -7.36,
+          "close_price": 435.98,
           "accuracy_score": 81,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 4,
@@ -443,8 +495,12 @@
           "predicted_change_pct": -5.0,
           "prediction_type": "loser",
           "actual_change_pct": -10.69,
+          "close_price": 168.18,
           "accuracy_score": 50,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 5,
@@ -456,8 +512,12 @@
           "predicted_change_pct": -4.5,
           "prediction_type": "loser",
           "actual_change_pct": -3.29,
+          "close_price": 449.96,
           "accuracy_score": 88,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 6,
@@ -469,8 +529,12 @@
           "predicted_change_pct": -4.0,
           "prediction_type": "loser",
           "actual_change_pct": -5.77,
+          "close_price": 226.72,
           "accuracy_score": 82,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 7,
@@ -482,8 +546,12 @@
           "predicted_change_pct": -3.5,
           "prediction_type": "loser",
           "actual_change_pct": -3.97,
+          "close_price": 248.36,
           "accuracy_score": 95,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 8,
@@ -495,8 +563,12 @@
           "predicted_change_pct": -3.0,
           "prediction_type": "loser",
           "actual_change_pct": -2.06,
+          "close_price": 344.65,
           "accuracy_score": 91,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 9,
@@ -508,8 +580,12 @@
           "predicted_change_pct": -2.8,
           "prediction_type": "loser",
           "actual_change_pct": -2.21,
+          "close_price": 164.51,
           "accuracy_score": 94,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 10,
@@ -521,8 +597,12 @@
           "predicted_change_pct": -2.5,
           "prediction_type": "loser",
           "actual_change_pct": -2.16,
+          "close_price": 62.52,
           "accuracy_score": 97,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         }
       ],
       "has_actuals": true
@@ -540,8 +620,12 @@
           "predicted_change_pct": 8.5,
           "prediction_type": "winner",
           "actual_change_pct": 13.42,
+          "close_price": 16.4,
           "accuracy_score": 51,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 2,
@@ -553,8 +637,12 @@
           "predicted_change_pct": 7.8,
           "prediction_type": "winner",
           "actual_change_pct": 8.34,
+          "close_price": 58.31,
           "accuracy_score": 95,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 3,
@@ -566,8 +654,12 @@
           "predicted_change_pct": 6.5,
           "prediction_type": "winner",
           "actual_change_pct": 7.9,
+          "close_price": 27.44,
           "accuracy_score": 86,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 4,
@@ -579,8 +671,12 @@
           "predicted_change_pct": 6.2,
           "prediction_type": "winner",
           "actual_change_pct": 6.36,
+          "close_price": 41.96,
           "accuracy_score": 98,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 5,
@@ -592,8 +688,12 @@
           "predicted_change_pct": 5.8,
           "prediction_type": "winner",
           "actual_change_pct": 7.7,
+          "close_price": 13.56,
           "accuracy_score": 81,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 6,
@@ -605,8 +705,12 @@
           "predicted_change_pct": 5.5,
           "prediction_type": "winner",
           "actual_change_pct": 6.94,
+          "close_price": 67.34,
           "accuracy_score": 86,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 7,
@@ -618,8 +722,12 @@
           "predicted_change_pct": 5.1,
           "prediction_type": "winner",
           "actual_change_pct": 5.54,
+          "close_price": 80.54,
           "accuracy_score": 96,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 8,
@@ -631,8 +739,12 @@
           "predicted_change_pct": 4.9,
           "prediction_type": "winner",
           "actual_change_pct": 5.45,
+          "close_price": 560.26,
           "accuracy_score": 94,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 9,
@@ -644,8 +756,12 @@
           "predicted_change_pct": 4.5,
           "prediction_type": "winner",
           "actual_change_pct": 4.0,
+          "close_price": 342.33,
           "accuracy_score": 95,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 10,
@@ -657,8 +773,12 @@
           "predicted_change_pct": 4.3,
           "prediction_type": "winner",
           "actual_change_pct": 5.75,
+          "close_price": 106.09,
           "accuracy_score": 86,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         }
       ],
       "losers": [
@@ -672,8 +792,12 @@
           "predicted_change_pct": -6.8,
           "prediction_type": "loser",
           "actual_change_pct": -9.24,
+          "close_price": 387.34,
           "accuracy_score": 76,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 2,
@@ -685,8 +809,12 @@
           "predicted_change_pct": -5.9,
           "prediction_type": "loser",
           "actual_change_pct": -7.03,
+          "close_price": 268.53,
           "accuracy_score": 89,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 3,
@@ -698,8 +826,12 @@
           "predicted_change_pct": -5.5,
           "prediction_type": "loser",
           "actual_change_pct": -7.36,
+          "close_price": 435.98,
           "accuracy_score": 81,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 4,
@@ -711,8 +843,12 @@
           "predicted_change_pct": -5.0,
           "prediction_type": "loser",
           "actual_change_pct": -10.69,
+          "close_price": 168.18,
           "accuracy_score": 50,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 5,
@@ -724,8 +860,12 @@
           "predicted_change_pct": -4.5,
           "prediction_type": "loser",
           "actual_change_pct": -3.29,
+          "close_price": 449.96,
           "accuracy_score": 88,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 6,
@@ -737,8 +877,12 @@
           "predicted_change_pct": -4.0,
           "prediction_type": "loser",
           "actual_change_pct": -5.77,
+          "close_price": 226.72,
           "accuracy_score": 82,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 7,
@@ -750,8 +894,12 @@
           "predicted_change_pct": -3.5,
           "prediction_type": "loser",
           "actual_change_pct": -3.97,
+          "close_price": 248.36,
           "accuracy_score": 95,
-          "outcome": "beat"
+          "outcome": "beat",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 8,
@@ -763,8 +911,12 @@
           "predicted_change_pct": -3.0,
           "prediction_type": "loser",
           "actual_change_pct": -2.06,
+          "close_price": 344.65,
           "accuracy_score": 91,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 9,
@@ -776,8 +928,12 @@
           "predicted_change_pct": -2.8,
           "prediction_type": "loser",
           "actual_change_pct": -2.21,
+          "close_price": 164.51,
           "accuracy_score": 94,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         },
         {
           "rank": 10,
@@ -789,8 +945,12 @@
           "predicted_change_pct": -2.5,
           "prediction_type": "loser",
           "actual_change_pct": -2.16,
+          "close_price": 62.52,
           "accuracy_score": 97,
-          "outcome": "close"
+          "outcome": "close",
+          "open_price": null,
+          "gap_pct": null,
+          "gap_captured_pct": null
         }
       ],
       "has_actuals": true
