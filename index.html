@@ -303,8 +303,8 @@
     const cls = type === 'winner' ? 'up' : 'down';
     const hasPrevClose = e.prev_close != null;
     const hasOpen = e.open_price != null;
-    const hasCaptured = e.gap_captured_pct != null;
-    const capturedCls = hasCaptured ? dirClass(e.gap_captured_pct) : 'neutral';
+    const hasGap = e.gap_pct != null;
+    const gapCls = hasGap ? dirClass(e.gap_pct) : 'neutral';
     return `<tr>
       <td class="stock-rank-cell">${String(e.rank).padStart(2,'0')}</td>
       <td>
@@ -314,7 +314,7 @@
       <td class="${cls}">${sign(pct)}${pct}%</td>
       <td>${hasPrevClose ? `$${e.prev_close}` : `<span class="stock-open-pending">&mdash;</span>`}</td>
       <td>${hasOpen ? `$${e.open_price}` : `<span class="stock-open-pending" title="Pending market open (8:31 AM CT)">pending</span>`}</td>
-      <td class="${capturedCls}">${hasCaptured ? `${sign(e.gap_captured_pct)}${e.gap_captured_pct}%` : `<span class="stock-open-pending">&mdash;</span>`}</td>
+      <td class="${gapCls}" title="How much it moved from prev close to open, before the market opened">${hasGap ? `${sign(e.gap_pct)}${e.gap_pct}%` : `<span class="stock-open-pending">&mdash;</span>`}</td>
       <td class="stock-reason-cell">${e.reason}</td>
     </tr>`;
   }
@@ -322,7 +322,7 @@
   function renderStockTable(entries, type) {
     return `<div class="table-scroll"><table class="perf-table stock-table">
       <thead><tr>
-        <th>#</th><th>Ticker</th><th>Predicted</th><th>Prev Close</th><th>Open</th><th>Captured</th><th>Reason</th>
+        <th>#</th><th>Ticker</th><th>Predicted</th><th>Prev Close</th><th>Open</th><th>Gap %</th><th>Reason</th>
       </tr></thead>
       <tbody>${entries.map(e => renderStockTableRow(e, type)).join('')}</tbody>
     </table></div>`;
