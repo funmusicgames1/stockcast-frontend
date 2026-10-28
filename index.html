@@ -56,10 +56,19 @@
     .pill-loss { background: var(--loss-bg); color: var(--loss); }
     .stock-name { font-size: 0.75rem; color: var(--muted); margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .stock-open-pending { font-style: italic; opacity: 0.7; color: var(--muted); font-size: 0.85em; }
-    .table-scroll { overflow-x: auto; } /* safety net on narrow/mobile screens only */
-    .stock-table th, .stock-table td { padding: 0.7rem 0.6rem; }
-    .stock-table th:first-child, .stock-table td:first-child { padding-left: 1.4rem; }
-    .stock-table th:last-child, .stock-table td:last-child { text-align: left; white-space: normal; padding-right: 1.4rem; }
+    .table-scroll { overflow-x: auto; } /* safety net on very narrow/mobile screens only */
+    /* table-layout:fixed + explicit column widths means the table always
+       exactly fits its container — content wraps/truncates instead of ever
+       forcing horizontal scroll, regardless of how wide the browser window is */
+    .stock-table { table-layout: fixed; }
+    .stock-table th, .stock-table td { padding: 0.7rem 0.5rem; overflow: hidden; }
+    .stock-table th:first-child, .stock-table td:first-child { padding-left: 1.2rem; width: 5%; }
+    .stock-table th:nth-child(2), .stock-table td:nth-child(2) { width: 24%; }
+    .stock-table th:nth-child(3), .stock-table td:nth-child(3) { width: 11%; }
+    .stock-table th:nth-child(4), .stock-table td:nth-child(4) { width: 11%; }
+    .stock-table th:nth-child(5), .stock-table td:nth-child(5) { width: 11%; }
+    .stock-table th:nth-child(6), .stock-table td:nth-child(6) { width: 11%; }
+    .stock-table th:last-child, .stock-table td:last-child { text-align: left; white-space: normal; padding-right: 1.2rem; width: 27%; overflow: visible; }
     .stock-rank-cell { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted); }
     .stock-reason-cell { font-size: 0.76rem; color: var(--muted); line-height: 1.4; }
     .stock-reason { font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
@@ -560,9 +569,9 @@
                 : `<table class="perf-table">
                     <thead><tr><th>Ticker</th><th>Type</th><th>Predicted</th><th>Prev Close</th><th>Open</th><th>Close</th><th>Actual</th><th>Accuracy</th></tr></thead>
                     <tbody>
-                      <tr class="group-header group-winner"><td colspan="5">▲ Predicted Winners</td></tr>
+                      <tr class="group-header group-winner"><td colspan="8">▲ Predicted Winners</td></tr>
                       ${perfWinners.map(e => renderPerfRow(e, 'winner')).join('')}
-                      <tr class="group-header group-loser"><td colspan="5">▼ Predicted Losers</td></tr>
+                      <tr class="group-header group-loser"><td colspan="8">▼ Predicted Losers</td></tr>
                       ${perfLosers.map(e => renderPerfRow(e, 'loser')).join('')}
                     </tbody>
                   </table>
