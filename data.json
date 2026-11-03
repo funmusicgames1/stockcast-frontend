@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:01:10-0600",
+  "generated_at": "2026-11-02T21:21:05-0600",
   "today": {
     "date": "2026-11-02",
     "claude": {
@@ -903,7 +903,7 @@
       "direction": "down"
     },
     "nasdaq": {
-      "value": 25164.32,
+      "value": 25164.36,
       "change_pct": -1.07,
       "direction": "down"
     },
