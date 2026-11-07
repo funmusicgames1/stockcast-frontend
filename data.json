@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:00:45-0600",
+  "generated_at": "2026-11-06T19:40:34-0600",
   "today": {
     "date": "2026-11-06",
     "claude": {
@@ -510,7 +510,7 @@
           "predicted_change_pct": -12.0,
           "prediction_type": "loser",
           "actual_change_pct": 4.22,
-          "close_price": 332.71,
+          "close_price": 332.72,
           "accuracy_score": 0,
           "outcome": "miss",
           "open_price": 342.39,
@@ -838,7 +838,7 @@
           "predicted_change_pct": -12.0,
           "prediction_type": "loser",
           "actual_change_pct": 4.22,
-          "close_price": 332.71,
+          "close_price": 332.72,
           "accuracy_score": 0,
           "outcome": "miss",
           "open_price": 342.39,
