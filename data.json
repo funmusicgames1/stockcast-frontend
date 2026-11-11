@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:00:30-0600",
+  "generated_at": "2026-11-11T08:34:23-0600",
   "today": {
     "date": "2026-11-11",
     "claude": {
@@ -676,18 +676,18 @@
   },
   "indices": {
     "sp500": {
-      "value": 7520.93,
-      "change_pct": -0.38,
-      "direction": "down"
+      "value": 7596.04,
+      "change_pct": 1.0,
+      "direction": "up"
     },
     "nasdaq": {
-      "value": 25065.88,
-      "change_pct": -0.74,
-      "direction": "down"
+      "value": 25485.78,
+      "change_pct": 1.68,
+      "direction": "up"
     },
     "dow": {
-      "value": 52231.89,
-      "change_pct": -0.3,
+      "value": 52200.69,
+      "change_pct": -0.06,
       "direction": "down"
     }
   },
@@ -705,14 +705,14 @@
       "pivot": 674.25,
       "support": 667.56,
       "resistance": 681.46,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 674.81,
+      "b1": 687.28,
+      "gap_direction": "up",
+      "x1": 675.29,
+      "x2": 688.55,
+      "x3": 13.26,
+      "x4": 6.63,
+      "x5": 668.66,
       "created_at": "2026-11-11T12:00:26.492914+00:00"
     },
     "SPY": {
@@ -727,14 +727,14 @@
       "pivot": 748.97,
       "support": 745.81,
       "resistance": 753.09,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 749.94,
+      "b1": 756.74,
+      "gap_direction": "up",
+      "x1": 750.41,
+      "x2": 757.92,
+      "x3": 7.51,
+      "x4": 3.75,
+      "x5": 746.65,
       "created_at": "2026-11-11T12:00:26.492914+00:00"
     },
     "IWM": {
@@ -749,14 +749,14 @@
       "pivot": 279.94,
       "support": 278.55,
       "resistance": 281.97,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 280.56,
+      "b1": 282.99,
+      "gap_direction": "up",
+      "x1": 280.77,
+      "x2": 283.08,
+      "x3": 2.31,
+      "x4": 1.16,
+      "x5": 279.62,
       "created_at": "2026-11-11T12:00:26.492914+00:00"
     },
     "TSLA": {
@@ -771,14 +771,14 @@
       "pivot": 376.73,
       "support": 373.45,
       "resistance": 383.05,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 379.8,
+      "b1": 386.58,
+      "gap_direction": "up",
+      "x1": 379.84,
+      "x2": 392.67,
+      "x3": 12.83,
+      "x4": 6.42,
+      "x5": 373.42,
       "created_at": "2026-11-11T12:00:26.492914+00:00"
     },
     "AMZN": {
@@ -793,14 +793,14 @@
       "pivot": 269.96,
       "support": 267.05,
       "resistance": 273.79,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 270.9,
+      "b1": 273.27,
+      "gap_direction": "up",
+      "x1": 271.06,
+      "x2": 274.87,
+      "x3": 3.81,
+      "x4": 1.91,
+      "x5": 269.15,
       "created_at": "2026-11-11T12:00:26.492914+00:00"
     },
     "META": {
@@ -815,14 +815,14 @@
       "pivot": 641.39,
       "support": 635.5,
       "resistance": 647.28,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 641.66,
+      "b1": 646.73,
+      "gap_direction": "up",
+      "x1": 642.22,
+      "x2": 648.45,
+      "x3": 6.23,
+      "x4": 3.12,
+      "x5": 639.11,
       "created_at": "2026-11-11T12:00:26.492914+00:00"
     }
   }
