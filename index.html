@@ -583,7 +583,60 @@
           }
         </div>
       </section>
+
+      ${renderLevelsSection(_data.levels || {})}
     `;
+  }
+
+  function renderLevelsSection(levels) {
+    const tickers = ['QQQ', 'SPY', 'IWM', 'TSLA', 'AMZN', 'META'];
+    const rows = tickers.map(t => levels[t]).filter(Boolean);
+    const levelsDate = rows.length ? rows[0].date : null;
+
+    return `
+      <section class="section">
+        <div class="section-header">
+          <div class="section-title"><span class="dot dot-neutral"></span> Daily Levels</div>
+          <div class="section-date">${levelsDate ? fmtDate(levelsDate) : ''}</div>
+        </div>
+        ${!rows.length
+          ? `<div class="pending-note">Levels haven't run yet today.<br>Pivot/Support/Resistance lands ~7:00 AM ET, gap levels ~9:34 AM ET.</div>`
+          : `<div style="overflow-x:auto">
+              <table class="perf-table">
+                <thead><tr>
+                  <th>Ticker</th><th>Open</th><th>High</th><th>Low</th><th>Close</th>
+                  <th>Pivot</th><th>Support</th><th>Resistance</th>
+                  <th>Gap</th><th>X1</th><th>X2</th><th>X3</th><th>X4</th><th>X5</th>
+                </tr></thead>
+                <tbody>${rows.map(renderLevelsRow).join('')}</tbody>
+              </table>
+            </div>
+            <div class="download-bar">
+              <button class="download-btn btn-all" onclick="downloadLevelsCsv()">↓ Download Levels CSV</button>
+            </div>`
+        }
+      </section>
+    `;
+  }
+
+  function renderLevelsRow(r) {
+    const dash = v => (v === null || v === undefined) ? '<span class="pending-note" style="padding:0">pending</span>' : v;
+    return `<tr>
+      <td><b>${r.ticker}</b></td>
+      <td>${dash(r.open)}</td><td>${dash(r.high)}</td><td>${dash(r.low)}</td><td>${dash(r.close)}</td>
+      <td>${dash(r.pivot)}</td><td>${dash(r.support)}</td><td>${dash(r.resistance)}</td>
+      <td>${dash(r.gap_direction)}</td>
+      <td>${dash(r.x1)}</td><td>${dash(r.x2)}</td><td>${dash(r.x3)}</td><td>${dash(r.x4)}</td><td>${dash(r.x5)}</td>
+    </tr>`;
+  }
+
+  function downloadLevelsCsv() {
+    const levels = (_data && _data.levels) || {};
+    const tickers = ['QQQ', 'SPY', 'IWM', 'TSLA', 'AMZN', 'META'];
+    const rows = tickers.map(t => levels[t]).filter(Boolean);
+    if (!rows.length) return;
+    const headers = ['ticker', 'date', 'open', 'high', 'low', 'close', 'pivot', 'support', 'resistance', 'gap_direction', 'x1', 'x2', 'x3', 'x4', 'x5'];
+    downloadCSV(toCSV(rows, headers), `levels_${rows[0].date}.csv`);
   }
 
   async function render() {
