@@ -240,6 +240,9 @@
   let _selectedPerfDate = null;
   let _historyData = null;
   let _historyLoading = false;
+  let _selectedLevelsDate = null;
+  let _levelsHistoryData = null;
+  let _levelsHistoryLoading = false;
 
   // Supabase client for historical data queries
   // Replace with your project URL and anon (public) key:
@@ -439,6 +442,34 @@
     }
   }
 
+  async function loadLevelsForDate(dateStr) {
+    _levelsHistoryLoading = true;
+    _levelsHistoryData = null;
+    renderSections();
+    try {
+      const resp = await _sb.from('daily_levels').select('*').eq('date', dateStr);
+      const rows = {};
+      (resp.data || []).forEach(r => { rows[r.ticker] = r; });
+      _levelsHistoryData = rows;
+    } catch (e) {
+      _levelsHistoryData = { error: true };
+    }
+    _levelsHistoryLoading = false;
+    renderSections();
+  }
+
+  function onLevelsDateChange(dateStr) {
+    const currentLevelsDate = (_data && _data.levels && _data.levels.QQQ) ? _data.levels.QQQ.date : null;
+    if (!dateStr || dateStr === currentLevelsDate) {
+      _selectedLevelsDate = null;
+      _levelsHistoryData = null;
+      renderSections();
+    } else {
+      _selectedLevelsDate = dateStr;
+      loadLevelsForDate(dateStr);
+    }
+  }
+
   function downloadPerfCsv(type) {
     const src = (_selectedPerfDate && _historyData) ? _historyData : (_data.yesterday[_activeModel] || {});
     const date = _selectedPerfDate || _data.yesterday.date;
@@ -588,32 +619,54 @@
     `;
   }
 
-  function renderLevelsSection(levels) {
+  function renderLevelsSection(todayLevels) {
     const tickers = ['QQQ', 'SPY', 'IWM', 'TSLA', 'AMZN', 'META'];
-    const rows = tickers.map(t => levels[t]).filter(Boolean);
-    const levelsDate = rows.length ? rows[0].date : null;
+    const todayRows = tickers.map(t => todayLevels[t]).filter(Boolean);
+    const todayLevelsDate = todayRows.length ? todayRows[0].date : null;
+
+    let rows, levelsDate, showLoading, showError;
+    if (_levelsHistoryLoading) {
+      rows = []; levelsDate = _selectedLevelsDate; showLoading = true; showError = false;
+    } else if (_selectedLevelsDate && _levelsHistoryData) {
+      showError = !!_levelsHistoryData.error;
+      rows = showError ? [] : tickers.map(t => _levelsHistoryData[t]).filter(Boolean);
+      levelsDate = _selectedLevelsDate; showLoading = false;
+    } else {
+      rows = todayRows; levelsDate = todayLevelsDate; showLoading = false; showError = false;
+    }
 
     return `
       <section class="section">
         <div class="section-header">
           <div class="section-title"><span class="dot dot-neutral"></span> Daily Levels</div>
-          <div class="section-date">${levelsDate ? fmtDate(levelsDate) : ''}</div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <input type="date" id="levelsDatePicker"
+              value="${_selectedLevelsDate || todayLevelsDate || ''}"
+              max="${todayLevelsDate || ''}"
+              onchange="onLevelsDateChange(this.value)"
+              style="background:var(--surface);border:1px solid var(--border);color:var(--text);border-radius:6px;padding:4px 8px;font-family:'DM Mono',monospace;font-size:0.78rem;cursor:pointer;outline:none">
+            <div class="section-date">${levelsDate ? fmtDate(levelsDate) : ''}</div>
+          </div>
         </div>
-        ${!rows.length
-          ? `<div class="pending-note">Levels haven't run yet today.<br>Pivot/Support/Resistance lands ~7:00 AM ET, gap levels ~9:34 AM ET.</div>`
-          : `<div style="overflow-x:auto">
-              <table class="perf-table">
-                <thead><tr>
-                  <th>Ticker</th><th>Open</th><th>High</th><th>Low</th><th>Close</th>
-                  <th>Pivot</th><th>Support</th><th>Resistance</th>
-                  <th>Gap</th><th>X1</th><th>X2</th><th>X3</th><th>X4</th><th>X5</th>
-                </tr></thead>
-                <tbody>${rows.map(renderLevelsRow).join('')}</tbody>
-              </table>
-            </div>
-            <div class="download-bar">
-              <button class="download-btn btn-all" onclick="downloadLevelsCsv()">↓ Download Levels CSV</button>
-            </div>`
+        ${showLoading
+          ? `<div class="pending-note">Loading levels for ${levelsDate}…</div>`
+          : showError
+            ? `<div class="pending-note">Could not load data for this date. Check your connection.</div>`
+            : !rows.length
+              ? `<div class="pending-note">No levels recorded for this date.<br>Pivot/Support/Resistance lands ~7:00 AM ET, gap levels ~9:34 AM ET.</div>`
+              : `<div style="overflow-x:auto">
+                  <table class="perf-table">
+                    <thead><tr>
+                      <th>Ticker</th><th>Open</th><th>High</th><th>Low</th><th>Close</th>
+                      <th>Pivot</th><th>Support</th><th>Resistance</th>
+                      <th>Gap</th><th>X1</th><th>X2</th><th>X3</th><th>X4</th><th>X5</th>
+                    </tr></thead>
+                    <tbody>${rows.map(renderLevelsRow).join('')}</tbody>
+                  </table>
+                </div>
+                <div class="download-bar">
+                  <button class="download-btn btn-all" onclick="downloadLevelsCsv()">↓ Download Levels CSV</button>
+                </div>`
         }
       </section>
     `;
@@ -631,9 +684,11 @@
   }
 
   function downloadLevelsCsv() {
-    const levels = (_data && _data.levels) || {};
     const tickers = ['QQQ', 'SPY', 'IWM', 'TSLA', 'AMZN', 'META'];
-    const rows = tickers.map(t => levels[t]).filter(Boolean);
+    const source = (_selectedLevelsDate && _levelsHistoryData && !_levelsHistoryData.error)
+      ? _levelsHistoryData
+      : ((_data && _data.levels) || {});
+    const rows = tickers.map(t => source[t]).filter(Boolean);
     if (!rows.length) return;
     const headers = ['ticker', 'date', 'open', 'high', 'low', 'close', 'pivot', 'support', 'resistance', 'gap_direction', 'x1', 'x2', 'x3', 'x4', 'x5'];
     downloadCSV(toCSV(rows, headers), `levels_${rows[0].date}.csv`);
