@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T08:34:20-0600",
+  "generated_at": "2026-11-12T12:37:13-0500",
   "today": {
     "date": "2026-11-12",
     "claude": {
@@ -676,19 +676,19 @@
   },
   "indices": {
     "sp500": {
-      "value": 7568.23,
-      "change_pct": -0.67,
-      "direction": "down"
+      "value": 7634.21,
+      "change_pct": 0.19,
+      "direction": "up"
     },
     "nasdaq": {
-      "value": 25171.43,
-      "change_pct": -1.16,
-      "direction": "down"
+      "value": 25484.8,
+      "change_pct": 0.07,
+      "direction": "up"
     },
     "dow": {
-      "value": 52479.65,
-      "change_pct": -0.01,
-      "direction": "down"
+      "value": 52694.93,
+      "change_pct": 0.4,
+      "direction": "up"
     }
   },
   "full_ranked_list": [],
