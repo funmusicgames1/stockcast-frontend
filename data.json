@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T09:31:32-0500",
+  "generated_at": "2026-11-13T09:34:24-0500",
   "today": {
     "date": "2026-11-13",
     "claude": {
@@ -19,8 +19,8 @@
           "company": "Advanced Micro Devices Inc.",
           "prev_close": 585.3,
           "predicted_change_pct": 7.5,
-          "open_price": 567.5,
-          "gap_pct": -3.04
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 2,
@@ -30,8 +30,8 @@
           "company": "Broadcom Inc.",
           "prev_close": 364.36,
           "predicted_change_pct": 6.8,
-          "open_price": 357.64,
-          "gap_pct": -1.84
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 3,
@@ -41,8 +41,8 @@
           "company": "HubSpot, Inc.",
           "prev_close": 215.84,
           "predicted_change_pct": 5.8,
-          "open_price": 215.85,
-          "gap_pct": 0
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 4,
@@ -52,8 +52,8 @@
           "company": "Tesla, Inc.",
           "prev_close": 397.45,
           "predicted_change_pct": 3.9,
-          "open_price": 401,
-          "gap_pct": 0.89
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 5,
@@ -63,8 +63,8 @@
           "company": "Alphabet Inc.",
           "prev_close": 298.7,
           "predicted_change_pct": 3.2,
-          "open_price": 303,
-          "gap_pct": 1.44
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 6,
@@ -74,8 +74,8 @@
           "company": "Cloudflare, Inc.",
           "prev_close": 318.5,
           "predicted_change_pct": 2.8,
-          "open_price": 318.61,
-          "gap_pct": 0.03
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 7,
@@ -85,8 +85,8 @@
           "company": "Occidental Petroleum Corporation",
           "prev_close": 58.4,
           "predicted_change_pct": 2.5,
-          "open_price": 58.81,
-          "gap_pct": 0.7
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 8,
@@ -96,8 +96,8 @@
           "company": "Valero Energy Corporation",
           "prev_close": 374.95,
           "predicted_change_pct": 2.3,
-          "open_price": 375.81,
-          "gap_pct": 0.23
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 9,
@@ -107,8 +107,8 @@
           "company": "Marathon Petroleum Corporation",
           "prev_close": 412.85,
           "predicted_change_pct": 2.1,
-          "open_price": 413,
-          "gap_pct": 0.04
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 10,
@@ -118,8 +118,8 @@
           "company": "EOG Resources, Inc.",
           "prev_close": 155.62,
           "predicted_change_pct": 1.9,
-          "open_price": 157.39,
-          "gap_pct": 1.14
+          "open_price": null,
+          "gap_pct": null
         }
       ],
       "losers": [
@@ -131,8 +131,8 @@
           "company": "Editas Medicine, Inc.",
           "prev_close": 2.14,
           "predicted_change_pct": -8.5,
-          "open_price": 2.13,
-          "gap_pct": -0.47
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 2,
@@ -142,8 +142,8 @@
           "company": "Moderna, Inc.",
           "prev_close": 231.35,
           "predicted_change_pct": -6.5,
-          "open_price": 223.33,
-          "gap_pct": -3.47
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 3,
@@ -153,8 +153,8 @@
           "company": "Upstart Holdings, Inc.",
           "prev_close": 19.15,
           "predicted_change_pct": -6.0,
-          "open_price": 19.25,
-          "gap_pct": 0.52
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 4,
@@ -164,8 +164,8 @@
           "company": "Delta Air Lines, Inc.",
           "prev_close": 86.55,
           "predicted_change_pct": -5.5,
-          "open_price": 86.95,
-          "gap_pct": 0.46
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 5,
@@ -175,8 +175,8 @@
           "company": "United Airlines Holdings, Inc.",
           "prev_close": 111.25,
           "predicted_change_pct": -5.3,
-          "open_price": 111.61,
-          "gap_pct": 0.32
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 6,
@@ -186,8 +186,8 @@
           "company": "American Airlines Group Inc.",
           "prev_close": 13.31,
           "predicted_change_pct": -5.0,
-          "open_price": 13.33,
-          "gap_pct": 0.15
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 7,
@@ -197,8 +197,8 @@
           "company": "Rivian Automotive, Inc.",
           "prev_close": 12.8,
           "predicted_change_pct": -4.8,
-          "open_price": 12.7,
-          "gap_pct": -0.78
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 8,
@@ -208,8 +208,8 @@
           "company": "NIO Inc.",
           "prev_close": 3.05,
           "predicted_change_pct": -4.5,
-          "open_price": 3.01,
-          "gap_pct": -1.31
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 9,
@@ -219,8 +219,8 @@
           "company": "Newmont Corporation",
           "prev_close": 112.64,
           "predicted_change_pct": -4.3,
-          "open_price": 112.78,
-          "gap_pct": 0.12
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 10,
@@ -230,8 +230,8 @@
           "company": "NVIDIA Corporation",
           "prev_close": 166.19,
           "predicted_change_pct": -4.0,
-          "open_price": 167.31,
-          "gap_pct": 0.67
+          "open_price": null,
+          "gap_pct": null
         }
       ],
       "available": true
@@ -898,18 +898,18 @@
   },
   "indices": {
     "sp500": {
-      "value": 7615.46,
-      "change_pct": 0.3,
+      "value": 7606.54,
+      "change_pct": 0.19,
       "direction": "up"
     },
     "nasdaq": {
-      "value": 25388.87,
-      "change_pct": 0.09,
+      "value": 25377.25,
+      "change_pct": 0.04,
       "direction": "up"
     },
     "dow": {
-      "value": 52498.71,
-      "change_pct": 0.39,
+      "value": 52434.78,
+      "change_pct": 0.26,
       "direction": "up"
     }
   },
@@ -927,16 +927,16 @@
       "pivot": 674.25,
       "support": 667.56,
       "resistance": 681.46,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 674.81,
+      "b1": 688.51,
+      "gap_direction": "up",
+      "x1": 675.29,
+      "x2": 688.75,
+      "x3": 13.46,
+      "x4": 6.73,
+      "x5": 668.56,
       "created_at": "2026-11-13T12:00:23.588775+00:00",
-      "updated_at": "2026-11-13T12:00:23.299614+00:00"
+      "updated_at": "2026-11-13T14:34:18.374638+00:00"
     },
     "SPY": {
       "id": 56,
@@ -950,16 +950,16 @@
       "pivot": 748.97,
       "support": 745.81,
       "resistance": 753.09,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 749.94,
+      "b1": 759.99,
+      "gap_direction": "up",
+      "x1": 750.41,
+      "x2": 760.12,
+      "x3": 9.71,
+      "x4": 4.86,
+      "x5": 745.55,
       "created_at": "2026-11-13T12:00:23.588775+00:00",
-      "updated_at": "2026-11-13T12:00:23.299614+00:00"
+      "updated_at": "2026-11-13T14:34:18.374638+00:00"
     },
     "IWM": {
       "id": 57,
@@ -973,16 +973,16 @@
       "pivot": 279.94,
       "support": 278.55,
       "resistance": 281.97,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 280.56,
+      "b1": 278.95,
+      "gap_direction": "down",
+      "x1": 280.49,
+      "x2": 278.71,
+      "x3": -1.78,
+      "x4": -0.89,
+      "x5": 277.82,
       "created_at": "2026-11-13T12:00:23.588775+00:00",
-      "updated_at": "2026-11-13T12:00:23.299614+00:00"
+      "updated_at": "2026-11-13T14:34:18.374638+00:00"
     },
     "TSLA": {
       "id": 58,
@@ -996,16 +996,16 @@
       "pivot": 376.73,
       "support": 373.45,
       "resistance": 383.05,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 379.8,
+      "b1": 401.94,
+      "gap_direction": "up",
+      "x1": 379.84,
+      "x2": 404.4,
+      "x3": 24.56,
+      "x4": 12.28,
+      "x5": 367.56,
       "created_at": "2026-11-13T12:00:23.588775+00:00",
-      "updated_at": "2026-11-13T12:00:23.299614+00:00"
+      "updated_at": "2026-11-13T14:34:18.374638+00:00"
     },
     "AMZN": {
       "id": 59,
@@ -1019,16 +1019,16 @@
       "pivot": 269.96,
       "support": 267.05,
       "resistance": 273.79,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 270.9,
+      "b1": 269.55,
+      "gap_direction": "down",
+      "x1": 270.73,
+      "x2": 267.2,
+      "x3": -3.53,
+      "x4": -1.77,
+      "x5": 265.43,
       "created_at": "2026-11-13T12:00:23.588775+00:00",
-      "updated_at": "2026-11-13T12:00:23.299614+00:00"
+      "updated_at": "2026-11-13T14:34:18.374638+00:00"
     },
     "META": {
       "id": 60,
@@ -1042,16 +1042,16 @@
       "pivot": 641.39,
       "support": 635.5,
       "resistance": 647.28,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 641.66,
+      "b1": 627.21,
+      "gap_direction": "down",
+      "x1": 641.04,
+      "x2": 625,
+      "x3": -16.04,
+      "x4": -8.02,
+      "x5": 616.98,
       "created_at": "2026-11-13T12:00:23.588775+00:00",
-      "updated_at": "2026-11-13T12:00:23.299614+00:00"
+      "updated_at": "2026-11-13T14:34:18.374638+00:00"
     }
   }
 }
