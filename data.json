@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T09:31:33-0500",
+  "generated_at": "2026-11-19T09:34:20-0500",
   "today": {
     "date": "2026-11-19",
     "claude": {
@@ -19,8 +19,8 @@
           "company": "Okta Inc.",
           "prev_close": 195.61,
           "predicted_change_pct": 10.5,
-          "open_price": 206,
-          "gap_pct": 5.31
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 2,
@@ -30,8 +30,8 @@
           "company": "Palo Alto Networks Inc.",
           "prev_close": 339.92,
           "predicted_change_pct": 8.5,
-          "open_price": 363.52,
-          "gap_pct": 6.94
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 3,
@@ -41,8 +41,8 @@
           "company": "CrowdStrike Holdings Inc.",
           "prev_close": 237.03,
           "predicted_change_pct": 7.0,
-          "open_price": 247.48,
-          "gap_pct": 4.41
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 4,
@@ -52,8 +52,8 @@
           "company": "TJX Companies Inc.",
           "prev_close": 140.3,
           "predicted_change_pct": 6.5,
-          "open_price": 137.76,
-          "gap_pct": -1.81
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 5,
@@ -63,8 +63,8 @@
           "company": "Zscaler Inc.",
           "prev_close": 197.83,
           "predicted_change_pct": 6.0,
-          "open_price": 206.76,
-          "gap_pct": 4.51
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 6,
@@ -74,8 +74,8 @@
           "company": "Take-Two Interactive Software Inc.",
           "prev_close": 216.61,
           "predicted_change_pct": 5.5,
-          "open_price": 219.95,
-          "gap_pct": 1.54
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 7,
@@ -85,8 +85,8 @@
           "company": "Cloudflare Inc.",
           "prev_close": 300.91,
           "predicted_change_pct": 5.0,
-          "open_price": 315,
-          "gap_pct": 4.68
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 8,
@@ -96,8 +96,8 @@
           "company": "Lyft Inc.",
           "prev_close": 17.6,
           "predicted_change_pct": 4.5,
-          "open_price": 17.62,
-          "gap_pct": 0.11
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 9,
@@ -107,8 +107,8 @@
           "company": "Advanced Micro Devices Inc.",
           "prev_close": 530.14,
           "predicted_change_pct": 4.0,
-          "open_price": 539.29,
-          "gap_pct": 1.73
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 10,
@@ -118,8 +118,8 @@
           "company": "The Walt Disney Company",
           "prev_close": 122.36,
           "predicted_change_pct": 3.8,
-          "open_price": 121.97,
-          "gap_pct": -0.32
+          "open_price": null,
+          "gap_pct": null
         }
       ],
       "losers": [
@@ -142,8 +142,8 @@
           "company": "UnitedHealth Group Inc.",
           "prev_close": 349.91,
           "predicted_change_pct": -9.0,
-          "open_price": 351,
-          "gap_pct": 0.31
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 3,
@@ -153,8 +153,8 @@
           "company": "AST SpaceMobile Inc.",
           "prev_close": 25.49,
           "predicted_change_pct": -6.5,
-          "open_price": 27.29,
-          "gap_pct": 7.06
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 4,
@@ -164,8 +164,8 @@
           "company": "Freeport-McMoRan Inc.",
           "prev_close": 51.45,
           "predicted_change_pct": -6.0,
-          "open_price": 52.19,
-          "gap_pct": 1.44
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 5,
@@ -175,8 +175,8 @@
           "company": "Newmont Corporation",
           "prev_close": 104.53,
           "predicted_change_pct": -5.5,
-          "open_price": 103.96,
-          "gap_pct": -0.55
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 6,
@@ -186,8 +186,8 @@
           "company": "Valero Energy Corporation",
           "prev_close": 343.7,
           "predicted_change_pct": -5.0,
-          "open_price": 344.6,
-          "gap_pct": 0.26
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 7,
@@ -197,8 +197,8 @@
           "company": "Marathon Petroleum Corporation",
           "prev_close": 373.86,
           "predicted_change_pct": -4.8,
-          "open_price": 377.89,
-          "gap_pct": 1.08
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 8,
@@ -208,8 +208,8 @@
           "company": "CVS Health Corporation",
           "prev_close": 81.35,
           "predicted_change_pct": -4.5,
-          "open_price": 82.03,
-          "gap_pct": 0.84
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 9,
@@ -219,8 +219,8 @@
           "company": "HCA Healthcare Inc.",
           "prev_close": 476.35,
           "predicted_change_pct": -4.2,
-          "open_price": 472.19,
-          "gap_pct": -0.87
+          "open_price": null,
+          "gap_pct": null
         },
         {
           "rank": 10,
@@ -230,8 +230,8 @@
           "company": "Occidental Petroleum Corporation",
           "prev_close": 53.76,
           "predicted_change_pct": -4.0,
-          "open_price": 54.27,
-          "gap_pct": 0.95
+          "open_price": null,
+          "gap_pct": null
         }
       ],
       "available": true
@@ -898,18 +898,18 @@
   },
   "indices": {
     "sp500": {
-      "value": 7402.08,
-      "change_pct": 1.07,
+      "value": 7412.89,
+      "change_pct": 1.22,
       "direction": "up"
     },
     "nasdaq": {
-      "value": 24847.62,
-      "change_pct": 1.71,
+      "value": 24914.57,
+      "change_pct": 1.98,
       "direction": "up"
     },
     "dow": {
-      "value": 50443.36,
-      "change_pct": 0.49,
+      "value": 50422.08,
+      "change_pct": 0.45,
       "direction": "up"
     }
   },
@@ -927,16 +927,16 @@
       "pivot": 658.45,
       "support": 654.11,
       "resistance": 663.86,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 659.51,
+      "b1": 671.05,
+      "gap_direction": "up",
+      "x1": 660.81,
+      "x2": 674.28,
+      "x3": 13.47,
+      "x4": 6.74,
+      "x5": 654.07,
       "created_at": "2026-11-19T12:00:25.45105+00:00",
-      "updated_at": "2026-11-19T12:00:25.307431+00:00"
+      "updated_at": "2026-11-19T14:34:17.58544+00:00"
     },
     "SPY": {
       "id": 104,
@@ -950,16 +950,16 @@
       "pivot": 730.69,
       "support": 726.31,
       "resistance": 734.57,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 730.33,
+      "b1": 737.46,
+      "gap_direction": "up",
+      "x1": 731.57,
+      "x2": 739.66,
+      "x3": 8.09,
+      "x4": 4.04,
+      "x5": 727.53,
       "created_at": "2026-11-19T12:00:25.45105+00:00",
-      "updated_at": "2026-11-19T12:00:25.307431+00:00"
+      "updated_at": "2026-11-19T14:34:17.58544+00:00"
     },
     "IWM": {
       "id": 105,
@@ -973,16 +973,16 @@
       "pivot": 270.12,
       "support": 267.89,
       "resistance": 272.36,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 270.14,
+      "b1": 271.14,
+      "gap_direction": "up",
+      "x1": 270.43,
+      "x2": 271.75,
+      "x3": 1.32,
+      "x4": 0.66,
+      "x5": 269.77,
       "created_at": "2026-11-19T12:00:25.45105+00:00",
-      "updated_at": "2026-11-19T12:00:25.307431+00:00"
+      "updated_at": "2026-11-19T14:34:17.58544+00:00"
     },
     "TSLA": {
       "id": 106,
@@ -996,16 +996,16 @@
       "pivot": 383.78,
       "support": 378.3,
       "resistance": 389.21,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 383.54,
+      "b1": 389.8,
+      "gap_direction": "up",
+      "x1": 385.07,
+      "x2": 392.83,
+      "x3": 7.76,
+      "x4": 3.88,
+      "x5": 381.19,
       "created_at": "2026-11-19T12:00:25.45105+00:00",
-      "updated_at": "2026-11-19T12:00:25.307431+00:00"
+      "updated_at": "2026-11-19T14:34:17.58544+00:00"
     },
     "AMZN": {
       "id": 107,
@@ -1019,16 +1019,16 @@
       "pivot": 265.18,
       "support": 262.07,
       "resistance": 270.85,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 267.67,
+      "b1": 271.5,
+      "gap_direction": "up",
+      "x1": 268.29,
+      "x2": 273.6,
+      "x3": 5.31,
+      "x4": 2.66,
+      "x5": 265.63,
       "created_at": "2026-11-19T12:00:25.45105+00:00",
-      "updated_at": "2026-11-19T12:00:25.307431+00:00"
+      "updated_at": "2026-11-19T14:34:17.58544+00:00"
     },
     "META": {
       "id": 108,
@@ -1042,16 +1042,16 @@
       "pivot": 615.83,
       "support": 610.85,
       "resistance": 621.36,
-      "a1": null,
-      "b1": null,
-      "gap_direction": null,
-      "x1": null,
-      "x2": null,
-      "x3": null,
-      "x4": null,
-      "x5": null,
+      "a1": 616.13,
+      "b1": 625.05,
+      "gap_direction": "up",
+      "x1": 618.5,
+      "x2": 628.03,
+      "x3": 9.53,
+      "x4": 4.76,
+      "x5": 613.74,
       "created_at": "2026-11-19T12:00:25.45105+00:00",
-      "updated_at": "2026-11-19T12:00:25.307431+00:00"
+      "updated_at": "2026-11-19T14:34:17.58544+00:00"
     }
   }
 }
